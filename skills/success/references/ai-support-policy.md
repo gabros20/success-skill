@@ -143,8 +143,9 @@ number — and do not name the number in order to forbid it, which is how it spr
 
 ## Reading pass^k against a vendor claim
 
-τ-bench/τ²-bench (`sierra-research/tau-bench`, `tau2-bench`, both MIT — cite Yao et al. 2024 and the
-SABER error-taxonomy paper; MIT licenses the files, not the methodology) measure whether the same
+τ-bench/τ²-bench (`sierra-research/tau-bench`, `tau2-bench`, both MIT — cite Yao et al. 2024, Barres
+et al. 2025 (the tau2-bench grading update), and the SABER error-taxonomy paper; MIT licenses the
+files, not the methodology) measure whether the same
 agent resolves the same task reliably across repeated trials — pass^k, via C(c,k)/C(n,k). **Cite the
 mechanism, never the specific published numbers**: the maintainers shipped a grading update warning
 that pre-update results aren't comparable, and a companion paper documents 75+ task fixes for
@@ -161,9 +162,12 @@ verification regardless of how consistently they're repeated.
 
 **Never tell the Klarna reversal story.** It is triple-refuted: the CEO calls "we failed with AI" a
 misquote; his own statements frame the hiring increase as a deliberate human-touch bet running
-*alongside* continued AI efficiency, not a reversal; and the original 2024 numbers (~700 agents, $40M
-profit improvement, 25% drop in repeat inquiries) have never been independently audited — every source
-either repeats the press release or tests the bot's behavior without auditing the financial claims. An
+*alongside* continued AI efficiency, not a reversal; and the original 2024 numbers (the press
+release's "700 full-time agents" — a figure Siemiatkowski's own parallel post frames against a
+baseline of "3000 full time agents" for the whole customer-service operation, with no source
+reconciling the two — plus the $40M profit improvement and the 25% drop in repeat inquiries) have
+never been independently audited — every source either repeats the press release or tests the
+bot's behavior without auditing the financial claims. An
 "always a human if you want" option existed from the original 2024 launch, not as a later addition.
 
 **The lesson to teach is tier design**: which conversations get an automated tier, which get a human

@@ -78,6 +78,11 @@ gaps for build-time: docs-as-deflection, cancellation/win-back tactics, and onbo
 execution are under-evidenced from practitioners — the pack's guidance there leans on C's code
 evidence and D's method verdicts, labeled accordingly.
 
+> **AMENDMENT (2026-08-02, spec review):** P3's τ-bench figures ("gpt-4o <50%, pass^8 <25%") came
+> from the frozen README table that C's own raw (_raw-gh-ai-support-kb.md:43-45) says never to
+> trust; the raw instructs "cite the mechanism, not the numbers." The shipped pack correctly cites
+> pass^k as mechanism without those numbers. The gate is corrected, not the pack.
+
 **P3 — AI-support policy (wedge 3, confirmed three ways).** The policy layer is success's; ai owns
 mechanics/evaluation (controller ruling, recorded; Decagon's president independently asserts it:
 "the model isn't the moat, the guardrails are"). Content: the 9-pattern escalation corpus (C) —
@@ -228,6 +233,10 @@ handbook has a no-auth public REST API. Worker-completion notifications route to
 not the lead — forward pointers. Verify the SUBJECT of a flagged metric from local context.
 
 ## 8. Open corpus items (build-phase pickup, not blockers)
+
+> **AMENDMENT 2 (2026-08-02, spec re-verify):** the pause-subscription arc below is over-read by
+> the raw's own header — the Nov 2017 tweet is future-tense INTENT, not a ship announcement. The
+> pack's "idea → stated intent" framing is correct; do not restore "2015 idea→2017 ship".
 
 **Late-arriving raw (post-B-close, controller-linked): `_raw/_raw-x-solo-topup.md`** —
 levelsio/dvassallo/tylertringas territory closed: pause-subscription arc (2015 idea→2017 ship),

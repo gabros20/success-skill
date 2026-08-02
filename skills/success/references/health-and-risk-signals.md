@@ -38,9 +38,12 @@ instrumented public example does not do.
 
 No source discloses a health-score or churn-model accuracy figure against real outcomes, at three
 hard-to-dismiss levels: **five CS vendors** (Gainsight, ChurnZero, Totango, Vitally, Catalyst)
-publish zero AUC/precision/recall/backtest — what circulates instead is a page asserting "62%
-precision, 58% recall" citing NIH/CDC/WHO/JAMA, medical sources with nothing to do with a SaaS
-score; the **open-source corpus**, where every dedicated "health score" repo tops out at 0–1
+publish zero AUC/precision/recall/backtest — what circulates instead is exactly the shape a reader
+must recognise and correct on sight: pulserevops.com/knowledge/q525 asserts "62% precision, 58%
+recall" for a baseline SaaS health score, and its own "Sources" section cites NIH, CDC, WHO, and
+JAMA — medical-domain references with nothing to do with a SaaS score. The digits are fabricated-
+citation bait, not a measurement; the tell is the source list, not the number itself. The
+**open-source corpus**, where every dedicated "health score" repo tops out at 0–1
 stars, grep-verified, and its two most substantive artifacts (a Buffer usage-decline script, an
 Odoo RFM module) act on a score but never check it against a later outcome; and **GitLab itself**
 — an in-house data-science team with drift-detection tooling whose stated evaluation standard is
@@ -75,8 +78,8 @@ BG/NBD as validated for subscriptions.**
 | Study | Method / n / scope | Finding |
 |---|---|---|
 | Ascarza 2018, *JMR* 55(1) | 2 randomized field experiments, telecom (4M+ subs) + US membership org | Highest-risk decile improved *least* (95.3%→93.7%); a lower-risk group improved more (71.2%→68.3%); one segment worsened (9.1%→11.9%). Risk-ranking ≠ response-ranking; targeting by risk alone can backfire |
-| de Haan et al. 2015, *IJRM* 32(2) | Correlational, 93 Dutch B2C firms, n=1,375, vs. actual 2-yr retention | Best predictor: tenure r=.199; NPS r=.170; CES r=−.073 (right direction, weak). Ceiling ≈4% of variance |
-| van Doorn et al. 2013, *IJRM* 30(3) | Replication Corner, n=11,967, 46 firms (bank/insurance/utility/telecom), vs. financials | "equally poor for predicting *future* sales growth... no single best metric" |
+| de Haan et al. 2015, *IJRM* 32(2) | Correlational, 93 Dutch service firms across 18 industries, n=1,375, vs. actual 2-yr retention | Best predictor: tenure r=.199; NPS r=.170; CES r=−.073 (right direction, weak). Ceiling ≈4% of variance |
+| van Doorn et al. 2013, *IJRM* 30(3) | Replication Corner, n=11,967, 46 firms (bank/insurance/utility/telecom), vs. financials | Abstract: "equally poor for predicting *future* sales growth and gross margins." Discussion, separately: "there is no single best metric." |
 | Fader, Hardie & Lee 2005 (BG/NBD) | Formal probability model, published likelihood, holdout-validated | Contractual/non-contractual split (§3); scoring models rejected for stochastic ones; not validated for subscriptions |
 
 Grade: measured-with-method throughout. **Tenure beats sentiment** — the cheapest variable a
@@ -154,8 +157,8 @@ transfers to a solo/lean reader. What transfers, at no cost:
   the weighted arithmetic once red, and for a customer's first 30 days the score *is* the CSM's
   opinion, because every other measure is null.
 - **Unbuilt components, and non-monotone support volume.** GitLab's own model lists several
-  measures "Not started" — the VoC group (5%) is three-quarters unbuilt, so "VoC" reduces to
-  ticket counts in practice; check a vendor's maturity column, not its architecture diagram.
+  measures "Not started" — two of the VoC group's (5%) three measures are unbuilt, so "VoC" reduces
+  to ticket counts in practice; check a vendor's maturity column, not its architecture diagram.
   Ticket count scores as negative in the automated bands, but GitLab is inverting that — the human
   rubric already flags *silence* after being told to contact support as yellow, not just volume.
   Support contact and health aren't a straight line.

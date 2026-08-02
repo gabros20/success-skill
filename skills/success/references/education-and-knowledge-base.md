@@ -42,11 +42,13 @@ No pack in this family defines good help content; it is a grep-verified empty sl
 "help & documentation" heuristic is *scored* by webdesign's design-critique but never defined
 anywhere across twelve shipped packs). The cleanest available distinction, worth lifting as a
 framework (CITE, attribute GitLab — the prose license is scoped to "the GitLab Software," not the
-handbook content, so describe and link, never reproduce verbatim):
+handbook content, so paraphrase and link; only the one-line tie-breaker below is quoted):
 
-> Knowledge Articles are **reactive** — ticket-triggered, for a specific broken-in-this-config
-> problem. Documentation is **proactive** — feature-complete, for learning intended behavior. "When
-> in doubt, create a knowledge article… it can always be promoted to documentation."
+Knowledge articles are reactive — ticket-triggered, for a specific broken-in-this-config problem.
+Documentation is proactive — feature-complete, for learning intended behavior (paraphrased, not
+GitLab's wording). GitLab's own handbook states the practical tie-breaker directly:
+
+> "When in doubt, create a knowledge article… it can always be promoted to documentation."
 > (GitLab support handbook, `support/knowledge-base/docs-vs-kb.md`)
 
 Use this as the scope test: if the content answers "why is *my* setup broken right now," it's a KB

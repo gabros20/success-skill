@@ -64,21 +64,23 @@ with a genuinely different mechanic:
 - **HubSpot** (10-K FY2024): a **monthly cohort**, revenue-weighted average of
   Retained-Subscription-Revenue ÷ Retention-Base-Revenue, then **annualized**. Scoped to
   *subscription* revenue only, excluding services/other. Reported 102.2% / 103.9% / 110.3% across
-  three fiscal years (oldest to newest).
+  three fiscal years (most recent first).
 - **Klaviyo** (S-1, 2023): the same rolling-12-month mechanic as Datadog, but explicit that
   reactivated subscriptions within the window count as retained, and explicit that the average is
   ARR-weighted (Datadog's own text is ambiguous on weighting).
 
 All four exclude new-customer revenue and are cohort-based — but the measurement window, revenue
-scope, and edge-case handling differ. **A reported 126% and a reported 131% are not computed the
-same way and must never be compared as if they were.** Dave Kellogg's "Lazy NRR is Not NRR" draws
+scope, and edge-case handling differ. **A reported 126% (Snowflake's two-year snapshot) and a
+reported "above 130%" (Datadog's rolling 12-month average) are not computed the same way and must
+never be compared as if they were.** Dave Kellogg's "Lazy NRR is Not NRR" draws
 the sharper distinction underneath this: true cohort NRR "resists manipulation," while an
 ARR-bridge calculation — starting ARR plus net expansion over one quarter's own starting base — is
 a different, more gameable quantity dressed up to look the same. `assets/nrr_calc.py` implements
 all four mechanics plus the ARR-bridge/GRR form as selectable modes, self-tested against worked
 anchors, never blended in one run. The 100/110/120% tiers ("good/better/best") are a widely-used
-heuristic, safe to cite; the claim that median SaaS NRR declined from ~105% to ~101% (2021–2024) is
-method-unknown here — not verified to a primary report, do not cite it as measured.
+heuristic, safe to cite; a benchmarking-service claim that median SaaS NRR softened industry-wide
+across 2021–2024 circulates widely but is method-unknown here — not verified to a primary report,
+do not cite a specific percentage as measured.
 
 ## 3. The surviving canon outcome: NNR, without the process
 
@@ -105,11 +107,10 @@ around it usually assumes a named account owner.
 ## 5. Expansion signals: mostly folklore, name it
 
 Every "usage signal predicts expansion" claim found in this research is unsourced vendor content —
-"usage reaching 80–85% of plan allotment is the strongest seat-expansion signal," "a department
-head adding four new users converts to seat expansion at 65%," "companies that track health report
-a 20% increase in upsell opportunities" — none cites a study, a company, an n, or a method. Frame a
-usage-threshold trigger as plausible and widely believed, not measured; never cite a specific
-conversion percentage as evidenced. Which signals are trustworthy at all is upstream of whether
+claims that a usage-threshold crossing, a growing count of engaged stakeholders on an account, or
+health-score tracking itself each reliably predicts seat expansion — none cites a study, a company,
+an n, or a method. Frame a usage-threshold trigger as plausible and widely believed, not measured;
+never cite a specific conversion percentage as evidenced. Which signals are trustworthy at all is upstream of whether
 acting on one works — the latter is growth's experimentation territory; success consumes a signal,
 it does not validate it.
 
@@ -118,8 +119,8 @@ it does not validate it.
 §1's "sales closes the expansion sale" clause is provisional, and it is directly contested by the
 canon's own co-author. lincolnmurphy's position is complexity-gated, not role-based: a CSM renews
 by default; only genuinely complex renewals route to a dedicated CS-native resource, explicitly
-*not* "Account Management carryover" (x.com/lincolnmurphy/status/1084526744290369537,
-x.com/lincolnmurphy/status/1084522527991480325). Cite both positions in any handoff that touches
+*not* "Account Management carryover" (x.com/lincolnmurphy/status/1084526744290369537 and
+x.com/lincolnmurphy/status/1084522527991480325, both Jan 13 2019). Cite both positions in any handoff that touches
 this seam; this file does not adjudicate the industry fight.
 
 ## 7. Advocacy: success qualifies and consents, marketing produces

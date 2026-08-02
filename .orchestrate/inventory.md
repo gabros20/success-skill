@@ -52,6 +52,10 @@ R1–R12 = synthesis §4 rulings 1–12, verbatim binding. Additionally:
 - R19 SEAM CITATIONS: cite sibling files by pack + filename (+ anchor concept), NEVER by bare
   invariant number (automation lesson). When citing growth's seam use its "provisional" framing;
   marketing's is flat.
+- R21 FIGURE-SURVIVAL RULE (adopted from spec review, 2026-08-02; replaces case-by-case
+  exceptions): a figure may ship ONLY if (a) the reader must recognise-and-correct it in the wild,
+  or (b) its arithmetic IS the teaching, or (c) both sides of a contested claim are permalinked.
+  Anything else drops the digits and keeps the mechanism.
 - R20 All X permalinks copied VERBATIM from raws (a reconstructed permalink is a fabricated
   citation). Every load-bearing number carries its method or "method unknown".
 

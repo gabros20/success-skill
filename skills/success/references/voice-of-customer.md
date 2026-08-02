@@ -97,8 +97,9 @@ None of the three claiming siblings tells a reader how to use a VoC metric's *mo
 an organizational signal — each treats it as a point value (a health-tree entry, a definition, an
 experiment metric). That reading is this file's job, and the ceiling from
 [health-and-risk-signals](health-and-risk-signals.md) §4 sets its limit: the strongest single
-customer-feedback correlate of actual retention explains roughly 4% of variance. A single score is
-close to noise. What is defensible:
+customer-feedback correlate of actual retention — top-2-box satisfaction, r≈.184 — explains
+roughly 3.4% of variance (tenure alone does slightly better, ~4%, but tenure isn't a feedback
+metric). A single score is close to noise. What is defensible:
 
 - Track the trend, not the level — a sustained multi-period move (up or down) against a *stable*
   collection method (same tool, same wording, same trigger point) is more informative than any one
@@ -122,10 +123,11 @@ same file's tie-breaker discipline to feedback reasons rather than inventing a s
 ## 6. The "96% don't complain" figure, corrected
 
 "96% of unhappy customers don't complain" is a worst-case slice of a real TARP/John Goodman finding
-(White House Office of Consumer Affairs, ~1979–1986) presented as universal. TARP's own breakdown
-ranges by stake: roughly 5–30% for mistreatment/quality complaints, up to 50–75% for out-of-pocket
-monetary loss. Never ship the flat "96%" — teach the range and that it depends on what the customer
-lost, not a single constant.
+(White House Office of Consumer Affairs, ~1979–1986) presented as universal. The primary report was
+never located; what's available is convergent secondary paraphrase (multiple independent sources,
+not one copy-paste chain) describing a breakdown that ranges by stake: roughly 5–30% for
+mistreatment/quality complaints, up to 50–75% for out-of-pocket monetary loss. Never ship the flat
+"96%" — teach the range and that it depends on what the customer lost, not a single constant.
 
 ## 7. The feedback loop into product
 

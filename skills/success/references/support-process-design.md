@@ -113,13 +113,13 @@ time is geometrically possible given the actual coverage schedule, and whether v
 exceeds capacity before any SLA number is chosen. Grounding data points (practitioner-report,
 first-person, no independent audit): ticket volume varies by channel by an order of magnitude —
 "PayPal users need about 10x more support emails than credit card signups through Stripe"
-(x.com/levelsio/status/657777387866824704) — so measure per channel, never assume; under overload,
-**LIFO triage** ("switch to Last In, First Out… so at least some customers get exceptionally fast
-support rather than all of them getting the average," x.com/tylertringas/status/
-1287791800443441152) trades fairness for some excellence over uniform mediocrity; and one
-operator's professionalization point was **tooling, not hiring** — "almost $1M in revenue and all
-email support happened from my personal email account until now" (x.com/dvassallo/status/
-1736530664608989598).
+(x.com/levelsio/status/657777387866824704, Oct 24 2015) — so measure per channel, never assume; under overload,
+**LIFO triage** ("switch to Last In, First Out… so at least some customers will get exceptionally
+fast support rather than all of them getting the (probably not great) average response time,"
+x.com/tylertringas/status/1287791800443441152, Jul 27 2020) trades fairness for some excellence
+over uniform mediocrity; and one operator's professionalization point was **tooling, not hiring** —
+"almost $1M in revenue and all email support happened from my personal email account until now"
+(x.com/dvassallo/status/1736530664608989598, Dec 17 2023).
 
 ## 5. "Customer escalation" — always qualified
 
@@ -139,8 +139,9 @@ conflating them is a real error, not a style nit:
   separately rather than treat the two as synonyms.
 
 Always write **"customer escalation"**, never the bare word. A support *organization's*
-escalation-for-visibility policy ("escalate early — visibility up to and including the CEO is
-always better earlier rather than later," GitLab support handbook, CITE-ONLY) is a third, distinct
+escalation-for-visibility policy ("escalate early — visibility across GitLab, up to and including
+the CEO, is always better earlier rather than later," GitLab support handbook, CITE-ONLY) is a
+third, distinct
 object — who gets told, not which ticket state changes — note it, don't merge it in.
 
 ## 6. Priority: one field, unless you're doing formal ITSM

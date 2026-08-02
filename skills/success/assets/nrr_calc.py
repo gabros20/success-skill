@@ -6,8 +6,8 @@ plus the ARR-bridge/GRR form, as selectable modes.
 **Never compare NRR across definitions.** All four filings below call their metric
 "net revenue retention," all four are cohort-based and exclude new-customer revenue --
 but the measurement WINDOW, the revenue SCOPE, and the edge-case handling differ. A
-reported 126% and a reported 131% computed under different mechanics are not the same
-quantity. See references/renewals-and-expansion.md §2 for the full evidence trail;
+reported 126% (Snowflake) and a reported "above 130%" (Datadog) computed under
+different mechanics are not the same quantity. See references/renewals-and-expansion.md §2 for the full evidence trail;
 every quote below is read directly from the filing text (via a declared-UA curl fetch
 + HTML strip), not a summarizer's paraphrase -- see research/_raw/_raw-web-canon-commercial.md.
 
@@ -43,7 +43,7 @@ Modes:
       period, calculating the weighted average of these rates using the Retention
       Base Revenue for the period, and then annualizing the resulting rates." Scoped
       to *subscription* revenue only (excludes services/other revenue). Reported (3
-      most recent fiscal years, oldest first): 102.2% / 103.9% / 110.3%. HubSpot's own
+      most recent fiscal years, most recent first): 102.2% / 103.9% / 110.3%. HubSpot's own
       extracted text does not spell out the exact annualization formula beyond
       "annualizing" -- this implements the standard compounding convention
       (monthly_rate ** 12). Treat the self-test below as an internal-consistency
@@ -51,7 +51,7 @@ Modes:
       undisclosed internal formula.
       https://www.sec.gov/Archives/edgar/data/1404655/000095017025018873/hubs-20241231.htm
 
-  grr / arr_bridge_nrr -- reference implementation: 0x416d6982/pypulate@main
+  grr / arr_bridge_nrr -- reference implementation: 0x416d6972/pypulate@main
       src/pypulate/kpi/business_kpi.py (MIT -- LICENSE + pyproject.toml agree; see
       research/_raw/_raw-gh-churn-health.md for the license audit). Anchored to a
       period-start revenue base (not a blended/average base), excludes new-logo
@@ -225,6 +225,9 @@ def main():
         pairs = list(zip(v[0::2], v[1::2]))  # (current, prior), (current, prior), ...
         result = rolling_12mo_weighted(pairs, weighted=args.weighted)
     elif args.mode == "monthly_cohort_annualized":
+        if len(v) % 2 != 0:
+            p.error("monthly_cohort_annualized requires an even number of --values "
+                    "(equal-length monthly_rates and monthly_bases)")
         half = len(v) // 2
         result = monthly_cohort_annualized(v[:half], v[half:])
     elif args.mode == "grr":

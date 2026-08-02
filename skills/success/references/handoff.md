@@ -78,8 +78,8 @@ closing a previously open fork rather than picking a side silently.
 
 ## The third box: retention execution
 
-`growth/references/handoff.md:66-67` names a job slot — `retention-execution` — that exists nowhere
-else in the family and reserves it for this pack; use that literal name for the job (see
+`growth/references/handoff.md:43,66-67` names a job slot — `retention-execution` — that exists
+nowhere else in the family and reserves it for this pack; use that literal name for the job (see
 [retention-execution](retention-execution.md)). Growth's own working rule
 (`growth/references/retention-and-resurrection.md:168-169`) classifies a retention or resurrection
 mechanic into only two boxes: **standing** (`operate`'s) or **experiment-bound** (`growth`'s). This

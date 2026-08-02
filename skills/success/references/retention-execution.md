@@ -50,8 +50,8 @@ cancellation flow itself.
 
 ## 1. The third box
 
-`growth/references/handoff.md:66-67` reserves the literal job name `retention-execution` for this
-pack — it names the slot and builds nothing into it. Growth's own working rule
+`growth/references/handoff.md:43,66-67` reserves the literal job name `retention-execution` for
+this pack — it names the slot and builds nothing into it. Growth's own working rule
 (`growth/references/retention-and-resurrection.md:168-169`) classifies a retention or resurrection
 mechanic into only two boxes: **standing** (`operate`'s) or **experiment-bound** (`growth`'s). This
 file draws the third box: a **validated motion, held as an ongoing customer relationship**, is
@@ -92,11 +92,12 @@ error Ascarza's experiments measured.
 
 ## 4. Cancellation ethics — cite, do not re-adjudicate
 
-`growth/references/monetization-and-pricing-experiments.md` §5 already ships the dark-patterns
-evidence for subscription cancellation flows — Mathur et al. (CSCW 2019, 11.1% of 11,000 crawled
-sites carried at least one dark pattern), the **roach motel** pattern name (easy to get in, hard to
-get out), and the FTC's 2022 enforcement signal (the Vonage $100M negative-option settlement). Cite
-that file; ship none of its content here.
+`growth/references/monetization-and-pricing-experiments.md` §5 ships the doctrine on dark patterns
+in subscription cancellation flows — cite that file for the argument. The three data points below
+are summarised here for continuity — growth's file owns the argument and the evidence: Mathur et
+al. (CSCW 2019, peer-reviewed: 11.1% of 11,000 crawled sites carried at least one dark
+pattern), the **roach motel** pattern name (easy to get in, hard to get out), and the FTC's 2022
+enforcement signal (the Vonage $100M negative-option settlement).
 
 The operative test this file adds: after a save offer is shown, does cancellation remain reachable
 in one click? If the offer blocks or hides the exit path, it is the roach-motel pattern regardless of
@@ -111,19 +112,21 @@ levelsio's pause-subscription idea is a full, first-person, permalinked multi-ye
 idea (https://x.com/levelsio/status/679767525723369472, Dec 23 2015) — automatically pause a
 subscription when usage stops, rather than charge an inactive user; a UX-naming judgment the same day
 (https://x.com/levelsio/status/679792473091227648) — "I'd say Pause, but Unsubscribe is clearer,"
-reasoning about clarity to the customer, not just MRR; and confirmation it shipped two years later
-(https://x.com/levelsio/status/933308392021442561, Nov 22 2017). No isolated effect size was ever
+reasoning about clarity to the customer, not just MRR; and an intent-to-build reply two years later
+— "i'll add a PAUSE button to subscription soon!" (https://x.com/levelsio/status/933308392021442561,
+Nov 22 2017) — which is not confirmation it actually shipped. No isolated effect size was ever
 stated for the pause button itself — do not invent one.
 
 **A separate exhibit must carry its CONFOUNDED flag whenever cited.**
 https://x.com/levelsio/status/1949861989322314094 (Jul 28 2025): a custom-built cancel flow
 (replacing Stripe's customer portal) alongside a reported churn drop from 40% to an all-time low of
-13–14%. Levelsio's own parallel tweets attribute much of the same period's churn improvement to
-unrelated product-quality launches (a photorealism model upgrade, a v2 launch) and to a separate
+13–14%. Levelsio's own parallel tweets attribute much of the same period's churn improvement to an
+unrelated product-quality launch (Interior AI v2, with photorealistic outputs) and to a separate
 churn-recovery-by-discount tactic, stated with his own hedge
-(https://x.com/levelsio/status/1758514737539596477, Feb 16 2024): "#1 reason is [a product upgrade]…
-#2 reason is better churn recovery, offering discounts to avoid canceling… TL;DR **I guess** improving
-product is best way to fix churn." **Never cite the cancel-flow rebuild as "cut churn by two-thirds"**
+(https://x.com/levelsio/status/1758514737539596477, Feb 16 2024): "#1 reason is Interior AI v2
+launched and it outputs are way better… #2 reason is better churn recovery, offering discounts to
+avoid canceling… TL;DR **I guess** improving product is best way to fix churn." **Never cite the
+cancel-flow rebuild as "cut churn by two-thirds"**
 — cite it as a practitioner who rebuilt a cancel flow and separately reports a large churn drop over
 the same broad period, with multiple unlabeled contributing causes. The hedge itself ("I guess") is
 worth citing directly as a model for stating an unmeasured causal claim honestly.

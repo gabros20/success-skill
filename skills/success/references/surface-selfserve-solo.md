@@ -33,8 +33,9 @@ arvidkahl runs a "first-level AI CS agent" in production for Podscan
 (https://x.com/arvidkahl/status/2081147490170991086, Jul 25 2026) and uses Crisp's live translation
 to "speak fluent Japanese with my customers when needed" as a one-person answer to global coverage
 (https://x.com/arvidkahl/status/1976293872926900665, Oct 9 2025). tylertringas folds a shared
-support inbox into an agent loop that monitors errors, auto-pushes fixes, and reports back in Slack
-(https://x.com/tylertringas/status/2074889104823664653, Jul 8 2026) — on-call collapsed into
+support inbox (https://x.com/tylertringas/status/2074889104823664653, Jul 8 2026) into an agent
+loop that monitors errors, auto-pushes fixes, and reports back in Slack
+(https://x.com/tylertringas/status/2077828747752005676, Jul 16 2026) — on-call collapsed into
 automation for a team of one or two. Treat AI tier-1 as the default first line, with escalation
 policy from [ai-support-policy](ai-support-policy.md) still applying at this scale, not relaxed
 because the team is small.

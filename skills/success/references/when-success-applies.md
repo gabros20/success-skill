@@ -84,8 +84,10 @@ automation + product signals," which was this pack's original hypothesis. It is:
    churn." — https://x.com/robwalling/status/2055022092811133330 (May 14 2026).
 2. **AI tier-1 support second** — a lever the original hypothesis did not name at all. arvidkahl runs
    a "first-level AI CS agent" in production (https://x.com/arvidkahl/status/2081147490170991086, Jul
-   25 2026); tylertringas folds a "shared support inbox" into an agent loop that auto-triages and
-   auto-fixes (https://x.com/tylertringas/status/2074889104823664653, Jul 8 2026). See
+   25 2026); tylertringas folds a "shared support inbox"
+   (https://x.com/tylertringas/status/2074889104823664653, Jul 8 2026) into an agent loop that
+   monitors performance and errors, auto-pushes fixes, and reports back in Slack
+   (https://x.com/tylertringas/status/2077828747752005676, Jul 16 2026). See
    [surface-selfserve-solo](surface-selfserve-solo.md) for the default-surface treatment of this.
 
    Even a fully-automated solo support stack keeps one human residue: levelsio still hits a pattern

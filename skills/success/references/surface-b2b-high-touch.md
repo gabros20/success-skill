@@ -73,10 +73,10 @@ Five honest failure modes worth auditing any adopted score against:
   it as neutral (redistribute); the human triage rubric treats it as risk ("significant lack of
   information leading to uncertainty" is Yellow; "overwhelming lack of information... leading up to
   renewal" is Red). Take the human side — ignorance about an account is a finding, not a gap.
-- **A published model can contain components that don't exist.** Three of four Voice-of-Customer
-  measures (CSAT, NPS Surveys, two Engagement measures) are marked "Not started" in GitLab's own
-  maturity column; "Voice of the customer" is, in practice, support-ticket counts. Check a maturity
-  column before trusting an architecture diagram.
+- **A published model can contain components that don't exist.** Two of three Voice-of-Customer
+  measures (Support-CSAT, NPS Surveys) are marked "Not started" in GitLab's own maturity column —
+  only Support-Engagement (70%) is live; "voice of the customer" is, in practice, support-ticket
+  counts. Check a maturity column before trusting an architecture diagram.
 - **Support-contact direction can be wrong, and an org can catch it.** Bands score zero tickets
   below Green (Green starts at 1), and the roadmap plans to "allow more tickets as a good thing" —
   the human rubric already flags silence after being told to ask for help as its own yellow signal.
@@ -98,8 +98,8 @@ Framework only — cite GitLab, never copy its prose:
   threaded)" as risk — cheap, concrete, and one of the few practices that survives translation.
 - **A category list without tie-breakers is not a taxonomy.** GitLab's churn-reason list carries a
   disambiguation rule against its nearest neighbor for each entry — "if they didn't adopt because
-  they didn't see value, it should be Product Gap"; "this was not a competitive loss" under Loss of
-  Budget. That's what makes a taxonomy usable rather than decorative.
+  they didn't see / experience value, it should be Product Gap"; "this was not a competitive loss"
+  under Loss of Budget. That's what makes a taxonomy usable rather than decorative.
 - **An escalation ladder named by severity, not trigger type.** Yellow notifies the account team;
   Red adds the Area Sales Manager, Regional Director, and VP of Customer Success — the
   organizational sense of "customer escalation" (neither SLA-breach nor bot handoff): who must be
@@ -115,12 +115,13 @@ Framework only — cite GitLab, never copy its prose:
   not headcount.
 - **The "$2M ARR per CSM" heuristic — the propagation exhibit, both sides permalinked.** Debunked
   by the canon's own co-author, repeatedly, at the platform where it kept circulating:
-  lincolnmurphy, 2016–2017 — "Please STOP perpetuating the $2M/ARR per CSM myth"
-  (x.com/lincolnmurphy/status/814160673840267264); "The '$2M ARR per CSM' nonsense is just what
-  people want to hear... little connection to actual reality"
-  (x.com/lincolnmurphy/status/829780774215757824). Still circulating on a larger platform years
-  later, uncited: @saastr, 2019 and 2020 (x.com/saastr/status/1132844104050724864,
-  x.com/saastr/status/1213173372068212737). Ship both sides together; never the number alone.
+  lincolnmurphy — "Please STOP perpetuating the $2M/ARR per CSM myth"
+  (x.com/lincolnmurphy/status/814160673840267264, Dec 28 2016); "The '$2M ARR per CSM' nonsense is
+  just what people want to hear... little connection to actual reality"
+  (x.com/lincolnmurphy/status/829780774215757824, Feb 9 2017). Still circulating on a larger
+  platform years later, uncited: @saastr (x.com/saastr/status/1132844104050724864, May 27 2019;
+  x.com/saastr/status/1213173372068212737, Jan 3 2020). Ship both sides together; never the number
+  alone.
 - **QBR/EBR cadence as a fixed ritual.** Murphy's own critique: "You don't have to do QBRs. Period.
   QBRs are not required" — reframed as "Is a QBR part of the Appropriate Experience for your
   customers?" (sixteenventures.com/customer-success-qbr). Decline the fixed cadence; keep the
@@ -139,10 +140,10 @@ The renewal/expansion ownership ruling — product models, success operates, sal
 where a negotiation exists — is provisional, and directly contested by the canon's own author:
 lincolnmurphy's position is complexity-gated, not role-based — a CSM renews by default; only
 genuinely complex renewals go to a dedicated CS-native resource, explicitly not "Account Management
-carryover" (x.com/lincolnmurphy/status/1084526744290369537). Cite both positions; don't adjudicate
+carryover" (x.com/lincolnmurphy/status/1084526744290369537, Jan 13 2019). Cite both positions; don't adjudicate
 the fight. The handoff itself is a named failure mode for any sales-to-CS transition: "Customers
 hate three things: 1. Surprises 2. Unknowns 3. Repeating themselves. Most Sales-to-CS handoffs
-manage to hit all three" (lincolnmurphy, x.com/lincolnmurphy/status/2019458553430384815).
+manage to hit all three" (lincolnmurphy, x.com/lincolnmurphy/status/2019458553430384815, Feb 5 2026).
 
 ## Validation
 
