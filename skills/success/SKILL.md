@@ -1,13 +1,13 @@
 ---
 name: success
 description: >-
-  Keep customers after they buy — does a success function apply yet, onboarding programs, help
-  content and KB, support process, SLAs as promises, AI-support policy, health and churn-risk
-  honesty, voice-of-customer interpretation, retention execution, renewals/expansion (NRR),
-  incident comms. Use to design a support process, audit a health score, or run a churn-save or
-  renewal. Not in-product onboarding flow (→ design), retention experiments (→ growth),
-  pricing/dunning (→ product), agent mechanics/evals (→ ai), internal SLOs (→ operate), lifecycle
-  email (→ marketing), the sale (→ sales).
+  Keep customers after they buy — whether success applies yet, onboarding programs, help content
+  and KB, support process, SLAs as promises, AI-support policy, health/churn-risk honesty, VoC/NPS
+  interpretation, retention execution, renewals/expansion (NRR), app-review responses, incident
+  comms. Use to design a support process, audit a health score, or run a churn-save or renewal.
+  Not in-product onboarding flow (→ design), retention experiments (→ growth), pricing/dunning
+  (→ product), agent mechanics/evals (→ ai), internal SLOs (→ operate), lifecycle email
+  (→ marketing), the sale (→ sales).
 ---
 
 # Customer Success
