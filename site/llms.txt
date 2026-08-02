@@ -2,10 +2,17 @@
 
 > Help customers adopt, realize value, renew, and expand. Installs as an agent skill.
 
-TODO — one paragraph: what problem this replaces, the workflow it runs (stages/strategies, in
-order), and what "read only what you need" the router gives you. Claude Code is the reference
-host; it's plain Agent Skills format (agentskills.io), so it installs on Codex, Cursor,
-Antigravity, opencode, Grok Build, and Hermes too.
+success is the customer-success pack of the Digital Product Skills family: it keeps the
+customers a product already has. It opens with an existence gate (does a success function even
+apply yet, or do growth/marketing/operate cover it), then routes across onboarding programs, help
+content and knowledge bases, support process and SLAs-as-promises, AI-support policy, customer
+health and churn-risk honesty, voice-of-customer interpretation, retention execution, renewals and
+expansion (NRR), app-review responses, and customer-facing incident comms. The router in SKILL.md
+sends a task to only the one or two references it needs — 15 references, 3 surfaces plus an
+agentic overlay, and four self-testing calculators.
+
+Claude Code is the reference host; it's plain Agent Skills format (agentskills.io), so it installs
+on Codex, Cursor, Antigravity, opencode, Grok Build, and Hermes too.
 
 ## Install
 
@@ -23,7 +30,22 @@ Antigravity, opencode, Grok Build, and Hermes too.
 
 ## Reference inventory (`skills/success/references/`)
 
-- `example.md` — TODO: what job this reference answers.
+- `when-success-applies.md` — the existence gate: does this product need a success function yet.
+- `onboarding-and-adoption.md` — the onboarding program and adoption plan (not the in-product flow).
+- `education-and-knowledge-base.md` — help content, KB strategy, article lifecycle, search-gap backlog.
+- `support-process-design.md` — ticket taxonomy, status buckets, SLAs as promises, customer escalation.
+- `ai-support-policy.md` — bot boundaries, escalation policy, resolution-rate honesty.
+- `health-and-risk-signals.md` — what a health score can and cannot tell you (flagship).
+- `voice-of-customer.md` — NPS/CSAT interpretation and aggregate feedback trends.
+- `retention-execution.md` — churn-save, win-back, and pause motions a test already validated.
+- `renewals-and-expansion.md` — renewal workflow, NRR/GRR mechanics, expansion signals, advocacy.
+- `incident-and-account-comms.md` — the customer's side of an incident or decommission.
+- `surface-selfserve-solo.md` — the default surface: solo/self-serve reality.
+- `surface-b2b-high-touch.md` — enterprise/high-touch overlay.
+- `surface-mobile-subscription.md` — app-store subscription overlay.
+- `overlay-agentic.md` — AI-agent-run success operations (additive).
+- `handoff.md` — seams with the sibling packs.
+- `../assets/` — nrr_calc.py, churn_baseline_check.py, sla_capacity_calc.py, health_score_audit.md.
 
 ## Optional
 
