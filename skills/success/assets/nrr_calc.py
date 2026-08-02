@@ -217,11 +217,20 @@ def main():
     args = p.parse_args()
 
     v = args.values
+    ARITY = {"snowflake_2yr_snapshot": 2, "rolling_12mo_point_in_time": 2,
+             "grr": 3, "arr_bridge_nrr": 4}
+    need = ARITY.get(args.mode)
+    if need is not None and len(v) != need:
+        p.error(f"{args.mode} requires exactly {need} --values, got {len(v)}")
+
     if args.mode == "snowflake_2yr_snapshot":
         result = snowflake_2yr_snapshot(v[0], v[1])
     elif args.mode == "rolling_12mo_point_in_time":
         result = rolling_12mo_point_in_time(v[0], v[1])
     elif args.mode == "rolling_12mo_weighted":
+        if len(v) % 2 != 0:
+            p.error("rolling_12mo_weighted requires an even number of --values "
+                    "(current, prior) pairs, got an odd count")
         pairs = list(zip(v[0::2], v[1::2]))  # (current, prior), (current, prior), ...
         result = rolling_12mo_weighted(pairs, weighted=args.weighted)
     elif args.mode == "monthly_cohort_annualized":

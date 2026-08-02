@@ -105,7 +105,8 @@ metric). A single score is close to noise. What is defensible:
   collection method (same tool, same wording, same trigger point) is more informative than any one
   score, because it partially cancels the self-selection bias in §3 (the same kind of respondent
   self-selects each period).
-- Never let a trend substitute for the experiment-level rule in §1 — an aggregate NPS trend can
+- Never let a trend substitute for growth's experiment-level rule
+  (`growth/references/retention-and-resurrection.md:167`) — an aggregate NPS trend can
   motivate investigating a retention hypothesis; it cannot, by growth's own shipped rule, stand alone
   as evidence that a specific change caused it.
 - Report the trend alongside its denominator (§3) and its collection-method changes — a trend break

@@ -110,11 +110,13 @@ if token_estimate > 3500:
     warn(f"SKILL.md exceeds the 3,500-token review threshold (estimated {token_estimate})")
 
 runtime_files = [path for path in skill_dir.rglob("*") if path.is_file()]
+file_texts: dict[Path, str] = {}
 for path in runtime_files:
     try:
-        text = path.read_text(encoding="utf-8")
+        file_texts[path] = path.read_text(encoding="utf-8")
     except UnicodeDecodeError:
         continue
+for path, text in file_texts.items():
     if re.search(r"__SKILL(?:_[A-Z]+)*__|\bTODO(?:\b|:|\s|—)", text):
         fail(f"runtime placeholder remains in {path.relative_to(ROOT)}")
 
@@ -250,6 +252,62 @@ if runtime_scripts.exists():
     for script in runtime_scripts.iterdir():
         if script.is_file() and not os.access(script, os.X_OK):
             fail(f"runtime script is not executable: {script.relative_to(ROOT)}")
+
+# Never-ship figure sweep: each pattern is banned pack-wide unless the file is in its
+# allow-set (a debunked/graded exhibit that must name the figure to refute it).
+NEVER_SHIP: dict[str, set[str]] = {
+    r"5\s*[–-]\s*25\s*[x×]": set(),
+    r"25\s*[–-]\s*95\s*%": set(),
+    r"80/20": set(),
+    r"\$\d+\s+(?:vs\.?|versus)\s+\$\d+": set(),
+    r"\b76%": set(),
+    r"\b68%": set(),
+    r"\b131%": set(),
+    r"\$2M ARR per CSM": {"references/surface-b2b-high-touch.md"},
+    r"\b96%": {"references/voice-of-customer.md"},
+    r"62% precision": {"references/health-and-risk-signals.md"},
+    r"(?i)klarna": {"references/ai-support-policy.md"},
+}
+markdown_runtime_files = [path for path in runtime_files if path.suffix == ".md"]
+for pattern, allowed_files in NEVER_SHIP.items():
+    regex = re.compile(pattern)
+    for path in markdown_runtime_files:
+        text = file_texts.get(path, "")
+        if regex.search(text) and str(path.relative_to(skill_dir)) not in allowed_files:
+            fail(f"never-ship string /{pattern}/ found in {path.relative_to(skill_dir)}")
+
+# Precision-guard regression check: the "not published, never not measured" invariant
+# (R16, protected) must survive verbatim in both of its shipped homes.
+skill_md_and_flagship = {skill_md, skill_dir / "references" / "health-and-risk-signals.md"}
+precision_guard = re.compile(r'"not\s+published,?\s*never\s*not\s+measured\.?"', re.IGNORECASE)
+for home in skill_md_and_flagship:
+    if home.is_file() and not precision_guard.search(file_texts.get(home, "")):
+        fail(f"precision guard \"not published, never not measured\" missing from {home.relative_to(ROOT)}")
+# Outside those two homes, a bare "not measured" is only legitimate as the unrelated,
+# deliberately-reused "widely believed, not measured" idiom (TTFV/expansion-signal claims);
+# any other occurrence signals the guard duplicated or weakened with different wording.
+believed_idiom = re.compile(r"widely\s+believed,\s*not\s+measured", re.IGNORECASE)
+for path in markdown_runtime_files:
+    if path in skill_md_and_flagship:
+        continue
+    text = file_texts.get(path, "")
+    residual = precision_guard.sub("", text)
+    residual = believed_idiom.sub("", residual)
+    if "not measured" in residual.lower():
+        fail(f"'not measured' leaked outside the precision guard's two homes: {path.relative_to(ROOT)}")
+
+# Heuristic only (warn, not fail): an SLA hour/day figure sitting next to a response-time
+# metric name needs a human check against the "set from your own capacity" rule.
+sla_figure_near_metric = re.compile(
+    r"(?i)(first|next)[- ]response[^.\n]{0,60}\b\d+\s*(hour|hr|minute|min|day)s?\b"
+)
+for path in markdown_runtime_files:
+    match = sla_figure_near_metric.search(file_texts.get(path, ""))
+    if match:
+        warn(
+            f"SLA figure near a response-time metric name in {path.relative_to(ROOT)}: "
+            f"{match.group(0)!r} — verify the 'set from your own capacity' framing"
+        )
 
 eval_paths = {
     "activation": ROOT / "evals" / "activation" / "cases.json",

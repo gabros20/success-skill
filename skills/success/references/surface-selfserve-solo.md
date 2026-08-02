@@ -27,8 +27,9 @@ borrowed enterprise machinery.
 ## Automation and AI tier-1 are the team, not a CSM
 
 At this scale, the evidence shows automation and AI-run first-level support carrying the load a CSM
-would elsewhere — not a documentation library, which tested weak in practice (see
-[when-success-applies](when-success-applies.md) for the full correction). Two dated instances:
+would elsewhere — not a documentation library, which this research found under-evidenced rather than
+effective (an honest null — see [when-success-applies](when-success-applies.md) for the correction).
+Two dated instances:
 arvidkahl runs a "first-level AI CS agent" in production for Podscan
 (https://x.com/arvidkahl/status/2081147490170991086, Jul 25 2026) and uses Crisp's live translation
 to "speak fluent Japanese with my customers when needed" as a one-person answer to global coverage
@@ -76,7 +77,7 @@ an example number from this file or anywhere else as a real commitment.
 |---|---|
 | [onboarding-and-adoption](onboarding-and-adoption.md) | The adoption plan is lightweight — no QBR/EBR cadence; education artifacts are the highest-leverage spend |
 | [support-process-design](support-process-design.md) | The "queue" is a shared inbox plus AI triage, not a tiered desk; capacity honesty replaces a borrowed SLA default |
-| [education-and-knowledge-base](education-and-knowledge-base.md) | Docs-as-deflection tested weak in practice; a KB rewrite is the actionable lever, not a model upgrade |
+| [education-and-knowledge-base](education-and-knowledge-base.md) | The evidence for docs-as-deflection is thin, but KB *correctness* is the one first-party lever measured — check KB coverage before a model upgrade |
 | [ai-support-policy](ai-support-policy.md) | Escalation policy and deflection-rate honesty apply even at team-of-one — do not relax them because the team is small |
 | [health-and-risk-signals](health-and-risk-signals.md) | Behavioral and tenure signals are cheaper and more honest here than a survey program requiring response volume this scale rarely has |
 | [retention-execution](retention-execution.md) / [renewals-and-expansion](renewals-and-expansion.md) | Thin at this scale — a pricing-tier change (`product`'s) is often the actual lever; see the CONTESTED pricing-first correction in [when-success-applies](when-success-applies.md) |

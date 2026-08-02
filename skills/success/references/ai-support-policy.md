@@ -2,11 +2,9 @@
 
 Purpose: Define the policy layer for an AI support agent — what counts as a resolution, when it must
 hand off to a human, which moments require canned text versus free composition, and how to read a
-vendor's automation claim honestly. Seam: `ai`'s `references/surface-chat-assistant.md`
-owns the turn loop, retrieval, memory, and eval instrumentation — including "escalation rate" as an
-online-eval signal. **This file owns what that signal means**: the escalation condition, the
-resolution definition it's paired against, and the bot-boundary rules `ai`'s eval measures compliance
-with. `ai` ships no cession here; the split is by content.
+vendor's automation claim honestly. Seam: `ai`'s `references/surface-chat-assistant.md` owns the
+turn loop, retrieval, and eval instrumentation; **this file owns what "escalation rate" means** —
+the condition, the resolution it's paired against, and the bot-boundary rules `ai`'s eval measures.
 
 Read when:
 - Defining when a bot hands off to a human, what "resolved" means, or how strict a reply must be.
@@ -65,10 +63,8 @@ Even Chatwoot hasn't built tier-aware routing into its handoff tool — `team_id
 `escalation_level` fields remain commented-out and unimplemented. Ship a flat handoff primitive by
 default; treat tier-aware routing as a stated gap.
 
-**Two different objects share the word "escalation."** A support org's escalate-early-for-visibility
-philosophy is organizational and upward; it has nothing to do with a bot handing a conversation to a
-human. Always write **customer escalation** for the bot-to-human sense — the bare word is loaded
-several ways across this family and across support process itself; the full disambiguation lives in
+**Two different objects share the word "escalation."** Always write **customer escalation** for the
+bot-to-human sense; the full disambiguation lives in
 [support-process-design.md](support-process-design.md) §5.
 
 ## The typed-field exemplar

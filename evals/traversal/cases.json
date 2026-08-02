@@ -1,8 +1,87 @@
 [
   {
-    "id": "primary-route",
-    "prompt": "TODO: add a request that selects one reference.",
-    "expected_references": ["references/example.md"],
-    "forbidden_references": []
+    "id": "gate-first",
+    "prompt": "Build us a customer health score.",
+    "expected_references": ["references/when-success-applies.md"],
+    "forbidden_references": ["references/surface-b2b-high-touch.md"]
+  },
+  {
+    "id": "flagship-audit",
+    "prompt": "Audit our customer health score — we're B2B with a named CSM per account.",
+    "expected_references": [
+      "references/health-and-risk-signals.md",
+      "references/surface-b2b-high-touch.md",
+      "assets/health_score_audit.md"
+    ],
+    "forbidden_references": [
+      "references/renewals-and-expansion.md",
+      "references/education-and-knowledge-base.md"
+    ]
+  },
+  {
+    "id": "solo-sla",
+    "prompt": "What response-time SLA can I honestly promise? It's just me, solo, self-serve.",
+    "expected_references": [
+      "references/support-process-design.md",
+      "references/surface-selfserve-solo.md"
+    ],
+    "forbidden_references": [
+      "references/surface-b2b-high-touch.md",
+      "references/incident-and-account-comms.md"
+    ]
+  },
+  {
+    "id": "bot-policy",
+    "prompt": "Define when our support bot should hand off to a human. A human reviews every handoff before it's finalized.",
+    "expected_references": ["references/ai-support-policy.md"],
+    "forbidden_references": ["references/overlay-agentic.md"]
+  },
+  {
+    "id": "bot-policy-unattended",
+    "prompt": "Define when our support bot should hand off to a human. There is no per-instance human review — the bot acts autonomously.",
+    "expected_references": [
+      "references/ai-support-policy.md",
+      "references/overlay-agentic.md"
+    ],
+    "forbidden_references": ["references/surface-b2b-high-touch.md"]
+  },
+  {
+    "id": "nrr-compare",
+    "prompt": "Compare our NRR to Snowflake's published NRR figure.",
+    "expected_references": [
+      "references/renewals-and-expansion.md",
+      "assets/nrr_calc.py"
+    ],
+    "forbidden_references": ["references/health-and-risk-signals.md"]
+  },
+  {
+    "id": "voc-trend",
+    "prompt": "Is our NPS drop from 31 to 27 this quarter meaningful?",
+    "expected_references": ["references/voice-of-customer.md"],
+    "forbidden_references": [
+      "references/health-and-risk-signals.md",
+      "references/retention-execution.md"
+    ]
+  },
+  {
+    "id": "save-motion",
+    "prompt": "Growth validated a win-back sequence. Run it as an ongoing motion.",
+    "expected_references": ["references/retention-execution.md"],
+    "forbidden_references": ["references/renewals-and-expansion.md"]
+  },
+  {
+    "id": "mobile-review",
+    "prompt": "How should we reply to one-star App Store reviews about billing?",
+    "expected_references": [
+      "references/surface-mobile-subscription.md",
+      "references/support-process-design.md"
+    ],
+    "forbidden_references": ["references/renewals-and-expansion.md"]
+  },
+  {
+    "id": "seam-question",
+    "prompt": "Who owns the refund-approval gate — us or automation?",
+    "expected_references": ["references/handoff.md"],
+    "forbidden_references": ["references/health-and-risk-signals.md"]
   }
 ]

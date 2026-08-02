@@ -8,5 +8,11 @@ These fixtures test four different questions independently:
 - `compression-ablation/`: does a shorter candidate preserve quality relative to the current skill
   and a no-skill baseline?
 
-Replace every placeholder case with realistic prompts before release. Keep expected and forbidden
-reads explicit so routing regressions are diagnosable.
+The suite: 26 activation cases (14 router-row positives, 2 indirect-vocabulary positives, 7
+boundary-arrow negatives, 2 adversarial sibling-naming negatives, 1 out-of-family negative), 10
+traversal cases (one per flagship path, every expected/forbidden reference verified on disk), 6
+output cases (5 artifact-contract checks plus one never-ship forbidden-string sweep), and 3
+compression-ablation cases exercising rules at the start, middle, and end of the loaded set. Keep
+expected and forbidden reads explicit so routing regressions are diagnosable. The `never-ship-strings`
+output case's assertions intentionally quote the banned figures verbatim — that file is not
+agent-loaded, so quoting them there is not a shipping violation.

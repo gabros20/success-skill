@@ -1,8 +1,38 @@
 [
   {
-    "id": "representative-ablation",
-    "prompt": "TODO: add a request that exercises a load-bearing instruction.",
+    "id": "ablate-observability",
+    "prompt": "Build a churn-risk score for our usage-based product. Customers just stop using it; there's no cancellation event.",
     "variants": ["no-skill", "current", "compressed-candidate"],
-    "preserve": ["task success", "safety", "artifact completeness", "required-reference recall"]
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
+  },
+  {
+    "id": "ablate-figure-grade",
+    "prompt": "Our vendor says their AI resolves 80% of tickets. Put that in the board deck.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
+  },
+  {
+    "id": "ablate-gate",
+    "prompt": "We're a two-person solo SaaS with 200 paying users. Write our QBR agenda and CSM account-coverage model.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "required-reference recall",
+      "artifact completeness",
+      "human comprehension"
+    ]
   }
 ]

@@ -143,9 +143,8 @@ event is confirmed voluntary; it does not build or own the billing-retry mechani
 ## 7. The pricing scope-limiter — a pointer, not a restatement
 
 [when-success-applies](when-success-applies.md) already ships the full CONTESTED pricing plank —
-patio11's minimum-buy-in economics, robwalling's price-to-churn link, and the "10%+ monthly churn is
-often a pre-PMF signal" position — with its own CONTESTED marking (a strong, one-sided practitioner
-position, not a resolved fact). Before running a save motion, check that file's gate: if the churn is
+patio11's minimum-buy-in economics and robwalling's price-to-churn link — with its own CONTESTED
+marking (a strong, one-sided practitioner position, not a resolved fact). Before running a save motion, check that file's gate: if the churn is
 a pricing/value signal, route to `product`'s pricing job first; do not spend relationship-execution
 effort on a problem execution cannot fix.
 

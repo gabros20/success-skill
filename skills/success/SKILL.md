@@ -20,13 +20,9 @@ process, AI-support policy, health and risk signals, voice-of-customer interpret
 execution, renewals and expansion, and the customer's side of an incident — and it owns the
 epistemics that come with them: which of those signals can carry a decision, and which cannot.
 
-**What makes this pack different: it answers whether the score works.** The genre is fragmented —
-one artifact has reach but almost none of the canonical jobs, one is official but purely tactical,
-one is architecturally complete but cites nothing and assumes an enterprise CSM team. One of them
-already asks whether a health score predicts churn rather than merely classifying accounts; none
-answers it with evidence, with honest scope, or integrated across support and AI-agent policy. The
-flagship, [health-and-risk-signals](references/health-and-risk-signals.md) ⭐, does all four — and
-asks first what the canon never asks: **the Observability Question**, whether your churn event is
+**What makes this pack different: it answers whether the score works, with evidence and honest
+scope.** The flagship, [health-and-risk-signals](references/health-and-risk-signals.md) ⭐, asks
+first what the canon never asks: **the Observability Question**, whether your churn event is
 observable at all.
 
 **The default reader is a builder with users, not a CS team with a book of accounts.** So the front
@@ -39,9 +35,8 @@ ratios, QBR cadence) with reasons stated, never by omission.
 `success` writes programs, policies, taxonomies, verdicts, and workflows — **no production code**,
 no experiments, and no numbers it cannot source. See "Not this skill" below.
 
-Operate independently when invoked alone. When compatible upstream artifacts are provided (a PRD's
-time-to-first-value criteria, a growth readout, an operate incident statement), use them without
-silently overriding established decisions. Recommend adjacent skills when useful; do not invoke them
+Use compatible upstream artifacts (a PRD's TTFV criteria, a growth readout, an operate incident
+statement) without silently overriding established decisions. Do not invoke adjacent skills
 automatically unless the user explicitly requested a composition workflow.
 
 ## Route before acting
@@ -70,7 +65,7 @@ automatically unless the user explicitly requested a composition workflow.
 | Decide whether a distinct success function is worth building yet, or whether a CS request should be answered by another pack for now | [when-success-applies](references/when-success-applies.md) | **The Existence Gate** — the attributed test (does the customer's growth change what they pay), what covers post-purchase meanwhile, and the CONTESTED pricing-first correction: at solo scale the replacement for CS process is pricing, then AI tier-1 support — not docs |
 | Build an implementation/adoption plan, education artifacts outside the product, or an adoption cadence | [onboarding-and-adoption](references/onboarding-and-adoption.md) | The onboarding **program**, with the design seam stated up front — design owns the in-product flow and its orient-don't-educate rule; time-to-first-value consumed from the PRD, never re-derived; Murphy's current Goal + Appropriate Experience formula, with the superseded form dated |
 | Decide what belongs in a knowledge base, keep it from rotting, or answer a deflection claim | [education-and-knowledge-base](references/education-and-knowledge-base.md) | The family's first definition of good help content (reactive KB vs proactive documentation); an article-lifecycle rule; **the zero-result/zero-click backlog as the observable replacement for an unmeasurable deflection rate**; check KB coverage before a model upgrade |
-| Set up or audit a ticket taxonomy, SLA metrics, a response-time promise, or escalation vocabulary | [support-process-design](references/support-process-design.md) | Two taxonomy axes and the schema-converged three status buckets, plus the internal/"this isn't support" bucket; first/next/resolution SLA naming; **the response-time promise** — and the never-ship rule against any SLA default not derived from your own capacity; the one home for the "customer escalation" disambiguation |
+| Set up or audit a ticket taxonomy, SLA metrics, a response-time promise, or escalation vocabulary — including the app-store-review channel | [support-process-design](references/support-process-design.md) | Two taxonomy axes and the schema-converged three status buckets, plus the internal/"this isn't support" bucket; first/next/resolution SLA naming; **the response-time promise** — and the never-ship rule against any SLA default not derived from your own capacity; the one home for the "customer escalation" disambiguation |
 | Define when a bot hands off, what "resolved" means, or how to read a vendor's automation claim | [ai-support-policy](references/ai-support-policy.md) | Success owns the policy, `ai` owns the mechanics: **escalation is symbolic, never a confidence float** (nine real triggers, none numeric), the typed-field-every-turn exemplar, strict-vs-fluid composition, resolution-rate honesty (confirmed vs assumed), pass^k against vendor claims, and the chatbot-promises-bind precedent |
 | Build, buy, interpret, or audit a health score, churn model, or renewal-risk signal ⭐ | [health-and-risk-signals](references/health-and-risk-signals.md) | **Flagship.** Score-vs-prediction as different artifacts; **"not published, never not measured"** and the null-result triangle; **the Observability Question** (contractual vs non-contractual churn); four-study academic convergence; the honest ML ceiling with its leakage and base-rate exhibits; the reframe — score plus mandatory gap and action |
 | Read an NPS/CSAT/CES score or a feedback trend honestly | [voice-of-customer](references/voice-of-customer.md) | Interpretation only — three siblings already define the metric; adds what none claims: aggregate trend reading, the Display-vs-Response denominator check, the NPS-growth and CES-superiority replication failures, and the corrected complaint-rate range |
@@ -100,7 +95,7 @@ from success's side, including the three rows success originates because it ship
 | Pricing tiers and the commercial-lifecycle model, the metric tree, PRD acceptance criteria, dunning and billing-failure recovery | `product`. Product models; success operates. Involuntary churn is product's mechanism — success requires the voluntary/involuntary split before drawing a retention conclusion |
 | The support assistant's turn loop, retrieval, memory, prompts, and eval instrumentation | `ai`. Success sets the escalation condition, the resolution definition, and the bot boundaries; `ai` measures compliance with them |
 | Internal SLOs, alerting, on-call paging, running the incident, decommission sequencing | `operate`. Operate states fact, impact, and timing; success manages the relationship. The customer-facing response-time **promise** is success's; the internal target is not |
-| Positioning, acquisition-side lifecycle email, content, store listings and ASO, producing case studies and testimonials | `marketing`. Onboarding education and retention communication are success's; marketing produces the advocacy asset success qualified and got consent for, and keeps the store listing while success answers the reviews |
+| Positioning, acquisition-side lifecycle email, content, store listings and ASO, producing case studies and testimonials | `marketing`. Onboarding education and retention communication are success's; marketing produces the advocacy asset success qualifies and consents to, and keeps the store listing while success answers reviews |
 | The warehouse metric definition, the tracking plan, PII governance on free-text support content | `data`. Success inherits data's free-text-PII constraint rather than inventing one |
 | The approval gate on an irreversible action — a refund above a threshold | `automation`. Success owns the support process that produces the request and the refund policy; automation owns the gate |
 | Negotiating and closing an expansion sale | `sales` — provisional and contested; see [renewals-and-expansion](references/renewals-and-expansion.md) §6 |
@@ -175,9 +170,9 @@ Before completion:
   practitioner-reported.
 - State plainly what this artifact will and will not be able to prove.
 - When downstream work is expected, provide artifact paths, owners, residual risk, and a recommended
-  next skill — typically `growth` to test a motion, `product` when the fix is pricing or the
-  commercial model, `ai` to build the assistant this policy governs, `marketing` for a qualified
-  advocacy handoff, or `operate` when the customer conversation depends on a technical procedure.
+  next skill — typically `growth` to test a motion, `product` for a pricing/commercial fix, `ai` to
+  build the governed assistant, `marketing` for a qualified advocacy handoff, or `operate` when the
+  conversation depends on a technical procedure.
 
 ## Resources
 

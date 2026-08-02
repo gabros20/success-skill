@@ -45,7 +45,8 @@ JAMA — medical-domain references with nothing to do with a SaaS score. The dig
 citation bait, not a measurement; the tell is the source list, not the number itself. The
 **open-source corpus**, where every dedicated "health score" repo tops out at 0–1
 stars, grep-verified, and its two most substantive artifacts (a Buffer usage-decline script, an
-Odoo RFM module) act on a score but never check it against a later outcome; and **GitLab itself**
+Odoo RFM — recency/frequency/monetary — module) act on a score but never check it against a later
+outcome; and **GitLab itself**
 — an in-house data-science team with drift-detection tooling whose stated evaluation standard is
 still qualitative prose: *"Performance is generally measured by how accurate, powerful, and
 explainable the model is."* Zero hits for AUC/precision/recall/backtest. Backtesting the score is
@@ -57,8 +58,9 @@ stated calibration cannot be audited by the person relying on it.
 
 ## 3. The Observability Question
 
-Before scoring anything: **is your churn event even observable?** The BTYD literature — Fader,
-Hardie & Lee, *"Counting Your Customers" the Easy Way* (Marketing Science 24(2), 2005), on
+Before scoring anything: **is your churn event even observable?** The BTYD (buy-till-you-die)
+literature — Fader, Hardie & Lee, *"Counting Your Customers" the Easy Way* (Marketing Science
+24(2), 2005), on
 Schmittlein, Morrison & Colombo (1987) — draws a distinction the CS canon never makes. In a
 **contractual** setting (subscription, renewal date) churn is observed on a known day; in a
 **non-contractual** one (usage-based, self-serve) it's unobserved: *"The point at which a customer
@@ -106,7 +108,8 @@ not first. `assets/churn_baseline_check.py` runs this exact check.
 as "will not churn" underestimates propensity for recent cohorts. Survival models "typically have
 a concordance index between 0.55 and 0.75" (lifelines) — a same-dataset Cox fit reporting 0.93 is a
 red flag, traced to a duration-leaking covariate (`TotalCharges` ≈ `tenure × MonthlyCharges`);
-done correctly (IPCW, censoring-adjusted) on a comparable set: 0.7515, inside the honest range.
+done correctly (IPCW — inverse-probability-of-censoring weighting — censoring-adjusted) on a
+comparable set: 0.7515, inside the honest range.
 `assets/churn_baseline_check.py` flags any concordance outside 0.55–0.75 as a leakage signal.
 
 **Never-ship note, this file's own domain**: a bare percentage with no method is unusable

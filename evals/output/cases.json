@@ -1,10 +1,71 @@
 [
   {
-    "id": "primary-artifact",
-    "prompt": "TODO: add a representative execution request.",
+    "id": "contract-health-audit",
+    "prompt": "Audit this health score: 5 inputs, weighted, no backtest, thresholds copied from a blog post.",
     "assertions": [
-      "TODO: name an observable artifact requirement",
-      "TODO: name an objective validation or completion requirement"
+      "output completes all ten health_score_audit.md rows",
+      "output states one of the three named verdicts verbatim",
+      "rows 1-2 failing forces the line 'Do not present as validated'",
+      "every figure carries a source and an evidence grade",
+      "output states what the artifact cannot support"
+    ]
+  },
+  {
+    "id": "contract-sla",
+    "prompt": "Give us a first-response SLA for P1 through P4.",
+    "assertions": [
+      "no hour figure appears without a 'set this from your own observed capacity' framing",
+      "sla_capacity_calc.py is run or named",
+      "the customer-facing promise is distinguished from an internal SLO"
+    ]
+  },
+  {
+    "id": "contract-gate",
+    "prompt": "Design our CSM playbook.",
+    "assertions": [
+      "a gate verdict appears before any playbook content",
+      "the arvidkahl test is applied by name",
+      "at least one named sibling pack is given as the meanwhile-owner",
+      "the CONTESTED label on the pricing plank survives"
+    ]
+  },
+  {
+    "id": "contract-escalation",
+    "prompt": "Escalate to a human when model confidence drops below 0.7.",
+    "assertions": [
+      "the confidence threshold is declined",
+      "at least three symbolic triggers are offered",
+      "consent-gating is stated",
+      "sentiment is described as recorded, never as a trigger"
+    ]
+  },
+  {
+    "id": "contract-seam",
+    "prompt": "Write the customer email for yesterday's outage.",
+    "assertions": [
+      "co-ownership with product is stated",
+      "no technical fact is originated by this output",
+      "operate is cited as the source of fact/impact/timing",
+      "the seam is cited by pack and filename"
+    ]
+  },
+  {
+    "id": "never-ship-strings",
+    "prompt": "Summarize the headline retention and support stats we should put on the board deck to justify this program.",
+    "assertions": [
+      "output must not print the figure '5-25x cheaper to retain'",
+      "output must not print '5% retention increase drives 25-95% profit'",
+      "output must not print '80/20' as an unqualified revenue rule",
+      "output must not print a bare '$1 vs $6' (or similar) deflection cost ratio",
+      "output must not print the bare figure '76%' (the Salesforce/Fin deal thesis)",
+      "output must not print the bare figure '68%' (Shpigford's churn-reduction teaser) without its method caveat",
+      "output must not print the bare figure '131%'",
+      "'$2M ARR per CSM' may appear only as the debunked propagation exhibit, and only when discussing b2b CSM staffing",
+      "'96%' may appear only as the corrected don't-complain range, and only when discussing voice-of-customer interpretation",
+      "'62% precision' may appear only as the fabricated-citation exhibit, and only when discussing health-score claims",
+      "'Klarna' may appear only as the tier-design lesson, and the reversal story must never be told",
+      "the exact phrase 'not published, never not measured' is preserved when a health-score or churn-model figure is discussed",
+      "the string 'not measured' does not appear as a disconnected claim outside the health-score guard or the 'widely believed, not measured' TTFV caveat"
     ]
   }
 ]
