@@ -70,6 +70,15 @@ Every writer reads FIRST: authoring standard, synthesis (whole), their row above
 Reports to .orchestrate/reports/w{N}-report.md: files written, row coverage (R18), rulings applied,
 never-ship self-check result, open items. Primacy headers + Contents line >100-line files.
 
+## 3b. Controller notes for integrator (added during composition)
+
+- INVENTORY OMISSION (2026-08-02): `_raw/_raw-gh-voc-onboarding-csops.md` (C's 4th raw) was
+  missing from every writer source row. W5 used its Formbricks + churnkey material correctly.
+  Integrator: sweep that raw for UNUSED onboarding/CS-ops findings and either fold pointers into
+  the owning file or record a reasoned skip in your report.
+- W3 caught + fixed a near-verbatim quote from Chatwoot Captain's enterprise/ (CITE-ONLY) tree;
+  W2 warned. Integrator: grep the pack for Captain/liquid-template phrasing as a belt-and-braces check.
+
 ## 4. Chain after writers
 
 Integrator (opus): SKILL.md faceted router (12 jobs × 4 surfaces + overlay), description ≤600 chars

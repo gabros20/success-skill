@@ -1,6 +1,6 @@
 interface:
-  display_name: "Success"
-  short_description: "Help customers adopt, realize value, renew, and expand"
-  default_prompt: "Use $success to TODO: provide one short, realistic starting request."
+  display_name: "Customer Success"
+  short_description: "Keep customers after they buy — support, health, renewals"
+  default_prompt: "Use $success to audit our customer health score and tell me what it can honestly predict."
 policy:
   allow_implicit_invocation: true

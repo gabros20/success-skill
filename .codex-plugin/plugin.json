@@ -1,7 +1,7 @@
 {
   "name": "success-skill",
   "version": "1.0.0",
-  "description": "Help customers adopt, realize value, renew, and expand",
+  "description": "Keep customers after they buy — support, health, renewals",
   "author": {
     "name": "gabros20",
     "url": "https://github.com/gabros20"
@@ -9,17 +9,24 @@
   "homepage": "https://success-skill.vercel.app",
   "repository": "https://github.com/gabros20/success-skill",
   "license": "MIT",
-  "keywords": ["agent-skill", "success"],
+  "keywords": [
+    "agent-skill",
+    "success",
+    "customer-success",
+    "customer-support",
+    "churn",
+    "retention"
+  ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Success",
-    "shortDescription": "Help customers adopt, realize value, renew, and expand",
-    "longDescription": "Help customers adopt, realize value, renew, and expand",
+    "displayName": "Customer Success",
+    "shortDescription": "Keep customers after they buy — support, health, renewals",
+    "longDescription": "Post-purchase work with the epistemics attached: whether a distinct success function is warranted yet, the onboarding program (not the in-product flow), help content and knowledge base, support process and SLAs as promises, AI-support policy, health and churn-risk signals, voice-of-customer interpretation, retention execution, renewals and expansion, and customer-facing incident comms. The flagship answers what a health score can actually predict, why a correct prediction may not help, and whether the churn event is observable at all.",
     "developerName": "gabros20",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Use $success to TODO: provide one short starter request."
+      "Use $success to audit our customer health score and tell me what it can honestly predict."
     ],
     "brandColor": "#ea580c"
   }
