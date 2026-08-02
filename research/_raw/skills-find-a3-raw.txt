@@ -1,0 +1,415 @@
+=== TERM: escalation ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145myaklang/hack-skills@linux-privilege-escalation[0m [36m2.2K installs[0m
+[38;5;102m└ https://skills.sh/yaklang/hack-skills/linux-privilege-escalation[0m
+
+[38;5;145myaklang/hack-skills@windows-privilege-escalation[0m [36m2.2K installs[0m
+[38;5;102m└ https://skills.sh/yaklang/hack-skills/windows-privilege-escalation[0m
+
+[38;5;145manthropics/knowledge-work-plugins@customer-escalation[0m [36m2.2K installs[0m
+[38;5;102m└ https://skills.sh/anthropics/knowledge-work-plugins/customer-escalation[0m
+
+[38;5;145manthropics/claude-for-legal@escalation-flagger[0m [36m384 installs[0m
+[38;5;102m└ https://skills.sh/anthropics/claude-for-legal/escalation-flagger[0m
+
+[38;5;145mlouisblythe/salesskills@negative-sentiment-de-escalation[0m [36m192 installs[0m
+[38;5;102m└ https://skills.sh/louisblythe/salesskills/negative-sentiment-de-escalation[0m
+
+[38;5;145manthropics/knowledge-work-plugins@escalation[0m [36m169 installs[0m
+[38;5;102m└ https://skills.sh/anthropics/knowledge-work-plugins/escalation[0m
+
+
+=== TERM: SLA ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145manthropics/skills@slack-gif-creator[0m [36m59.7K installs[0m
+[38;5;102m└ https://skills.sh/anthropics/skills/slack-gif-creator[0m
+
+[38;5;145mjimliu/baoyu-skills@baoyu-translate[0m [36m22.9K installs[0m
+[38;5;102m└ https://skills.sh/jimliu/baoyu-skills/baoyu-translate[0m
+
+[38;5;145mgithub/awesome-copilot@mkdocs-translations[0m [36m8.7K installs[0m
+[38;5;102m└ https://skills.sh/github/awesome-copilot/mkdocs-translations[0m
+
+[38;5;145maffaan-m/everything-claude-code@visa-doc-translate[0m [36m5.4K installs[0m
+[38;5;102m└ https://skills.sh/affaan-m/everything-claude-code/visa-doc-translate[0m
+
+[38;5;145mclaude-office-skills/skills@slack-workflows[0m [36m3.9K installs[0m
+[38;5;102m└ https://skills.sh/claude-office-skills/skills/slack-workflows[0m
+
+[38;5;145manthropics/knowledge-work-plugins@slack-messaging[0m [36m3.2K installs[0m
+[38;5;102m└ https://skills.sh/anthropics/knowledge-work-plugins/slack-messaging[0m
+
+
+=== TERM: customer education ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mvivy-yi/xiaohongshu-skills@brand-operation[0m [36m297 installs[0m
+[38;5;102m└ https://skills.sh/vivy-yi/xiaohongshu-skills/brand-operation[0m
+
+[38;5;145mvivy-yi/xiaohongshu-skills@content-marketing[0m [36m224 installs[0m
+[38;5;102m└ https://skills.sh/vivy-yi/xiaohongshu-skills/content-marketing[0m
+
+[38;5;145momer-metin/skills-for-antigravity@education-platforms[0m [36m53 installs[0m
+[38;5;102m└ https://skills.sh/omer-metin/skills-for-antigravity/education-platforms[0m
+
+[38;5;145msylphxai/skills@customer-training-academy-review[0m [36m38 installs[0m
+[38;5;102m└ https://skills.sh/sylphxai/skills/customer-training-academy-review[0m
+
+[38;5;145mcdeistopened/opened-vault@opened-identity[0m [36m19 installs[0m
+[38;5;102m└ https://skills.sh/cdeistopened/opened-vault/opened-identity[0m
+
+[38;5;145momer-metin/skills-for-antigravity@live-education[0m [36m15 installs[0m
+[38;5;102m└ https://skills.sh/omer-metin/skills-for-antigravity/live-education[0m
+
+
+=== TERM: user documentation ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145munnoo/zsxq-skill@zsxq-user[0m [36m4.5K installs[0m
+[38;5;102m└ https://skills.sh/unnoo/zsxq-skill/zsxq-user[0m
+
+[38;5;145moimiragieo/agent-studio@doc-generator[0m [36m64 installs[0m
+[38;5;102m└ https://skills.sh/oimiragieo/agent-studio/doc-generator[0m
+
+[38;5;145mpeterbamuhigire/skills-web-dev@manual-guide[0m [36m41 installs[0m
+[38;5;102m└ https://skills.sh/peterbamuhigire/skills-web-dev/manual-guide[0m
+
+[38;5;145mmatteocervelli/llms@documentation-updater[0m [36m30 installs[0m
+[38;5;102m└ https://skills.sh/matteocervelli/llms/documentation-updater[0m
+
+[38;5;145mvisualdust/outline-skills@outline-skills[0m [36m24 installs[0m
+[38;5;102m└ https://skills.sh/visualdust/outline-skills/outline-skills[0m
+
+[38;5;145mkanopi/cms-cultivator@documentation-generator[0m [36m15 installs[0m
+[38;5;102m└ https://skills.sh/kanopi/cms-cultivator/documentation-generator[0m
+
+
+=== TERM: docs site ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mforcedotcom/afv-library@generating-ui-bundle-site[0m [36m1.5K installs[0m
+[38;5;102m└ https://skills.sh/forcedotcom/afv-library/generating-ui-bundle-site[0m
+
+[38;5;145msonofmagic/skills@docs-and-website-sync[0m [36m156 installs[0m
+[38;5;102m└ https://skills.sh/sonofmagic/skills/docs-and-website-sync[0m
+
+[38;5;145mremotion-dev/remotion@docs[0m [36m139 installs[0m
+[38;5;102m└ https://skills.sh/remotion-dev/remotion/docs[0m
+
+[38;5;145mrheinmir/setup@docs-site-macos[0m [36m137 installs[0m
+[38;5;102m└ https://skills.sh/rheinmir/setup/docs-site-macos[0m
+
+[38;5;145mmicrosoftdocs/agent-skills@azure-site-recovery[0m [36m101 installs[0m
+[38;5;102m└ https://skills.sh/microsoftdocs/agent-skills/azure-site-recovery[0m
+
+[38;5;145mrstackjs/agent-skills@rspress-docs-generator[0m [36m94 installs[0m
+[38;5;102m└ https://skills.sh/rstackjs/agent-skills/rspress-docs-generator[0m
+
+
+=== TERM: community management ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mvivy-yi/xiaohongshu-skills@community-management[0m [36m148 installs[0m
+[38;5;102m└ https://skills.sh/vivy-yi/xiaohongshu-skills/community-management[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@community-management[0m [36m130 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/community-management[0m
+
+[38;5;145mpawbytes/skill-suites@paw-mkt-community[0m [36m107 installs[0m
+[38;5;102m└ https://skills.sh/pawbytes/skill-suites/paw-mkt-community[0m
+
+[38;5;145malterlab-ieu/alterlab-fc-skills@alterlab-nmc-community-manager[0m [36m41 installs[0m
+[38;5;102m└ https://skills.sh/alterlab-ieu/alterlab-fc-skills/alterlab-nmc-community-manager[0m
+
+[38;5;145msocial-media-skills/skills@community-management[0m [36m34 installs[0m
+[38;5;102m└ https://skills.sh/social-media-skills/skills/community-management[0m
+
+[38;5;145mmohitagw15856/pm-claude-skills@community-management-playbook[0m [36m31 installs[0m
+[38;5;102m└ https://skills.sh/mohitagw15856/pm-claude-skills/community-management-playbook[0m
+
+
+=== TERM: customer advocacy ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145maaron-he-zhu/aaron-marketing-skills@advocacy-program-designer[0m [36m341 installs[0m
+[38;5;102m└ https://skills.sh/aaron-he-zhu/aaron-marketing-skills/advocacy-program-designer[0m
+
+[38;5;145mncklrs/startup-os-skills@customer-lifecycle-marketer[0m [36m202 installs[0m
+[38;5;102m└ https://skills.sh/ncklrs/startup-os-skills/customer-lifecycle-marketer[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@developer-advocacy[0m [36m128 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/developer-advocacy[0m
+
+[38;5;145mjonathimer/devmarketing-skills@developer-advocacy[0m [36m72 installs[0m
+[38;5;102m└ https://skills.sh/jonathimer/devmarketing-skills/developer-advocacy[0m
+
+[38;5;145mgtmagents/gtm-agents@advocacy-roster-system[0m [36m61 installs[0m
+[38;5;102m└ https://skills.sh/gtmagents/gtm-agents/advocacy-roster-system[0m
+
+[38;5;145mgtmagents/gtm-agents@advocacy-programs[0m [36m60 installs[0m
+[38;5;102m└ https://skills.sh/gtmagents/gtm-agents/advocacy-programs[0m
+
+
+=== TERM: upsell ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mnexscope-ai/ecommerce-skills@shopify-upsell-cross-sell[0m [36m540 installs[0m
+[38;5;102m└ https://skills.sh/nexscope-ai/ecommerce-skills/shopify-upsell-cross-sell[0m
+
+[38;5;145mlouisblythe/salesskills@deal-upselling[0m [36m194 installs[0m
+[38;5;102m└ https://skills.sh/louisblythe/salesskills/deal-upselling[0m
+
+[38;5;145mlouisblythe/salesskills@cross-sell-upsell-detection[0m [36m192 installs[0m
+[38;5;102m└ https://skills.sh/louisblythe/salesskills/cross-sell-upsell-detection[0m
+
+[38;5;145mfinsilabs/awesome-ecommerce-skills@cross-sell-upsell-engine[0m [36m76 installs[0m
+[38;5;102m└ https://skills.sh/finsilabs/awesome-ecommerce-skills/cross-sell-upsell-engine[0m
+
+[38;5;145mzanecole10/software-tailor-skills@upsell-opportunity-identifier[0m [36m35 installs[0m
+[38;5;102m└ https://skills.sh/zanecole10/software-tailor-skills/upsell-opportunity-identifier[0m
+
+[38;5;145mdmend3z/tribo-skills@upsell-downsell-scripting[0m [36m17 installs[0m
+[38;5;102m└ https://skills.sh/dmend3z/tribo-skills/upsell-downsell-scripting[0m
+
+
+=== TERM: expansion revenue ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mdeanpeters/product-manager-skills@saas-revenue-growth-metrics[0m [36m1.9K installs[0m
+[38;5;102m└ https://skills.sh/deanpeters/product-manager-skills/saas-revenue-growth-metrics[0m
+
+[38;5;145monewave-ai/claude-skills@expansion-revenue-finder[0m [36m156 installs[0m
+[38;5;102m└ https://skills.sh/onewave-ai/claude-skills/expansion-revenue-finder[0m
+
+[38;5;145mncklrs/startup-os-skills@renewal-manager[0m [36m124 installs[0m
+[38;5;102m└ https://skills.sh/ncklrs/startup-os-skills/renewal-manager[0m
+
+[38;5;145mborghei/claude-skills@intl-expansion[0m [36m92 installs[0m
+[38;5;102m└ https://skills.sh/borghei/claude-skills/intl-expansion[0m
+
+[38;5;145mswan-gtm/gtm-skills@expansion-revenue-architect[0m [36m15 installs[0m
+[38;5;102m└ https://skills.sh/swan-gtm/gtm-skills/expansion-revenue-architect[0m
+
+[38;5;145mskenetechnologies/plg-skills@expansion-revenue[0m [36m9 installs[0m
+[38;5;102m└ https://skills.sh/skenetechnologies/plg-skills/expansion-revenue[0m
+
+
+=== TERM: QBR ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145manthropics/knowledge-work-plugins@quarterly-review[0m [36m1K installs[0m
+[38;5;102m└ https://skills.sh/anthropics/knowledge-work-plugins/quarterly-review[0m
+
+[38;5;145mguia-matthieu/clawfu-skills@qbr-preparation[0m [36m160 installs[0m
+[38;5;102m└ https://skills.sh/guia-matthieu/clawfu-skills/qbr-preparation[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@account-management[0m [36m152 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/account-management[0m
+
+[38;5;145mncklrs/startup-os-skills@qbr-facilitator[0m [36m125 installs[0m
+[38;5;102m└ https://skills.sh/ncklrs/startup-os-skills/qbr-facilitator[0m
+
+[38;5;145mindranilbanerjee/digital-marketing-pro@qbr-plan[0m [36m91 installs[0m
+[38;5;102m└ https://skills.sh/indranilbanerjee/digital-marketing-pro/qbr-plan[0m
+
+[38;5;145mqqbrowserteam/qqbrowser-skill@qqbrowser-skill[0m [36m83 installs[0m
+[38;5;102m└ https://skills.sh/qqbrowserteam/qqbrowser-skill/qqbrowser-skill[0m
+
+
+=== TERM: account management ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mfinsilabs/awesome-ecommerce-skills@accounts-payable-management[0m [36m189 installs[0m
+[38;5;102m└ https://skills.sh/finsilabs/awesome-ecommerce-skills/accounts-payable-management[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@account-management[0m [36m152 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/account-management[0m
+
+[38;5;145mhoodini/ai-agents-skills@aws-account-management[0m [36m133 installs[0m
+[38;5;102m└ https://skills.sh/hoodini/ai-agents-skills/aws-account-management[0m
+
+[38;5;145mteam-telnyx/skills@telnyx-account-management-javascript[0m [36m57 installs[0m
+[38;5;102m└ https://skills.sh/team-telnyx/skills/telnyx-account-management-javascript[0m
+
+[38;5;145mteam-telnyx/skills@telnyx-account-management-python[0m [36m46 installs[0m
+[38;5;102m└ https://skills.sh/team-telnyx/skills/telnyx-account-management-python[0m
+
+[38;5;145mmodelslab/skills@modelslab-account-management[0m [36m42 installs[0m
+[38;5;102m└ https://skills.sh/modelslab/skills/modelslab-account-management[0m
+
+
+=== TERM: success playbook ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mclaude-office-skills/skills@customer-success[0m [36m3.7K installs[0m
+[38;5;102m└ https://skills.sh/claude-office-skills/skills/customer-success[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@customer-success-playbook[0m [36m130 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/customer-success-playbook[0m
+
+[38;5;145m404kidwiz/claude-supercode-skills@customer-success-manager[0m [36m91 installs[0m
+[38;5;102m└ https://skills.sh/404kidwiz/claude-supercode-skills/customer-success-manager[0m
+
+[38;5;145mjohnlindquist/claude@cass-memory[0m [36m40 installs[0m
+[38;5;102m└ https://skills.sh/johnlindquist/claude/cass-memory[0m
+
+[38;5;145msylphxai/skills@customer-success-playbook-review[0m [36m34 installs[0m
+[38;5;102m└ https://skills.sh/sylphxai/skills/customer-success-playbook-review[0m
+
+[38;5;145momer-metin/skills-for-antigravity@customer-success[0m [36m24 installs[0m
+[38;5;102m└ https://skills.sh/omer-metin/skills-for-antigravity/customer-success[0m
+
+
+=== TERM: product adoption ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mdonchitos/claude-code-game-studios@adopt[0m [36m221 installs[0m
+[38;5;102m└ https://skills.sh/donchitos/claude-code-game-studios/adopt[0m
+
+[38;5;145mvasilyu1983/ai-agents-public@dev-ai-coding-metrics[0m [36m87 installs[0m
+[38;5;102m└ https://skills.sh/vasilyu1983/ai-agents-public/dev-ai-coding-metrics[0m
+
+[38;5;145mpratikshadake/claude-product-management-skills@feature-adoption-analyzer[0m [36m41 installs[0m
+[38;5;102m└ https://skills.sh/pratikshadake/claude-product-management-skills/feature-adoption-analyzer[0m
+
+[38;5;145masgard-ai-platform/skills@grad-innovation-diffusion-bass[0m [36m28 installs[0m
+[38;5;102m└ https://skills.sh/asgard-ai-platform/skills/grad-innovation-diffusion-bass[0m
+
+[38;5;145masgard-ai-platform/skills@soc-innovation-diffusion[0m [36m26 installs[0m
+[38;5;102m└ https://skills.sh/asgard-ai-platform/skills/soc-innovation-diffusion[0m
+
+[38;5;145mmurphytrueman/design-system-ops@adoption-report[0m [36m13 installs[0m
+[38;5;102m└ https://skills.sh/murphytrueman/design-system-ops/adoption-report[0m
+
+
+=== TERM: support automation ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145msecondsky/sap-skills@sap-btp-cias[0m [36m317 installs[0m
+[38;5;102m└ https://skills.sh/secondsky/sap-skills/sap-btp-cias[0m
+
+[38;5;145mrmyndharis/antigravity-skills@customer-support[0m [36m68 installs[0m
+[38;5;102m└ https://skills.sh/rmyndharis/antigravity-skills/customer-support[0m
+
+[38;5;145msylphxai/skills@support-automation-governance-review[0m [36m32 installs[0m
+[38;5;102m└ https://skills.sh/sylphxai/skills/support-automation-governance-review[0m
+
+[38;5;145mrolemodel/rolemodel-skills@ai-ux-enhancements[0m [36m28 installs[0m
+[38;5;102m└ https://skills.sh/rolemodel/rolemodel-skills/ai-ux-enhancements[0m
+
+[38;5;145mskills.volces.com@depression-support[0m [36m14 installs[0m
+[38;5;102m└ https://skills.sh/skills.volces.com/depression-support[0m
+
+[38;5;145mitsimonfredlingjack/codex-dev-plugin@customer-support[0m [36m10 installs[0m
+[38;5;102m└ https://skills.sh/itsimonfredlingjack/codex-dev-plugin/customer-support[0m
+
+
+=== TERM: AI support agent ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mgoogleworkspace/cli@persona-customer-support[0m [36m24.3K installs[0m
+[38;5;102m└ https://skills.sh/googleworkspace/cli/persona-customer-support[0m
+
+[38;5;145mreaddle/spark-cli-skills@spark-persona-support-agent[0m [36m107 installs[0m
+[38;5;102m└ https://skills.sh/readdle/spark-cli-skills/spark-persona-support-agent[0m
+
+[38;5;145mdatadrivenconstruction/ddc_skills_for_ai_agents_in_construction@decision-support[0m [36m73 installs[0m
+[38;5;102m└ https://skills.sh/datadrivenconstruction/ddc_skills_for_ai_agents_in_construction/decision-support[0m
+
+[38;5;145mjabrena/cursor-rules-java@801-regulations-eu-ai-act[0m [36m49 installs[0m
+[38;5;102m└ https://skills.sh/jabrena/cursor-rules-java/801-regulations-eu-ai-act[0m
+
+[38;5;145momer-metin/skills-for-antigravity@customer-support-ai-tools[0m [36m19 installs[0m
+[38;5;102m└ https://skills.sh/omer-metin/skills-for-antigravity/customer-support-ai-tools[0m
+
+[38;5;145mwadewarren/gws-claude-plugin@persona-customer-support[0m [36m17 installs[0m
+[38;5;102m└ https://skills.sh/wadewarren/gws-claude-plugin/persona-customer-support[0m
+
+
+=== TERM: chatbot support ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145manthropics/knowledge-work-plugins@build-zoom-team-chat-app[0m [36m1.5K installs[0m
+[38;5;102m└ https://skills.sh/anthropics/knowledge-work-plugins/build-zoom-team-chat-app[0m
+
+[38;5;145mcinience/alicloud-skills@alicloud-ai-chatbot[0m [36m279 installs[0m
+[38;5;102m└ https://skills.sh/cinience/alicloud-skills/alicloud-ai-chatbot[0m
+
+[38;5;145mmembranedev/application-skills@chatbot-builder[0m [36m225 installs[0m
+[38;5;102m└ https://skills.sh/membranedev/application-skills/chatbot-builder[0m
+
+[38;5;145mrampstackco/claude-skills@chatbot-flow-design[0m [36m153 installs[0m
+[38;5;102m└ https://skills.sh/rampstackco/claude-skills/chatbot-flow-design[0m
+
+[38;5;145mmembranedev/application-skills@herobot-chatbot-marketing[0m [36m87 installs[0m
+[38;5;102m└ https://skills.sh/membranedev/application-skills/herobot-chatbot-marketing[0m
+
+[38;5;145meng0ai/eng0-template-skills@ai-chatbot[0m [36m57 installs[0m
+[38;5;102m└ https://skills.sh/eng0ai/eng0-template-skills/ai-chatbot[0m
+
+
+=== TERM: csat ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mguia-matthieu/clawfu-skills@account-health[0m [36m165 installs[0m
+[38;5;102m└ https://skills.sh/guia-matthieu/clawfu-skills/account-health[0m
+
+[38;5;145msimota/agent-skills@voice[0m [36m155 installs[0m
+[38;5;102m└ https://skills.sh/simota/agent-skills/voice[0m
+
+[38;5;145mabsolutelyskilled/absolutelyskilled@support-analytics[0m [36m124 installs[0m
+[38;5;102m└ https://skills.sh/absolutelyskilled/absolutelyskilled/support-analytics[0m
+
+[38;5;145moldwinter/skills@designing-surveys[0m [36m46 installs[0m
+[38;5;102m└ https://skills.sh/oldwinter/skills/designing-surveys[0m
+
+[38;5;145masgard-ai-platform/skills@cs-analytics[0m [36m42 installs[0m
+[38;5;102m└ https://skills.sh/asgard-ai-platform/skills/cs-analytics[0m
+
+[38;5;145mstudiochat/skills@data-expert[0m [36m21 installs[0m
+[38;5;102m└ https://skills.sh/studiochat/skills/data-expert[0m
+
+
+=== TERM: customer journey ===
+
+[38;5;102mInstall with[0m npx skills add <owner/repo@skill>
+
+[38;5;145mphuryn/pm-skills@customer-journey-map[0m [36m2K installs[0m
+[38;5;102m└ https://skills.sh/phuryn/pm-skills/customer-journey-map[0m
+
+[38;5;145mdeanpeters/product-manager-skills@customer-journey-map[0m [36m1.9K installs[0m
+[38;5;102m└ https://skills.sh/deanpeters/product-manager-skills/customer-journey-map[0m
+
+[38;5;145mdeanpeters/product-manager-skills@customer-journey-mapping-workshop[0m [36m1.7K installs[0m
+[38;5;102m└ https://skills.sh/deanpeters/product-manager-skills/customer-journey-mapping-workshop[0m
+
+[38;5;145mproduct-on-purpose/pm-skills@discover-journey-map[0m [36m377 installs[0m
+[38;5;102m└ https://skills.sh/product-on-purpose/pm-skills/discover-journey-map[0m
+
+[38;5;145monewave-ai/claude-skills@customer-journey-mapper[0m [36m163 installs[0m
+[38;5;102m└ https://skills.sh/onewave-ai/claude-skills/customer-journey-mapper[0m
+
+[38;5;145mrampstackco/claude-skills@journey-mapping[0m [36m126 installs[0m
+[38;5;102m└ https://skills.sh/rampstackco/claude-skills/journey-mapping[0m
+
+
+DONE

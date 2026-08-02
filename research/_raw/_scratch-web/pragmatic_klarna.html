@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Klarna’s AI chatbot: how revolutionary is it, really? - The Pragmatic Engineer</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w256h256/2024/06/The-Pragmatic-Engineer-Blog-Publication-Icon--Logo-.png">
+
+    <link rel="stylesheet" type="text/css" href="https://blog.pragmaticengineer.com/assets/css/screen.css?v=VJNo3vrG_tjV-vWx" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <meta name="description" content="Klarna launched its AI chatbot, built in collaboration with OpenAI, which the company wants to use to eliminate 2/3rds of customer support positions. But is it as revolutionary, and as likely to replace jobs, as Klarna claims?">
+    <link rel="icon" href="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w256h256/2024/06/The-Pragmatic-Engineer-Blog-Publication-Icon--Logo-.png" type="image/png">
+    <link rel="canonical" href="https://blog.pragmaticengineer.com/klarnas-ai-chatbot/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="The Pragmatic Engineer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Klarna’s AI chatbot: how revolutionary is it, really?">
+    <meta property="og:description" content="Klarna launched its AI chatbot, built in collaboration with OpenAI, which the company wants to use to eliminate 2/3rds of customer support positions. But is it as revolutionary, and as likely to replace jobs, as Klarna claims?">
+    <meta property="og:url" content="https://blog.pragmaticengineer.com/klarnas-ai-chatbot/">
+    <meta property="article:published_time" content="2024-08-08T10:59:48.000Z">
+    <meta property="article:modified_time" content="2024-08-08T11:44:02.000Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Klarna’s AI chatbot: how revolutionary is it, really?">
+    <meta name="twitter:description" content="Klarna launched its AI chatbot, built in collaboration with OpenAI, which the company wants to use to eliminate 2/3rds of customer support positions. But is it as revolutionary, and as likely to replace jobs, as Klarna claims?">
+    <meta name="twitter:url" content="https://blog.pragmaticengineer.com/klarnas-ai-chatbot/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2023/05/Big-Tech---startups---from-the-inside.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Gergely Orosz">
+    <meta name="twitter:site" content="@GergelyOrosz">
+    <meta name="twitter:creator" content="@GergelyOrosz">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Pragmatic Engineer",
+        "url": "https://blog.pragmaticengineer.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2015/12/pragmatic-engineer-profile-image.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Gergely Orosz",
+        "url": "https://blog.pragmaticengineer.com/author/gergely/",
+        "sameAs": [
+            "https://x.com/GergelyOrosz"
+        ]
+    },
+    "headline": "Klarna’s AI chatbot: how revolutionary is it, really?",
+    "url": "https://blog.pragmaticengineer.com/klarnas-ai-chatbot/",
+    "datePublished": "2024-08-08T10:59:48.000Z",
+    "dateModified": "2024-08-08T11:44:02.000Z",
+    "description": "Klarna launched its AI chatbot, built in collaboration with OpenAI, which the company wants to use to eliminate 2/3rds of customer support positions. But is it as revolutionary, and as likely to replace jobs, as Klarna claims?",
+    "mainEntityOfPage": "https://blog.pragmaticengineer.com/klarnas-ai-chatbot/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.55">
+    <link rel="alternate" type="application/rss+xml" title="The Pragmatic Engineer" href="https://blog.pragmaticengineer.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js" data-i18n="true" data-ghost="https://blog.pragmaticengineer.com/" data-key="e19be39046770b14a9d5caceb0" data-api="https://pragmatic-engineer.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="e19be39046770b14a9d5caceb0" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://pragmatic-engineer.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://blog.pragmaticengineer.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=D6OJpxckK_6QDJ1o"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=zbOBSN8qHrr3rC6Y">
+    <script defer src="/public/member-attribution.min.js?v=fGWxp7cZ6mmurhvN"></script>
+    <script defer src="/public/ghost-stats.min.js?v=XExDLZJ3NKpv0kSa" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://blog.pragmaticengineer.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="39f85cc7-8637-40fc-a57c-f45754453717" tb_post_uuid="4f7da921-b6cf-4196-9aa7-9cda43d41989" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #15171A;}</style>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.css" />
+<style>
+    pre[class*=language-] {
+        margin: 1.75em 0;
+    }
+</style>
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav mobile">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home elusive-icon Home" role="presentation"><a href="https://blog.pragmaticengineer.com/">Home</a></li>
+            <li class="nav-newsletter elusive-icon Newsletter" role="presentation"><a href="https://newsletter.pragmaticengineer.com/about">Newsletter</a></li>
+            <li class="nav-podcast elusive-icon Podcast" role="presentation"><a href="https://pragmaticpodcast.com">Podcast</a></li>
+            <li class="nav-sponsors elusive-icon Sponsors" role="presentation"><a href="https://blog.pragmaticengineer.com/sponsors/">Sponsors</a></li>
+            <li class="nav-ethics-statement elusive-icon Ethics statement" role="presentation"><a href="https://blog.pragmaticengineer.com/ethics-statement/">Ethics statement</a></li>
+            <li class="nav-now elusive-icon Now" role="presentation"><a href="https://blog.pragmaticengineer.com/now/">Now</a></li>
+            <li class="nav-my-books elusive-icon My Books" role="presentation"><a href="https://blog.pragmaticengineer.com/books/">My Books</a></li>
+            <li class="nav-early-trends elusive-icon Early trends" role="presentation"><a href="https://blog.pragmaticengineer.com/early-trends/">Early trends</a></li>
+            <li class="nav-investing elusive-icon Investing" role="presentation"><a href="https://blog.pragmaticengineer.com/investing/">Investing</a></li>
+            <li class="nav-write-a-guest-article elusive-icon Write a guest article" role="presentation"><a href="https://blog.pragmaticengineer.com/pragmatic-engineer-guest-article/">Write a guest article</a></li>
+            <li class="nav-contact-me elusive-icon Contact me" role="presentation"><a href="https://blog.pragmaticengineer.com/contact/">Contact me</a></li>
+            <li class="nav-about elusive-icon About" role="presentation"><a href="https://blog.pragmaticengineer.com/about/">About</a></li>
+            <li class="nav-rss-feed elusive-icon RSS Feed" role="presentation"><a href="https://blog.pragmaticengineer.com/feed/">RSS Feed</a></li>
+            <li class="nav-bluesky elusive-icon bluesky" role="presentation"><a href="https://bsky.app/profile/gergely.pragmaticengineer.com/">bluesky</a></li>
+            <li class="nav-twitter elusive-icon twitter" role="presentation"><a href="http://twitter.com/GergelyOrosz">twitter</a></li>
+            <li class="nav-youtube elusive-icon youtube" role="presentation"><a href="https://www.youtube.com/@pragmaticengineer">youtube</a></li>
+            <li class="nav-linkedin elusive-icon linkedin" role="presentation"><a href="http://www.linkedin.com/in/gergelyorosz">linkedin</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="https://blog.pragmaticengineer.com/rss/">Subscribe</a>
+</div>
+<span class="nav-cover mobile"></span>
+
+<div class="nav-desktop">
+  <ul class="sidebar-nav">
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/" class="elusive-icon Home" rel="me">Home</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://newsletter.pragmaticengineer.com/about" class="elusive-icon Newsletter" rel="me">Newsletter</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://pragmaticpodcast.com" class="elusive-icon Podcast" rel="me">Podcast</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/sponsors/" class="elusive-icon Sponsors" rel="me">Sponsors</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/ethics-statement/" class="elusive-icon Ethics statement" rel="me">Ethics statement</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/now/" class="elusive-icon Now" rel="me">Now</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/books/" class="elusive-icon My Books" rel="me">My Books</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/early-trends/" class="elusive-icon Early trends" rel="me">Early trends</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/investing/" class="elusive-icon Investing" rel="me">Investing</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/pragmatic-engineer-guest-article/" class="elusive-icon Write a guest article" rel="me">Write a guest article</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/contact/" class="elusive-icon Contact me" rel="me">Contact me</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/about/" class="elusive-icon About" rel="me">About</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/feed/" class="elusive-icon RSS Feed" rel="me">RSS Feed</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://bsky.app/profile/gergely.pragmaticengineer.com/" class="elusive-icon bluesky" rel="me">bluesky</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="http://twitter.com/GergelyOrosz" class="elusive-icon twitter" rel="me">twitter</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://www.youtube.com/@pragmaticengineer" class="elusive-icon youtube" rel="me">youtube</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="http://www.linkedin.com/in/gergelyorosz" class="elusive-icon linkedin" rel="me">linkedin</a>
+        </li>
+  </ul>
+
+</div>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="blog-logo" href="https://blog.pragmaticengineer.com"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2015/12/pragmatic-engineer-profile-image.png" alt="The Pragmatic Engineer" /></a>
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post no-image">
+
+        <header class="post-header">
+            <h1 class="post-title">Klarna’s AI chatbot: how revolutionary is it, really?</h1>
+        </header>
+
+        <section class="post-content" id="content">
+          <!--
+          <p><em>Before we start: I'm hosting the first-ever <strong><a href="https://www.pragmaticsummit.com/">The Pragmatic Summit</a></strong> on 11 February, 2026, in San Francisco. Join 400 top engineers and leaders as we answer the question: How is AI reshaping software engineering, dev workflows, and the modern engineering stack? 
+          Spaces are limited - don't miss out! <strong><a href="https://www.pragmaticsummit.com/">Buy tickets here</a></strong>.
+
+          </em></p>
+          -->
+
+            <p>The below article was originally published <a href="https://newsletter.pragmaticengineer.com/p/the-pulse-83?ref=blog.pragmaticengineer.com" rel="noreferrer">in The Pragmatic Engineer</a>, on 29 February 2024. I am re-publishing it 6 months later as a free-to-read article. This is because the below case is a good example on hype versus reality with GenAI. <em>To get timely analysis like this in your inbox, </em><a href="https://newsletter.pragmaticengineer.com/about?ref=blog.pragmaticengineer.com" rel="noreferrer"><em>subscribe to The Pragmatic Engineer</em></a><em>.</em></p><hr><p><em>Klarna launched its AI chatbot, built in collaboration with OpenAI, which the company wants to use to eliminate 2/3rds of customer support positions. But is it as revolutionary, and as likely to replace jobs, as Klarna claims? My take is that it’s a well-written bot, but I’m dubious that it’s as disruptive as that.</em></p><p>Klarna is going all-in on AI: more specifically, on OpenAI. I have confirmed this through talking with software engineers there, who told me there’s a top-down mandate to utilize AI wherever possible in an effort to drive more efficiency, and product improvements. It’s not exactly a secret, nor is the fact that Klarna’s cofounder and CEO Sebastian Siemiatkowski is a huge OpenAI fan. Two weeks ago, Fortune&nbsp;<a href="https://fortune.com/2024/02/13/klarna-ceo-sebastian-siemiatkowski-embracing-ai-ipo/?ref=blog.pragmaticengineer.com">reported</a>:</p><blockquote>“Drawing on a common investor, Siemiatkowski reached out to OpenAI CEO Sam Altman last year, telling him: ‘I want Klarna to be your favorite guinea pig.’ The two companies have worked together ever since.”</blockquote><p>A few days ago on 27 February, Klarna shared progress, a month after the project went live.</p><blockquote>“Klarna today announced its AI assistant powered by OpenAI. Now live globally for 1 month, the numbers speak for themselves:The AI assistant has had 2.3 million conversations, two-thirds of Klarna’s customer service chatsIt is doing the equivalent work of 700 full-time agentsIt is on par with human agents in regard to customer satisfaction scoreIt is more accurate in errand resolution, leading to a 25% drop in repeat inquiriesCustomers now resolve errands in less than 2 mins compared to 11 mins previouslyIt’s available in 23 markets, 24/7 and communicates in more than 35 languagesIt’s estimated to drive a $40 million USD in profit improvement to Klarna in 2024”</blockquote><p>Drawing on this press release, Siemiatkowski then&nbsp;<a href="https://twitter.com/klarnaseb/status/1762508581679640814?ref=blog.pragmaticengineer.com">posted on X</a>, unintentionally painting a gloomy picture of the future of customer support jobs:</p><blockquote>“In our case, customer service has been handled by on average 3000 full time agents employed by our customer service / outsourcing partners. Those partners employ 200, 000 people, so in the short term this will only mean that those agents will work for other customers of those partners.<br><br>But in the longer term, as more companies adopt these technologies, we believe society needs to consider the impact. While it may be a positive impact for society as a whole, we need to consider the implications for the individuals affected.<br><br>We decided to share these statistics to raise awareness and encourage a proactive approach to the topic of AI. For decision makers worldwide to recognise this is not just "in the future", this is happening right now.”</blockquote><p>But what does this chatbot do, and is it bad news for customer support jobs today, and in the future? I signed up to try it out. As a spoiler, it’s well-built, and will probably be a blueprint for how to put an L1 (first-level support) chatbot together.</p><h4 id="the-klarna-chatbot-experience">The Klarna chatbot experience</h4><p>The chatbot can be started either with a generic question, or about a specific purchase. I bought an item using Klarna, and started talking about it with the bot. The experience is snappy: in 20 seconds, you always get an answer:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image.png" class="kg-image" alt="" loading="lazy" width="654" height="480" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image.png 654w"><figcaption><span style="white-space: pre-wrap;">This is how Klarna’s chatbot works</span></figcaption></figure><p>On one hand, the bot is a tool that seems to find relevant parts of documentation, and then shares these sections. This feels word-by-word, or sometimes summarized. Where it goes beyond being just a simple search tool is when it injects order-specific context:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-1.png" class="kg-image" alt="" loading="lazy" width="1304" height="986" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image-1.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w1000/2024/08/image-1.png 1000w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-1.png 1304w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Chatting about an item includes context on the price of the item, the merchant and the date of purchase. It’s all weaved in nicely into the responses.</span></figcaption></figure><p>It can also venture in other areas – for example, it gets chatty when asking about the history of the company:</p><p>Overall, it feels like the chatbot is carefully designed to not allow it to go into details that are not on a whitelist. Although it is possible to bypass these restrictions – we’ll see examples below – it is not trivial to do so.</p><h4 id="common-questions-for-the-chatbot">Common questions for the chatbot</h4><p>Amusingly, when I asked the bot for the most-asked questions by customers, it gave a list:</p><ul><li>Payment-related queries. How to make a payment; confirm a payment or extend a payment due date</li><li>Order issues: questions or concerns about orders – not receiving goods or receiving faulty of broken items</li><li>Personal detail updates</li><li>Unauthorized purchases</li><li>Questions about Karna’s policies</li></ul><p>And some rarer questions, as per this bot:</p><ul><li>Less common scenarios: a purchase not reflecting in the Klarna account due to a technical glitch; understanding unique payment agreements; splitting payments across multiple cards</li><li>Asking for help about rare error messages</li></ul><h4 id="chatbot-safety-guards-and-limitations">Chatbot safety guards and limitations</h4><p>One of the biggest downsides of chatbots is that they hallucinate. Under the hood, Klarna’s bot uses ChatGPT’s APIs. We’ve&nbsp;<a href="https://newsletter.pragmaticengineer.com/p/scaling-chatgpt?ref=blog.pragmaticengineer.com">previously covered how ChatGPT works</a>– it generates a list of possible next words (tokens) based on the input, and chooses the highest probability one. This means that it can (and does!) make things up, if left unchecked.</p><p>This was how Air Canada’s chatbot made up a non-existent policy, which Air Canada&nbsp;<a href="https://newsletter.pragmaticengineer.com/i/141931320/ai-hallucination-costs-air-canada?ref=blog.pragmaticengineer.com">claimed it was not liable for</a>, but a judge ruled otherwise.</p><p>Klarna put up safety guards, and over the course of 15 minutes of probing, I could not get the chatbot to hallucinate; i.e: come up with something that’s incorrect. I assume there’s a verification step which compares the output to a whitelist of permitted topics, and that specific policy information must be recounted word for word.</p><p>When an “out of bounds” topic comes up, the chatbot hands over to a human agent:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-2.png" class="kg-image" alt="" loading="lazy" width="1276" height="790" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image-2.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w1000/2024/08/image-2.png 1000w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-2.png 1276w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">My first attempt to get the chatbot to talk about non-shopping related topics led to a swift handoff to a human agent</span></figcaption></figure><h4 id="poking-at-the-system-prompt">Poking at the system prompt</h4><p>A system prompt is a way to provide context and instructions before passing on the user input. These prompts specify things like when to end the conversation, topics to avoid, and other high-level instructions. With clever-enough probing, this system prompt can be revealed. For example,&nbsp;<a href="https://pastebin.com/vnxJ7kQk?ref=blog.pragmaticengineer.com">here’s ChatGPT’s recent system prompt</a>, and an excerpt with instructions on image generation:</p><blockquote>“Whenever a description of an image is given, create a prompt that dall-e can use to generate the image and abide by the following policy:<br><br>The prompt must be in English. Translate to English if needed.<br><br>DO NOT ask for permission to generate the image, just do it!<br><br>DO NOT list or refer to the descriptions before OR after generating the images.<br><br>Do not create more than 1 image, even if the user requests more.<br><br>Do not create images of politicians or other public figures. Recommend other ideas instead.<br><br>Do not create images in the style of artists, creative professionals or studios whose latest work was created after 1912 (e.g. Picasso, Kahlo).<br><br>You can name artists, creative professionals or studios in prompts only if their latest work was created prior to 1912 (e.g. Van Gogh, Goya).”</blockquote><p>What is the system prompt for Klarna’s bot? I couldn’t get the chatbot to share all of it, but I got some interesting details for when the bot stops responding and connects to a human agent:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-3.png" class="kg-image" alt="" loading="lazy" width="1308" height="1418" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image-3.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w1000/2024/08/image-3.png 1000w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-3.png 1308w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Examples of topics the chatbot was instructed to not engage with – most likely confiugred via its system prompt</span></figcaption></figure><p>It’s likely that Klarna put these guardrails in place within its system prompt. And it also explains why the bot handed me off to human agents when I went out of bounds on topics.</p><h4 id="prompt-injection">Prompt injection</h4><p>Another risk with chatbots is prompt injection. Software engineer – and Django creator – Simon Willison covered this topic in detail in his post,&nbsp;<a href="https://simonwillison.net/2022/Sep/16/prompt-injection-solutions/?ref=blog.pragmaticengineer.com">I don’t know how to solve prompt injection</a>:</p><blockquote>“Language models like GPT-3 are the ultimate black boxes. It doesn’t matter how many automated tests I write, I can never be 100% certain that a user won’t come up with some grammatical construct I hadn’t predicted that will subvert my defenses.”</blockquote><p>Users have already managed to bypass protections the Klarna team has put in place to produce output that should not be possible – but it was, thanks to clever grammatical prompting, proving that even this carefully built bot is not immune to it:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-4.png" class="kg-image" alt="" loading="lazy" width="1092" height="1254" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image-4.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w1000/2024/08/image-4.png 1000w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-4.png 1092w" sizes="(min-width: 720px) 720px"><figcaption><i><em class="italic" style="white-space: pre-wrap;">A user of the Klarna chatbot managed to get the chatbot to generate code. This is an example of deliberate prompt injection. Source:&nbsp;</em></i><a href="https://twitter.com/colin_fraser?ref=blog.pragmaticengineer.com" rel=""><i><em class="italic" style="white-space: pre-wrap;">Colin fraser on X</em></i></a></figcaption></figure><h4 id="speaking-multiple-languages">Speaking multiple languages</h4><p>One impressive capability of Klarna’s bot is that it holds the same conversation in around 30 languages. I’m a native Hungarian speaker, which is so rare that even Amazon does not support it. To my surprise, Klarna’s assistant switched over, and informed me of my order, and whether I had other questions using grammar on a par with a human speaker. The information was a direct translation of what it told me when I asked the same question in English. Still, this is an area in which I can see demand for capabilities that do not exist today, like more extensive support for niche languages, and tiny markets. Suddenly, Klarna’s chatbot is there to support dozens of locations.</p><h4 id="what-does-this-chatbot-really-replace">What does this chatbot really replace?</h4><p>The CEO of Klarna says the chatbot did the work of 700 customer service representatives. However, the bot transfers anything more complex than adding basic context to a human.&nbsp;</p><p><strong>This chatbot seems a good example of a way to eliminate most “L1” support;&nbsp;</strong>i.e:<strong>&nbsp;</strong>the initial point of contact for users seeking technical support, which handles basic queries and straightforward questions. Level 2 and Level 3 support are handled by trained staff. A user with a rare and complex issue would often go through L1 and L2 support to reach an agent who can help.</p><p>To me, it seems that Klarna’s bot does really well on oft-repeated questions with the same answers. So, it now acts as a new “first line of defense,” meaning Klarna would indeed need fewer, less trained, L1 support staff. This is the warning in the CEO’s message.</p><p>It’s clear this is just the start for Klarna, and they’ll experiment with adding more complex flows to the bot, trying to handle more complicated queries in an automated way. The challenge is to do this safely, given large language models (LLMs) are non-deterministic, and trusting it with sensitive data is a bad idea. Klarna is a Fintech company, so there are few things more embarrassing than this chatbot leaking sensitive financial details of customers, and outsiders accessing it! I expect Klarna to be very cautious here, and perhaps only human agents will have access to sensitive data.</p><h4 id="is-automating-away-l1-support-revolutionary">Is automating away L1 support revolutionary?</h4><p>Klarna’s AI chatbot integration is well-built and it’s safe to assume it is probably the most comprehensive integration at this scale,&nbsp;<em>right now</em>. I’m making this assumption having tested it, and also based on the close relationship Klarna has with OpenAI. Perhaps the company is, indeed, OpenAI’s “favorite guinea pig,” at least for now!</p><p>Klarna’s claim that it saves $40M per year with this chatbot is plausible because:</p><ul><li>The system does the work of 700 agents&nbsp;<em>at any given point in time</em></li><li>Agents usually work in 8-hour shifts, meaning 3 agents need to work to offer 24/7 support</li><li>This means that 2,100 L1 support jobs could be lost to this bot</li><li>… which matches with how Klarna offloaded 2/3rds of their customer support load to this system: they worked with 3,000 customer support agents, mostly from external companies</li><li>… and this means the company paid $19,000 per agent annually, on average</li></ul><p><strong>Automating L1 support is not that revolutionary, and has been done previously on different systems.&nbsp;</strong>For example,<strong>&nbsp;</strong>If you have called phone support and experienced the automated “please press 1 for this, 2 for that” script; well, that was an early example of automating away L1 support.</p><p>I talked with a software engineer who worked at Citibank in around 2008, when the company decided to eliminate its L1 support system, and automate support via a phone system. Over two years, the team automated 95% of phone support requests and closed a call center of 7,000 people in Mexico. As part of this work, Citibank did something interesting and realized that this system annoyed customers, and risked churning high value customers. So they added a condition that was something like this:</p><p>if (customer_is_high_value) {<br>&nbsp; // Connect to human, do not put them into the automated call sequence<br>} else<br>&nbsp; // Low value or free customer, have them go through automation<br>}</p><p>A big difference between Klarna and Citibank is that the latter did not brag about it at the time.</p><p><strong>So, I don’t really buy that this is revolutionary in business terms, beyond AI’s own revolutionary potential.&nbsp;</strong>If anything, it illustrates Klarna was overspending as if it was still <a href="https://newsletter.pragmaticengineer.com/p/zirp?ref=blog.pragmaticengineer.com" rel="noreferrer">the old, now-departed, ZIRP era</a>. The company could have easily automated away L1 support that answers basic questions for low-value customers ages ago, without an LLM. The company simply didn’t prioritize it, and was happy to spend $60M per year on customer support. <em>We previously covered more </em><a href="https://newsletter.pragmaticengineer.com/p/zirp?ref=blog.pragmaticengineer.com" rel="noreferrer"><em>on what the end of ZIRP means for the tech industry</em></a><em>.</em></p><p>Now that Klarna has an AI-based system in place, it has something which mature companies built before LLMs existed! At places like Uber, people are connected to a support person when their query cannot be solved by providing readily-available, basic information, and there is also automation built to handle common queries. For example, if your UberEats order is missing an item, you can report this and receive an automatic refund, all without human intervention – no AI agent needed (although a machine learning model surely runs in the background, flagging possible fraudulent refunds, in which case routing to a human agent likely happens.)</p><p><strong>More companies will soon have access to LLM-based L1 support automation.&nbsp;</strong>Klarna’s CEO says his company is saving tens of millions in customer support costs thanks to&nbsp;<em>an AI chatbot</em>&nbsp;built in a few months, so this&nbsp;<em>will</em>&nbsp;get the attention of other companies which have not yet thought about how to deal with L1 support.&nbsp;</p><h4 id="does-ai-bot-building-solve-the-right-problem">Does AI bot-building solve the right problem?</h4><p>I created this image to provoke thoughts:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-5.png" class="kg-image" alt="" loading="lazy" width="936" height="1406" srcset="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w600/2024/08/image-5.png 600w, https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/08/image-5.png 936w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">It’s a lot more interesting – and faster – to create an AI chatbot, than to fix confusing UIs and products.</span></figcaption></figure><p>On one hand, offering chat support is something many customers will appreciate because chat is often a more convenient process. On the other hand, if chat support is the preferred feedback channel, it could mean it’s not a priority to make the UI easy and self-explanatory, and the product logical and simple to use. So, AI bots might not always be the best option, even if your org has the opportunity to build them.&nbsp;</p>
+
+
+            <!-- Newsletter -->
+            <p>
+              <a href="https://newsletter.pragmaticengineer.com/about">Subscribe to my weekly newsletter</a> to get articles like this in your inbox. It's a pretty good read - and the <a href="https://substack.com/top/technology">#1 software engineering newsletter</a> on Substack.
+            </p>
+            
+        </section>
+
+        <footer class="post-footer">
+
+          <section class="podcast-details">
+          <h4>The Pragmatic Engineer Podcast</h4>
+            <p>
+              Deepdives with experienced engineers and tech professionals who share their hard-earned lessons, interesting stories and advice they have on building software. 
+            </p>              
+            <p>
+              Listen to it <a href="https://open.spotify.com/show/2Bho9xCbOQMWMJ7UKmqCzD">on Spotify</a>, on <a href="https://podcasts.apple.com/us/podcast/the-pragmatic-engineer/id1769051199">Apple</a>, on <a href="https://www.youtube.com/@pragmaticengineer">YouTube</a>, or <a href="https://pragmaticpodcast.com/">on the web</a>.
+            </p>
+         </section>
+         
+         <section class="book-details">
+          <h4>The Software Engineer's Guidebook</h4>
+            <p>
+              I wrote <a href="https://www.engguidebook.com/">The Software Engineer's Guidebook</a>. Here is what Tanya Reilly, senior principal engineer and author of <a href="https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/">The Staff Engineer's Path</a> says about it:
+            </p>
+              <blockquote>
+              "From performance reviews to P95 latency, from team dynamics to testing, Gergely demystifies all aspects of a software career. This book is well named: <strong>it really does feel like the missing guidebook for the whole industry.</strong>"
+              </blockquote>
+              
+              <p style="padding-top:20px">
+                <a href="https://www.engguidebook.com/">
+                  <img src="/assets/img/EngGuidebook.jpg" alt="The Software Engineer's Guidebook" style="width: 100%; max-width: 300px; margin: 0 auto; display: block;"/>
+                </a>
+              </p>
+              <p>
+                <a href="https://www.engguidebook.com/">Get the book here.</a>
+              </p>
+         </section>
+
+         <section class="conference-details">
+          <h4>Annual conference talk</h4>
+            <p>
+
+              Every year, I do one conference talk in the US, and one in Europe. My next conference talk is at <a href="https://leaddev.com/leaddev-new-york/?utm_source=pragmaticengineer&utm_medium=email&utm_campaign=pragmaticengineer">LDX3 New York</a>, on 15 September 2026.
+
+              Previous talks:
+            </p>
+            <ul>
+              <li><a href="https://newsletter.pragmaticengineer.com/p/slow-down-to-speed-up">Slow down to speed up</a> - Craft Conference, 2026</li>
+              <li><a href="https://newsletter.pragmaticengineer.com/p/software-engineering-with-llms-in-2025">Software engineering with LLMs: reality check</a> - LDX3, London, 2025</li>
+            </ul>
+            <p>
+              <strong>
+               
+                </strong>
+            </p>
+              <!--
+              
+              
+              In 2025, this will be at <a href="https://leaddev.com/leaddev-london/?utm_source=the-pragmatic-engineer&utm_medium=newsletter-social&utm_campaign=LON25-media-community-partner">LDX3 (formerly: LeadDev)</a> in London, 16 June 2025. My keynote is titled "Software engineering with GenAI." If you'll <a href="https://leaddev.com/leaddev-london/?utm_source=the-pragmatic-engineer&utm_medium=newsletter-social&utm_campaign=LON25-media-community-partner">be there</a>, come say hi!
+              
+              -->
+            
+         </section>
+
+        <section class="newsletter" id="newsletter-second"> <!-- Section that gets moved up -->
+          <h4>Newsletter</h4>
+          <p>
+            Enjoying this article? <a href="https://newsletter.pragmaticengineer.com/about">Subscribe to my newsletter</a> to get issues like this in your inbox. It's a good read and the <a href="https://substack.com/top/technology">#1 software engineering / AI engineering newsletter</a> on Substack.
+          </p>
+        </section>
+
+          <section class="authorAndShare">
+
+              <section class="author">
+
+                <h4><a href="/author/gergely/">Gergely Orosz</a></h4>
+                <section class="post-meta">
+                    Last updated <time class="post-date" datetime="2024-08-08">08 August 2024</time>. Originally published 08 Aug 2024.
+                    <br>&copy; Gergely Orosz, 2024
+                </section>
+                    <p>Writing The Pragmatic Engineer Newsletter. Author of The Software Engineer&#x27;s Guidebook. Previously at Uber, Microsoft, Skype, Skyscanner.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Amsterdam, Netherlands</span>
+                    
+                </div>
+
+              </section>
+
+
+              <section class="share">
+                  <h4>Share this post</h4>
+                  <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Klarna%E2%80%99s%20AI%20chatbot%3A%20how%20revolutionary%20is%20it%2C%20really%3F&amp;url=https://blog.pragmaticengineer.com/klarnas-ai-chatbot/"
+                      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                      <span class="hidden">Twitter</span>
+                  </a>
+                  <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://blog.pragmaticengineer.com/klarnas-ai-chatbot/"
+                      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                      <span class="hidden">Facebook</span>
+                  </a>
+              </section>
+            <section>
+        </footer>
+    </article>
+</main>
+
+<aside class="sidebar">
+  <img class="profile-image" src="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2015/12/pragmatic-engineer-profile-image.png" alt="" />
+  <!--
+  // to display a custom image, copy the image into assets/img/profile-img.png and replace the previous line with this:
+  <img class="profile-image" src="https://blog.pragmaticengineer.com/assets/img/profile-image.png?v=bdd05dea88" alt="" />
+  -->
+
+  <section class="publisher">by <strong>Gergely Orosz</strong></section>
+
+  <div class="nav mobile">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home elusive-icon Home" role="presentation"><a href="https://blog.pragmaticengineer.com/">Home</a></li>
+            <li class="nav-newsletter elusive-icon Newsletter" role="presentation"><a href="https://newsletter.pragmaticengineer.com/about">Newsletter</a></li>
+            <li class="nav-podcast elusive-icon Podcast" role="presentation"><a href="https://pragmaticpodcast.com">Podcast</a></li>
+            <li class="nav-sponsors elusive-icon Sponsors" role="presentation"><a href="https://blog.pragmaticengineer.com/sponsors/">Sponsors</a></li>
+            <li class="nav-ethics-statement elusive-icon Ethics statement" role="presentation"><a href="https://blog.pragmaticengineer.com/ethics-statement/">Ethics statement</a></li>
+            <li class="nav-now elusive-icon Now" role="presentation"><a href="https://blog.pragmaticengineer.com/now/">Now</a></li>
+            <li class="nav-my-books elusive-icon My Books" role="presentation"><a href="https://blog.pragmaticengineer.com/books/">My Books</a></li>
+            <li class="nav-early-trends elusive-icon Early trends" role="presentation"><a href="https://blog.pragmaticengineer.com/early-trends/">Early trends</a></li>
+            <li class="nav-investing elusive-icon Investing" role="presentation"><a href="https://blog.pragmaticengineer.com/investing/">Investing</a></li>
+            <li class="nav-write-a-guest-article elusive-icon Write a guest article" role="presentation"><a href="https://blog.pragmaticengineer.com/pragmatic-engineer-guest-article/">Write a guest article</a></li>
+            <li class="nav-contact-me elusive-icon Contact me" role="presentation"><a href="https://blog.pragmaticengineer.com/contact/">Contact me</a></li>
+            <li class="nav-about elusive-icon About" role="presentation"><a href="https://blog.pragmaticengineer.com/about/">About</a></li>
+            <li class="nav-rss-feed elusive-icon RSS Feed" role="presentation"><a href="https://blog.pragmaticengineer.com/feed/">RSS Feed</a></li>
+            <li class="nav-bluesky elusive-icon bluesky" role="presentation"><a href="https://bsky.app/profile/gergely.pragmaticengineer.com/">bluesky</a></li>
+            <li class="nav-twitter elusive-icon twitter" role="presentation"><a href="http://twitter.com/GergelyOrosz">twitter</a></li>
+            <li class="nav-youtube elusive-icon youtube" role="presentation"><a href="https://www.youtube.com/@pragmaticengineer">youtube</a></li>
+            <li class="nav-linkedin elusive-icon linkedin" role="presentation"><a href="http://www.linkedin.com/in/gergelyorosz">linkedin</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="https://blog.pragmaticengineer.com/rss/">Subscribe</a>
+</div>
+<span class="nav-cover mobile"></span>
+
+<div class="nav-desktop">
+  <ul class="sidebar-nav">
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/" class="elusive-icon Home" rel="me">Home</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://newsletter.pragmaticengineer.com/about" class="elusive-icon Newsletter" rel="me">Newsletter</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://pragmaticpodcast.com" class="elusive-icon Podcast" rel="me">Podcast</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/sponsors/" class="elusive-icon Sponsors" rel="me">Sponsors</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/ethics-statement/" class="elusive-icon Ethics statement" rel="me">Ethics statement</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/now/" class="elusive-icon Now" rel="me">Now</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/books/" class="elusive-icon My Books" rel="me">My Books</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/early-trends/" class="elusive-icon Early trends" rel="me">Early trends</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/investing/" class="elusive-icon Investing" rel="me">Investing</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/pragmatic-engineer-guest-article/" class="elusive-icon Write a guest article" rel="me">Write a guest article</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/contact/" class="elusive-icon Contact me" rel="me">Contact me</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/about/" class="elusive-icon About" rel="me">About</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://blog.pragmaticengineer.com/feed/" class="elusive-icon RSS Feed" rel="me">RSS Feed</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://bsky.app/profile/gergely.pragmaticengineer.com/" class="elusive-icon bluesky" rel="me">bluesky</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="http://twitter.com/GergelyOrosz" class="elusive-icon twitter" rel="me">twitter</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="https://www.youtube.com/@pragmaticengineer" class="elusive-icon youtube" rel="me">youtube</a>
+        </li>
+        <li class="nav-desktop" role="presentation">
+          <a href="http://www.linkedin.com/in/gergelyorosz" class="elusive-icon linkedin" rel="me">linkedin</a>
+        </li>
+  </ul>
+
+</div>
+
+
+  
+<ul>
+  <li><a href="https://blog.pragmaticengineer.com/newsletter" class="elusive-icon email">Subscribe via email</a></li>
+  <li><a href="http://feeds.feedburner.com/ThePragmaticEngineer" class="elusive-icon rss">Subscribe in a reader</a></li>
+</ul>
+
+
+
+  <footer class="site-footer clearfix">
+    <section class="copyright"><a href="https://blog.pragmaticengineer.com">The Pragmatic Engineer</a> &copy; 2024</section>
+</footer>
+
+</aside>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="/speakers-for-eu-tech-events/">
+        <section class="post">
+            <h2>Speakers for Amsterdam / Netherlands Tech Events</h2>
+            <p>I (Gergely) sometimes get reachouts to do talks at events in Amsterdam (where I am based,) the Netherlands, or&hellip;</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2024/07/Craft_1.jpg)" href="/the-software-engineering-industry-in-2024/">
+        <section class="post">
+            <h2>The software engineering industry in 2024: what changed, why, and what is next</h2>
+            <p>The past 18 months have seen major change reshape the tech industry. What does it all mean for businesses&hellip;</p>
+        </section>
+    </a>
+</aside>
+
+
+<!-- Signup move up -->
+<script>
+  let contentParent = document.getElementById("content");
+  let newsletterWithFormElement = document.getElementById("newsletter");
+  let newsletterWithoutFormElement = document.getElementById("newsletter-second");
+
+  let newsLetterTargetPosition = getLastElementBeforeSpecificNode(contentParent.children, "H2", 2); // Add after the 2nd h2
+
+  if(contentParent.children.length > newsLetterTargetPosition) {
+    let nextSibling = contentParent.children[newsLetterTargetPosition];
+    contentParent.insertBefore(newsletterWithoutFormElement, nextSibling);
+  } else {
+    newsletterWithoutFormElement.style.display = "none"
+  }
+
+  function getLastElementBeforeSpecificNode(nodes, nodeName, numberOfNodesToPass) {
+    var numberOfSpecificNodessSeen = 0;
+    for(let i=0;i<nodes.length; i++) {
+      if(nodes[i].nodeName == nodeName) {
+        numberOfSpecificNodessSeen += 1;
+      }
+      if(numberOfSpecificNodessSeen == numberOfNodesToPass+1) {
+        if(i > 0) {
+          return i;
+        } else {
+          return nodes.lenght;
+        }
+      }
+    }
+  }
+
+</script>
+
+    </div>
+
+    <!-- Geniuslink -->
+<!--
+<script type="text/javascript" src="//cdn.geni.us/snippet.min.js" defer></script>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+var tsid =116191;
+Genius.amazon.addOnClickRedirect(tsid, false, "https://buy.geni.us"); });
+</script>-->
+
+<!-- Google Analytics -->
+<!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7745037-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+-->
+
+<!-- Plausible -->
+<script async defer data-domain="blog.pragmaticengineer.com" src="https://plausible.io/js/plausible.js"></script>
+
+<!-- Source code higlighting -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-css.min.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://blog.pragmaticengineer.com/assets/js/jquery.fitvids.js?v=z1Nmfc9MKQxCtlIV"></script>
+    <script type="text/javascript" src="https://blog.pragmaticengineer.com/assets/js/index.js?v=wmn33DUYd3qPYenJ"></script>
+
+</body>
+</html>

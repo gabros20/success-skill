@@ -1,0 +1,533 @@
+total 784
+retweets 100
+--- expansion 2026-03-20T21:10:54+00:00 https://x.com/lincolnmurphy/status/2035101801905869116
+I'm giving away Five AI agents for Customer Success. |  | The Invisible Handoff | The Trust Radar | The Expansion Signal Detector | The Churn Risk Summarizer | The Earned Ask. |  | Registered for Wednesday's webinar? You get the repo Monday. |  | Not registered yet? WTF are you waiting for? |  | https://t.co/pp0xUJy8Gg
+
+--- AI agent 2026-03-18T17:23:58+00:00 https://x.com/lincolnmurphy/status/2034319914207473776
+When you open this app you immediately feel behind. |  | Everyone is replacing their teams with AI agents and agentic workflows. |  | Of course, that's just performative agentmaxxing. "Look what I built that may work in theory." Cool, bro. |  | Want to know how Agentic Workflows are actually working in real Cus
+
+--- csm 2026-03-13T16:42:40+00:00 https://x.com/lincolnmurphy/status/2032497583038362061
+Done right, agentic workflows mean your CSMs show up to every conversation with more context, more bandwidth, more capacity to go deeper.  |  | Not with fewer customers. With more.  |  | Not at the cost of the relationship. Because of it. Your humans are the moat.  |  | AI is how you scale them.
+
+--- csm 2026-03-09T21:46:43+00:00 https://x.com/lincolnmurphy/status/2031124549731766634
+I wrote a bot that joins Zoom calls and tells the CSM if the customer is trying to manipulate them.
+
+--- complain 2026-03-02T16:32:23+00:00 https://x.com/lincolnmurphy/status/2028508730753438038
+If you spent as much time on achieving the outcome you want to achieve as you do complaining that you don't have it, making excuses for why you can't get there, and blaming everyone and everything else for your lack of success... you'd have that outcome and so much more.
+
+--- ratio 2026-02-20T21:49:34+00:00 https://x.com/lincolnmurphy/status/2024964672638644583
+Hoperationalizing: When you run your company based on vibes and positive thoughts
+
+--- AI agent 2026-02-17T15:33:14+00:00 https://x.com/lincolnmurphy/status/2023782800181060013
+While SaaS stocks got destroyed because of the threat of AI, we were spinning up AI agents at @ListKitio  that make our team 5x more productive. |  | Agentic workflows helping our AMs do work for our customers they can't and don't want to do themselves created an entirely new revenue stream.
+
+--- renewal 2026-02-13T18:57:47+00:00 https://x.com/lincolnmurphy/status/2022384728213795278
+Nice product you got there. Sure would be a shame if someone vibe coded a replacement." |  | That's SaaS renewals now. |  | Your customers don't want to build it themselves. They just want you to know they could. |  | "Give me a discount and this whole idea goes away."
+
+--- CES  2026-02-10T02:26:58+00:00 https://x.com/lincolnmurphy/status/2021048215513202812
+yes... that one customer that's the biggest but stil a small % of revenue becomes a larger and larger consumer of your resources because they feel entitled making their revenue less profitable than the smaller customers. Just don't tell them. Easy.
+
+--- ratio 2026-02-09T00:40:11+00:00 https://x.com/lincolnmurphy/status/2020658953957646811
+You should absolutely give them the vision of the future, and orchestrate when they'll need this other thing. And then sell it to them when they need it. Now it's not a suprise later on; it's something aspirational for them. Changes the game.
+
+--- CES  2026-01-30T21:20:33+00:00 https://x.com/lincolnmurphy/status/2017347223432974433
+Cold emailing the person you want to have a conversation with is great. But they're limited, busy, and might ignore you anyway. |  | You know who they won't ignore? Their partners. Their suppliers. Their investors. The people already in their orbit who can open the door for you. |  | And here's the kicker: 
+
+--- complain 2026-01-27T16:03:27+00:00 https://x.com/lincolnmurphy/status/2016180261751291964
+Need to target companies based on the technology they use? Here are 8 ways: |  | 1. Employee LinkedIn profiles (they list what they work with) | 2. Resumes (same intel, different source) | 3. Their X and LinkedIn posts (people complain and flex about their tools) | 4. Job postings ("Must have experience with 
+
+--- ratio 2026-01-20T16:09:35+00:00 https://x.com/lincolnmurphy/status/2013645089415807309
+It takes one line to take your cold email from the trash to the bank. |  | But that line has to hit something real. |  | Before I write a single word, I define six things: | 1. What loops in their head daily | 2. The identity story they tell themselves | 3. The frustrations they're tired of explaining | 4. Their qu
+
+--- ratio 2026-01-14T16:07:00+00:00 https://x.com/lincolnmurphy/status/2011470110381555966
+Winners enter the conversation. Losers ask for one. | "Worth a conversation?" is the worst cold email CTA. |  | Your prospect wakes up thinking about this problem. Drives to work thinking about it. Lies in bed replaying the same frustration. |  | That's the conversation. |  | Your email doesn't start anything. It
+
+--- ratio 2026-01-13T16:07:00+00:00 https://x.com/lincolnmurphy/status/2011107723689984498
+Stop thinking in campaigns. Start thinking in pipeline generation. |  | Too many people treat outbound like a slot machine.  |  | Build one campaign, launch it, hope it hits. | That's not how this works. |  | Run multiple campaigns at once. Different angles. Different lists. Intent data vs. standard B2B. Offer an
+
+--- CES  2026-01-05T16:14:00+00:00 https://x.com/lincolnmurphy/status/2008210381336944744
+“Services revenue kills valuation.” |  | So we tried to keep it “pure SaaS.” |  | We ran customers on world-class cold email infrastructure. |  | But they had to do everything else: | write campaigns, build lists, optimize. | Most failed. |  | So we did the typical “scaled CS” move: | hours of coaching, trainings, live w
+
+--- ratio 2025-12-19T14:17:19+00:00 https://x.com/lincolnmurphy/status/2002020422674464965
+Sometimes we have to push our customers out of their comfort zone. |  | What's in their best interest is not always the easiest path. |  | We had a customer at @ListKitio  that wanted to only run outbound cold email campaigns a couple of times per year because their business is seasonal. They sell fundraisi
+
+--- renewal 2025-03-31T06:25:40+00:00 https://x.com/lincolnmurphy/status/1906593719085936652
+Q2 churn will hit HARD. Unless... |  | TL;DR: We're running "Save Customers Now!" workshops again—PLG on April 15 and Enterprise on April 17. Stop churn immediately in Q2. |  | I just got this email from a CS leader: |  | "Lincoln, I'm freaking out. With everything going on—economic uncertainty, customers tight
+
+--- expansion 2025-03-27T16:15:00+00:00 https://x.com/lincolnmurphy/status/1905292480938901993
+Same feature. Same product. 10x revenue. |  | But only if you stop bundling it into the initial sale. |  | Here's how Strategic Unbundling works... |  | Most SaaS companies give too much, too soon. |  | And it’s killing their expansion potential. |  | Here’s what they do: |  | 🚫 Bundle every feature into the initial sale—e
+
+--- ratio 2025-03-20T19:44:56+00:00 https://x.com/lincolnmurphy/status/1902808597316440557
+My entire strategy for maximizing LTV and NRR… in one post. |  | In one simple post. Ready? |  | Do these two things: |  | 1️⃣ Get customers to stay longer. | 2️⃣ Get them to buy more, more often, over that extended lifecycle. |  | That’s it. |  | Most companies obsess over #1—but they do it wrong. |  | They focus on “retent
+
+--- ratio 2025-03-19T17:06:15+00:00 https://x.com/lincolnmurphy/status/1902406276375621806
+Fear and growth can’t coexist. |  | I can tell you’re scared by how you talk about customers. |  | How you do Customer Success. |  | And—most of all—by your numbers. |  | If everything is about ‘saving’ customers, I already know you have a scarcity mindset. |  | Any growth you get is from enough net-new sales to offset
+
+--- expansion 2025-03-17T17:41:22+00:00 https://x.com/lincolnmurphy/status/1901690337556312349
+Anti-shrink isn't Growth |  | I watched a company exec get hyped about the latest shiny GTM motion. And I’m just like… |  | You realize you’re sitting on $1.6M in NEW ARR from your existing customers, right? |  | Your revenue isn’t scaling because you’re ONLY trying to grow by bringing in new customers. |  | And af
+
+--- expansion 2025-03-14T20:35:45+00:00 https://x.com/lincolnmurphy/status/1900647055611359405
+Are you growing revenue—or just managing decline? |  | You see the difference. Right? |  | Every customer either expands or drifts toward churn. |  | If you’re not engineering revenue growth, you’re just managing decline. |  | See how one SaaS company stopped leaving expansion to chance—and unlocked $1.6M in ARR in
+
+--- expansion 2025-03-12T17:02:32+00:00 https://x.com/lincolnmurphy/status/1899868625743548679
+Are you acquiring customers—or revenue? | No, for real. Which do you prioritize? |  | Every SaaS company celebrates a closed deal. |  | ❌ They ring the bell. |  | ❌ They update the leaderboard. |  | ❌ They high-five and move on to the next new logo. |  | But the best SaaS companies celebrate revenue acquisition, not just
+
+--- expansion 2025-03-11T21:54:17+00:00 https://x.com/lincolnmurphy/status/1899579658305257479
+Expansion vs. Low-Percentage Saves |  | Most companies will drop everything to try to “save” a customer with a 10% chance of staying… |  | But they’ll ignore a 90%+ expansion opportunity sitting right in front of them. |  | Make it make sense. |  | (Not really... zero interest in hearing why expansion should be dep
+
+--- expansion 2025-03-10T15:15:00+00:00 https://x.com/lincolnmurphy/status/1899116786311680451
+A hidden revenue leak costing you millions | Here’s your Revenue Leak Detector |  | Every SaaS company tracks churn like a hawk. |  | But the smartest, fastest-growing SaaS companies track something even more important: |  | The revenue they should be making—but aren’t. |  | I bet in your company right now: | - If a cu
+
+--- expansion 2025-03-06T23:00:22+00:00 https://x.com/lincolnmurphy/status/1897784347945844946
+If you're a 'Revenue Leader' who prioritizes protecting revenue over expansion, you're not leading revenue—you're managing decline.
+
+--- expansion 2025-03-06T16:15:00+00:00 https://x.com/lincolnmurphy/status/1897682334201282833
+$1.6M in ARR in just 90-days through expansion alone. |  | I just published a Case Study on a CRM company that literally grew revenue within a sizable customer cohort by 5.6x in a single quarter. |  | So how's your Q2 looking? |  | The Case Study breaks down how they did it and the impact it had on their busine
+
+--- expansion 2025-02-24T20:26:01+00:00 https://x.com/lincolnmurphy/status/1894121628390625709
+Your Outdated Upsell Beliefs Are Killing Your Growth. Here’s How to Fix It. |  | I just saw a post talking about expansion and it tried to make this sound interesting: |  | "Double your revenue in less than 5 years with no new customers." |  | Wow. Nope. Outdated upsell beliefs got you thinking in YEARS while I
+
+--- expansion 2025-02-21T20:48:38+00:00 https://x.com/lincolnmurphy/status/1893040153360277968
+REVENUE EXPANSION SIGNALS |  | Most GTM motions are focused on net-new sales - expansion is almost always an afterthought because its considered "slower" or "long-term" revenue. |  | That mindset is why you're missing out on a massive amount of revenue that's literally sitting right in front of you ready to
+
+--- csm 2024-07-15T20:18:08+00:00 https://x.com/lincolnmurphy/status/1812944761265004838
+CSM Comp: Bonuses vs. Variable |  | This is really about incentivizing the behavior that we're looking for. And because it's a bonus, there's not the fear associated with not, with something not working out and you simply not getting your full salary.  |  | If the CSM is doing well, then they're going to go
+
+--- ratio 2024-07-12T18:42:27+00:00 https://x.com/lincolnmurphy/status/1811833518168633810
+CSM Comp - Milestone Velocity Bonuses |  | Another way to do it is velocity. So how quickly are we moving them through these milestones? Remember it's a progress milestone.  |  | So if I can move customers through those faster, that doesn't mean that we're. We're skipping steps. It doesn't mean that we are 
+
+--- expansion 2024-07-01T13:54:05+00:00 https://x.com/lincolnmurphy/status/1807774681216213099
+Don’t worry about upsells until churn is below 10%? |  | Really? No, this mindset limits growth and stifles potential. |  | Unless your environment is overtly customer-negative and you have massive churn across your entire customer base, you don’t need to hit some mythical churn threshold before upselling. | 
+
+--- csm 2024-06-28T17:13:40+00:00 https://x.com/lincolnmurphy/status/1806737743252455673
+How Variable Comp is Done in CS (not good) |  | There was a show a long time ago called Third Rock from the Sun and they were aliens. And they came to earth, it was John Lithgow, was like the main guy, and he found out about tipping at a restaurant. |  | And so it was basically these aliens trying to learn 
+
+--- ratio 2024-06-27T19:47:11+00:00 https://x.com/lincolnmurphy/status/1806413991419445418
+Progress Milestones and CSM Comp |  | Progress milestones are really the basis for operationalized customer success management. If you're not,  if you're not building your operation around the customers moving through these milestones, then I would encourage you to really take a look at what you're oper
+
+--- ratio 2024-06-25T17:45:38+00:00 https://x.com/lincolnmurphy/status/1805658627102933163
+Customers go through 6 types of Progress Milestones |  | Hey, I'm Lincoln Murphy, and I help SaaS companies maximize LTV and grow NRR through scalable expansion, or what I call customer-centric upselling. |  | I want to talk about progress milestones—the backbone of operationalized Customer Success Manageme
+
+--- health score 2024-06-24T18:32:17+00:00 https://x.com/lincolnmurphy/status/1805307975646724389
+Customer Success is really just this ONE thing.   | 👇 |  | Hey, Lincoln Murphy here. And I help SaaS companies maximize LTV and grow NRR through scalable expansion. What I like to call customer centric upselling. |  | Customer Success is foundational to expansion.  |  | It creates the environment for expansion to
+
+--- retention 2023-04-10T19:48:56+00:00 https://x.com/lincolnmurphy/status/1645514217049473024
+In 2023, Email is STILL the main channel for RevOps and GTM teams. |  | That's too much revenue, retention, and growth at risk if your emails fail to engage. |  | Yet, we're seeing a steady decline in email engagement rates. |  | Is that just the way it is or can we do something to improve email engagement? |  | 💡 
+
+--- ratio 2023-04-07T22:26:12+00:00 https://x.com/lincolnmurphy/status/1644466633795072003
+Everybody’s talking about digital Customer Success as a way to scale a CS org, but there's one HUGE thing missing from the conversation. |  | The customer's Appropriate Experience (AX). |  | Watch the video and let me know in the comments how you've used Digital Customer Success - or what I call async engag
+
+--- CES  2023-04-06T22:31:02+00:00 https://x.com/lincolnmurphy/status/1644105461229027329
+🤖How ChatGPT Could Revolutionize Your Customer's Appropriate Experience (AX) and Why You Should Pay Attention🤖 |  | Are you prepared for the future of customer experience? |  | As someone passionate about customer success and engagement, I've been observing the rise of AI technologies like ChatGPT with grea
+
+--- ratio 2023-04-04T06:31:26+00:00 https://x.com/lincolnmurphy/status/1643139194473119753
+If you run a super-basic #ChatGPT prompt without providing training data or additional context, you're simply getting a demonstration of what the language model is capable of. |  | If you want output that's actually useful, you need to be thoughtful and deliberate in crafting prompts. |  | #promptengineerin
+
+--- CES  2023-04-03T20:20:17+00:00 https://x.com/lincolnmurphy/status/1642985391962636288
+ChatGPT does NOT use best practices for content creation, writing emails, etc. by default. |  | This explains why the experience with ChatGPT for many people hasn't been that great. |  | You must create prompts that tell it what to do (and what not to do) if you want to generate output that's actually usabl
+
+--- csm 2023-03-22T16:06:31+00:00 https://x.com/lincolnmurphy/status/1638572878042914821
+Break the CSM burnout cycle with consistency. |  | Unlock the secret to sustainable Customer Success Management without the last-minute scramble. 💥🔑 |  | https://t.co/xMihDPYhz8 |  | #CustomerSuccess
+
+--- csm 2023-03-13T17:39:36+00:00 https://x.com/lincolnmurphy/status/1635334809735270402
+The best CSMs have one thing in common: they're curious... and their customers know it. |  | I think that's maybe technically two things. But you get the idea. |  | https://t.co/v9BdRc2UHL |  | #CustomerSuccess
+
+--- csm 2023-03-01T21:46:24+00:00 https://x.com/lincolnmurphy/status/1631048267306790914
+ChatGPT API Launch: What Customer Success needs to know. |  | CSMs, you're super-busy, so I forgive you for waiting to read this until later. |  | Heads of CS, Ops, &amp; Enablement; read this now to help CSMs be less busy &amp; more effective. |  | https://t.co/s9D2fLbN9e |  | #CustomerSuccess #ChatGPT
+
+--- csm 2023-02-27T18:26:28+00:00 https://x.com/lincolnmurphy/status/1630273174058287106
+All things being equal, the Customer Success Manager (CSM) or Enablement pro who understands Prompt Engineering for tools like ChatGPT is going to get (or keep) the job. |  | Level-up or choose not to. Up to you. |  | https://t.co/McGEDBDBn5 |  | #CustomerSuccess #ChatGPT #promptengineering
+
+--- csm 2023-02-20T23:11:36+00:00 https://x.com/lincolnmurphy/status/1627808214434697216
+We just added an entire section to our Prompt Engineering for Customer Success course all about Content Ideation and Creation in CS. |  | This is for CSMs and Enablement teams. |  | See the updates here: | https://t.co/WHI180Y61O |  | #CustomerSuccess #ai #chatgpt #ContentCreator
+
+--- renewal 2023-02-17T18:58:09+00:00 https://x.com/lincolnmurphy/status/1626657270317604880
+New Post: Unlocking Growth: The Key to Account Expansion |  | "Expansion - not simple renewal - is the ultimate indicator of a successful customer." |  | https://t.co/qkP95GSThf |  | #CustomerSuccess #Sales #cx
+
+--- csm 2023-02-16T19:48:53+00:00 https://x.com/lincolnmurphy/status/1626307648290160640
+Updates to our Prompt Engineering for Customer Success course |  | Added new content on | - Meeting Prep | - Brainstorming | - Writing Engaging Emails | - And more! |  | This is for CSMs, Enablement, &amp; Ops. |  | https://t.co/WHI180Y61O |  | #CustomerSuccess #AI #ChatGPT #promptengineering
+
+--- csm 2023-02-13T18:40:31+00:00 https://x.com/lincolnmurphy/status/1625203280023326739
+You know ChatGPT is powerful, but how is it actually useful to you in Customer Success on a daily basis? |  | Here is a non-exhaustive list of how CSMs, Ops, and Enablement can benefit from AI tools like ChatGPT. |  | https://t.co/ebxKTaRpCv |  | #CustomerSuccess #ChatGPT #AI #CX
+
+--- csm 2023-02-09T20:25:38+00:00 https://x.com/lincolnmurphy/status/1623780183672070146
+Super excited to share our new self-study course:  |  | Prompt Engineering for Customer Success |  | Focused on ChatGPT for now, will update as others enter the chat. |  | For CSMs, Ops, and Enablement. Learn more and purchase here: |  | https://t.co/WHI180Y61O |  | #CustomerSuccess #chatgpt #ai #cx https://t.co/SmaUfC
+
+--- ratio 2022-10-03T23:19:19+00:00 https://x.com/lincolnmurphy/status/1577075857486594051
+Next CSM Training &amp; Cert program starts Mon Oct 10 2022 |  | This advanced course is focused on Psychology, Orchestration, and Execution |  | Learn more and sign-up today: | https://t.co/DOMybawg9J |  | #CustomerSuccess https://t.co/wH0kiSOIEf
+
+--- ratio 2022-08-26T20:35:04+00:00 https://x.com/lincolnmurphy/status/1563263781811400704
+You haphazardly cobble together random tactics and call it Customer Success. |  | I operationalize around the customer's Desired Outcome and know it's Customer Success. |  | We are not the same.  |  | But we could be! |  | #CustomerSuccess training programs start Sep 12 |  | https://t.co/MhV7XbwXvn
+
+--- csm 2022-08-19T19:45:12+00:00 https://x.com/lincolnmurphy/status/1560714520099753985
+Objective vs. Subjective Confidence |  | Confidence is critical for CSMs, but not all confidence is the same. |  | I wrote a little post on LinkedIn that explains the different types of confidence and why this matters. |  | https://t.co/9TH6HUjrWs |  | #CustomerSuccess
+
+--- csm 2022-08-18T17:39:53+00:00 https://x.com/lincolnmurphy/status/1560320592162734082
+CSM Positioning: Glorified Support or Strategic Partner? |  | I just wrote a little post over on LinkedIn about how you're positioning yourself - or your CSMs - poorly with your customers. |  | I also talk about how to fix it... |  | https://t.co/ODILggqdXm |  | #CustomerSuccess
+
+--- csm 2022-08-15T14:43:35+00:00 https://x.com/lincolnmurphy/status/1559189063617445888
+CSMs are Quiet Quitting |  | I wrote a little post over on LinkedIn that explains why this is happening and how to stop it. |  | https://t.co/2WJw4PNdw1 |  | #CustomerSuccess #QuietQuitting
+
+--- csm 2022-08-12T17:16:15+00:00 https://x.com/lincolnmurphy/status/1558140318041751554
+I'm a Great Boss! |  | And yet CSM turnover on my team is high. Weird. |  | I address this in a little post I did over on LinkedIn: | https://t.co/ANFsncQ36z |  | #CustomerSuccess
+
+--- csm 2022-08-03T15:48:13+00:00 https://x.com/lincolnmurphy/status/1554856673927483395
+Join me for Impact Day 2022 in Stockholm on Sept 7, the biggest and best Customer Success event in the Nordics. |  | A full day of Psychology-focused keynotes, workshops, and discussions.  |  | For Heads of CS and CSMs alike. |  | Sign-up today: | https://t.co/eAfXbl99BE |  | #CustomerSuccess https://t.co/FW6kooih8B
+
+--- csm 2022-03-23T19:13:45+00:00 https://x.com/lincolnmurphy/status/1506710811540078601
+World-class CSM Training &amp; Certification | April 25 - May 20, 2022 | Live via Zoom | Learn more and Sign-up: |  | https://t.co/NhTGWWtGTK |  | #CustomerSuccess https://t.co/QepiWZzLMo
+
+--- customer success manager 2022-03-01T18:18:11+00:00 https://x.com/lincolnmurphy/status/1498724293848543232
+The 5 Secrets of World-class Customer Success Managers  |  | Well, they're not secrets anymore. |  |  https://t.co/M0AgbEGRTL  | #customersuccess #customerexperience #cx
+
+--- csm 2022-02-21T17:01:15+00:00 https://x.com/lincolnmurphy/status/1495805832541478917
+Advanced CSM Training &amp; Certification | March 7 - 25, 2022 | Live on Zoom | Learn more and Sign-up: |  | https://t.co/hpAZf4U1Kk |  | #CustomerSuccess https://t.co/bEIMTuJ6m3
+
+--- csm 2021-12-27T19:45:15+00:00 https://x.com/lincolnmurphy/status/1475553381636874242
+World-class CSM Training &amp; Certification | 17 Jan - 18 Feb 2022 | Live on Zoom | Learn more and Sign-up: | https://t.co/VXXm2shjHl |  | #CustomerSuccess https://t.co/subWYKWOC5
+
+--- ratio 2019-02-13T19:44:17+00:00 https://x.com/lincolnmurphy/status/1095770655503593472
+Orchestration and Effortless Upsells |  | #CustomerSuccess #Sales https://t.co/OlkO89Hw4q
+
+--- CES  2019-02-13T19:46:27+00:00 https://x.com/lincolnmurphy/status/1095771201325146112
+I'm bringing my Customer Growth Intensive workshops to San Diego on March 19... there's only space for 1 more company (you can bring up to 3 people). Find out more about these transformative 1-day experiences here: https://t.co/jPKzdjh6q4
+
+--- expansion 2019-02-12T21:42:48+00:00 https://x.com/lincolnmurphy/status/1095438095896494088
+I'm super-excited to share the latest on Designing an Upsell Strategy for Exponential Expansion in this ONLINE workshop on 3/12. |  | If you're responsible for revenue from existing customers - regardless of role - this is for you: |  | https://t.co/Y5R4GX1IP2 |  | #CustomerSuccess #Sales
+
+--- renewal 2019-02-05T19:45:07+00:00 https://x.com/lincolnmurphy/status/1092871764311490561
+Expansion AND renewal are part of the customer’s journey toward success. |  | But you like to hide from - and otherwise avoid talking about - renewals with the customer. Don’t do that... here’s why. |  | #CustomerSuccess #Sales https://t.co/Qrrh5Xhu3m
+
+--- expansion 2019-02-04T18:01:13+00:00 https://x.com/lincolnmurphy/status/1092483228894744578
+Expansion is PART of the customer’s journey toward success. |  | #CustomerSuccess #Sales https://t.co/qw8umliwHR
+
+--- expansion 2019-02-01T19:22:58+00:00 https://x.com/lincolnmurphy/status/1091416636744237058
+Exponential Expansion through Customer Success-driven Growth |  | #CustomerSuccess #Sales https://t.co/N4mvReHyaV
+
+--- CES  2019-02-01T19:26:53+00:00 https://x.com/lincolnmurphy/status/1091417621919158273
+I'm bringing my Customer Growth Intensive workshops to Miami, Toronto, and San Diego... find out more about these transformative 1-day experiences here: https://t.co/jPKzdjh6q4 |  | #CustomerSuccess #Sales
+
+--- expansion 2019-01-29T20:54:34+00:00 https://x.com/lincolnmurphy/status/1090352524001894400
+[ONLINE WORKSHOP] Account Growth: Designing an Upsell Strategy for Exponential Expansion |  | Updated for 2019... Early Bird pricing is in effect so get in now and save $150! |  | https://t.co/Y5R4GXjjGA |  | #CustomerSuccess #Sales #customerexperience #growth #cx
+
+--- csm 2019-01-18T21:46:32+00:00 https://x.com/lincolnmurphy/status/1086379335567708160
+Customer Growth Intensive workshops are coming to: |  | Toronto - Feb19 | Miami - Feb26 | San Diego - Mar19 |  | In Sales, AM, CSM, or hold a revenue goal from existing customers? This is for you! |  | Lemme know if you’re interested and we’ll schedule a chat. |  | #sales #strategy #CustomerSuccess https://t.co/gSaHZ5L
+
+--- ratio 2019-01-17T21:13:59+00:00 https://x.com/lincolnmurphy/status/1086008756981379072
+The key to fruitful Customer Success Methodology discussions: know the goal or embrace confusion and frustration! |  |  #sales #strategy #growth #cx #customersuccess #customerexperience https://t.co/OPmD5zCM4G
+
+--- csm 2019-01-16T01:45:13+00:00 https://x.com/lincolnmurphy/status/1085352239806304257
+What a day! This Customer Growth Intensive in San Francisco was amazing! Join us next time if you can. I think you’ll dig it. |  | #sales #strategy #growth #cx #customersuccess #CustomerExperience https://t.co/nzDwMvUCSM
+
+--- renewal 2019-01-13T19:10:40+00:00 https://x.com/lincolnmurphy/status/1084528171641384960
+This is caused by looking at renewals as something extra that must be incentivized, rather than simply part of the customer's journey toward success. |  | When renewal is looked at in a similar way as the initial sale, this is the result. |  | A mindset shift is required.
+
+--- renewal 2019-01-13T19:05:00+00:00 https://x.com/lincolnmurphy/status/1084526744290369537
+Renewals should be part of Customer Success Management, but who does it depends on the customer segment. If CSM can push a button to renew, they do it. If it's complex, then dedicated resources. |  | Sounds like what you had was just a carryover from traditional Account Management.
+
+--- renewal 2019-01-13T18:54:59+00:00 https://x.com/lincolnmurphy/status/1084524227393409024
+Alignment, yes, but one resource should handle renewal (and expansion), otherwise you'll end up with everyone stepping on each other to make that happen. But you're right, everyone should be working to move the customer in the right direction toward success.
+
+--- renewal 2019-01-13T18:53:24+00:00 https://x.com/lincolnmurphy/status/1084523828552912897
+Renewal must be seen as PART of the customer's journey toward success, though. Not something extra. Who does it should depend on complexity, but it's this belief that renewal (and expansion) are something extra that causes confusion and overcomplicates things in my experience.
+
+--- renewal 2019-01-13T18:48:14+00:00 https://x.com/lincolnmurphy/status/1084522527991480325
+It should be about the customer not the size of the company. For complex renewal process, you'll need dedicated resources. So in the same company, some customers are renewed by CSM, some will need a dedicated resource, and some in-between. |  | #CustomerSuccess
+
+--- ratio 2019-01-08T21:33:01+00:00 https://x.com/lincolnmurphy/status/1082752058091102213
+I'm happy to be an inspiration for you... it's just that you're confused about what inspiration is. |  | Inspiration isn't me publishing something and then you taking it and passing it off as your own. That's not inspiration, that's called theft. |  | #CustomerSuccess
+
+--- ratio 2019-01-05T01:42:21+00:00 https://x.com/lincolnmurphy/status/1081365252053307393
+I just re-read the Orchestration email I sent to my list today... SO much business-changing value in there.  |  | I wonder how many unsubscribes it'll get. |  | #CustomerSuccess
+
+--- expansion 2018-12-28T01:17:55+00:00 https://x.com/lincolnmurphy/status/1078459999909752838
+If you signed-up for my Customer Growth Intensive on Jan-15 in San Francisco, please check your email… I just sent you your pre-work. |  | The pre-work includes Success Potential, Success Milestone &amp; Joint Accountability, &amp; Expansion Discovery worksheets. |  | #CustomerSuccess #Sales
+
+--- expansion 2018-12-20T18:51:41+00:00 https://x.com/lincolnmurphy/status/1075826086435536896
+I just sent an email with the subject: "Example: 2x expansion email" to my list. |  | If you're on my list, check all the usual hiding places. In this email I do a teardown of an expansion email from Spotify. I think you'll find this email very valuable. |  | #CustomerSuccess
+
+--- expansion 2018-12-20T18:23:30+00:00 https://x.com/lincolnmurphy/status/1075818995603959808
+The email I sent to my list last week was 100% a pitch for my Jan 15, 2019 Customer Growth Intensive in San Francisco. No useful content. No thought leadership. Just an ad. |  | It had fewer unsubscribes and less complaints than my "expansion comp plan" email. |  | #CustomerSuccess
+
+--- expansion 2018-12-14T01:04:23+00:00 https://x.com/lincolnmurphy/status/1073383162963681280
+Some people didn’t like the comp plan for those responsible for expansion that I sent out as an email to my list.  |  | No drama, just a catalyst for some ranting.
+
+--- csm 2018-12-13T17:42:03+00:00 https://x.com/lincolnmurphy/status/1073271846487748609
+If you think your value as a Customer Success leader is in the complex variable comp models you've created for your CSMs... I don't know how to finish this sentence, but you're very, very wrong.
+
+--- expansion 2018-12-13T17:38:41+00:00 https://x.com/lincolnmurphy/status/1073270999204782080
+3. Incentives are not leadership. Considering the other issues you laid out, I can see why expansion might be considered something extra; but it shouldn't be. And you shouldn't need to incentivize CSMs to simply do their job.
+
+--- csm 2018-12-13T17:38:25+00:00 https://x.com/lincolnmurphy/status/1073270931047342080
+2. Customer Success is not support. CSMs shouldn't be doing support. Support is a critical function of course, but that's separate from CSM. When these are confused, actual, real Customer Success Management always suffers.
+
+--- expansion 2018-12-13T01:16:44+00:00 https://x.com/lincolnmurphy/status/1073023882569764864
+That’s awesome. The main reason I’ve heard that my comp plan is wrong is that it’s different than what people are already doing. The other reasons generally start with seeing expansion as something extra to be forced vs. simply part of the customer’s journey. What other reasons?
+
+--- CES  2018-12-12T20:23:30+00:00 https://x.com/lincolnmurphy/status/1072950090124283904
+I just sent an email to my list with the subject: "Customer Growth Intensive in SF (Jan 15)" ... if you're looking to kickstart growth in 2019, you'll want to check out that email. |  | Look in all the hiding places and spam folders where emails go to die. |  | #CustomerSuccess #Sales
+
+--- NPS 2018-12-12T19:30:25+00:00 https://x.com/lincolnmurphy/status/1072936731056336897
+My "expansion comp plan" email had the highest unsubscribe rate by far for 2018. Far more than the "nps sucks" one. |  | Instead of truly hearing me, people just reacted and bailed. Many sent me very negative messages. |  | Those are your #CustomerSuccess leaders, ladies and gentlemen.
+
+--- CES  2018-12-05T00:59:20+00:00 https://x.com/lincolnmurphy/status/1070120402393812997
+If you signed-up for my workshop earlier today (whether you attended live or not), please look for an email from me with the resources from the workshop with the subject: "Growth Workshop follow-up" |  | Check all the usual hiding spots (and your Paypal email) |  | #CustomerSuccess
+
+--- expansion 2018-12-04T21:19:11+00:00 https://x.com/lincolnmurphy/status/1070065001619062784
+Wow! That was an amazing Expansion workshop… from my POV, at least.  |  | But It seemed like people were engaged until the very end. Hanging in there with me for 2 full hours is quite impressive. |  | Of course, none of it matters if the participants don't execute. |  | #CustomerSuccess
+
+--- CES  2018-12-03T19:23:16+00:00 https://x.com/lincolnmurphy/status/1069673440284680194
+If you signed-up for my Account Growth workshop tomorrow, I just sent connection instructions in an email with the subject:  |  | "Our Account Growth Workshop is tomorrow" |  | Please check all the usual hiding places and your Paypal email (and it's hiding places). |  | #CustomerSuccess
+
+--- expansion 2018-12-03T19:09:31+00:00 https://x.com/lincolnmurphy/status/1069669981229592576
+It's Tomorrow!! Account Growth: Designing an Upsell Strategy for Exponential Expansion. |  | Don't miss this awesome ONLINE workshop... price jumps again at 11:59PM Pacific so don't wait. |  | https://t.co/YvbxIZx4rI |  | #CustomerSuccess #Growth #Sales #Strategy
+
+--- csm 2018-12-03T16:11:34+00:00 https://x.com/lincolnmurphy/status/1069625198666756096
+There are many companies doing it right... and as many doing it wrong. In my "Get a (Better) CSM Job" workshop I covered this in detail, but the summary is: be deliberate, do your homework, and don't take anything the company says they're doing around CSM at face value.
+
+--- CES  2018-12-03T16:09:39+00:00 https://x.com/lincolnmurphy/status/1069624716531572736
+Software vendors will often try to skew reality to fit what their solution can offer or to position them for a particular target market. Since CSM is still being established, vendors with loud voices (and much $$$) can often shift thinking in dangerous ways. I won't be at Pulse.
+
+--- expansion 2018-12-01T19:00:41+00:00 https://x.com/lincolnmurphy/status/1068942981858762754
+Expansion should be a goal, but that goal should be created not like new business sales by pulling a number out of the air, but rather based on our customer’s actual success trajectory. |  | If the customer expands, that’s part of their journey. Not extra. If they don’t, that’s bad.
+
+--- csm 2018-12-01T05:32:59+00:00 https://x.com/lincolnmurphy/status/1068739719289348096
+CS leaders should figure out how to prove the value of what they’re doing. Just like any other part of the business. |  | But the individual CSMs shouldn’t be treated poorly or not trusted just because the CS “leader” doesn’t know how to show execs that what they’re doing is working.
+
+--- csm 2018-11-30T22:28:59+00:00 https://x.com/lincolnmurphy/status/1068633013708308480
+The world of Customer Success is a mess. No one knows what CSMs are actually supposed to do, many companies build CSM teams with junior people on variable comp cuz they don't trust that they'll actually do their jobs and/or need them to prove their value first. |  | #CustomerSuccesss
+
+--- csm 2018-11-30T22:07:14+00:00 https://x.com/lincolnmurphy/status/1068627539990597632
+My point was this IS part of their job; not extra or above and beyond. |  | Quick Tip: If your CSMs are doing 60-min meetings, would 45 work? Now they have 15 extra mins to document discovery/learnings (create systems to make that easy &amp; centralize). Bonus… gives them time to think
+
+--- expansion 2018-11-30T20:14:50+00:00 https://x.com/lincolnmurphy/status/1068599252518084614
+I've received more responses to my "expansion comp plan" email than any other I've sent.. ever? I think maybe I hit a nerve.
+
+--- expansion 2018-11-30T19:49:37+00:00 https://x.com/lincolnmurphy/status/1068592907265994753
+People saying my expansion comp plan is an oversimplification or saying you could extrapolate it out to New Business sales, too, are starting from a wrong-headed view of Sales vs. Expansion. |  | Learn up before you speak up: https://t.co/pUpuVhRun7 |  | #CustomerSuccess #Sales
+
+--- csm 2018-11-30T17:59:10+00:00 https://x.com/lincolnmurphy/status/1068565112909430789
+"burden" is an interesting word... without much more context, I'd say you need to reevaluate the role of your CSMs. If they're too busy to be the all important "voice of the customer" inside your company, that's a problem. Start there.
+
+--- expansion 2018-11-29T21:31:58+00:00 https://x.com/lincolnmurphy/status/1068256278173110272
+I just sent an email to my list with the subject: "expansion comp plan" |  | If you're on the list, check all the usual hiding places. You won't want to miss this one. |  | If you're not on my email list, join from any page at https://t.co/Yeym46nETg |  | #CustomerSuccess
+
+--- expansion 2018-11-28T21:33:01+00:00 https://x.com/lincolnmurphy/status/1067894153240039424
+In one week! Learn the secrets to Exponential Growth in Account Value through Customer-centric Expansion... it's gonna be awesome! |  | https://t.co/YvbxIZx4rI |  | #CustomerSuccess #Sales #Growth
+
+--- expansion 2018-11-27T00:40:04+00:00 https://x.com/lincolnmurphy/status/1067216450102935552
+DFW ✈️ SEA to work with a client on their Expansion strategy for 2019. Also some “move legacy customers to the new platform the RIGHT way” stuff in there, too. |  | #CustomerSuccess https://t.co/KVhMFe9vCx
+
+--- expansion 2018-11-17T02:11:26+00:00 https://x.com/lincolnmurphy/status/1063615563656773632
+[ONLINE WORKSHOP] Account Growth: Designing an Upsell Strategy for Exponential Expansion |  | Early Bird Pricing ends tonight at 11:59PM Pacific! |  | https://t.co/YvbxIZx4rI |  | #CustomerSuccess #Sales
+
+--- NPS 2018-11-16T21:29:51+00:00 https://x.com/lincolnmurphy/status/1063544703524704261
+I just sent an email to my mailing list with the subject: "NPS sucks... do this instead" |  | Please check all the usual hiding spots... the value in this email is HUGE. |  | Also, the unsubscribe link is at the bottom if I hurt your feelings. |  | #CustomerSuccess
+
+--- NPS 2018-11-15T23:43:09+00:00 https://x.com/lincolnmurphy/status/1063215860914024448
+Tomorrow - Fri, Nov 16, 2018 - I'll share with my mailing list a secret question I've been using with my clients that makes NPS look like the garbage metric that it is. |  | If you're not on my mailing list, join from any page here: https://t.co/Yeym46nETg |  | #CustomerSuccess
+
+--- expansion 2018-11-15T21:28:01+00:00 https://x.com/lincolnmurphy/status/1063181854466031616
+[New Post] Account Expansion: How to Upsell Unsuccessful Customers |  | Spoiler: You don't... but read the article to know why (and what to do with Unsuccessful customers) |  | https://t.co/nba4tWkdHd |  | #CustomerSuccess #Sales #Growth
+
+--- expansion 2018-11-13T18:22:48+00:00 https://x.com/lincolnmurphy/status/1062410465517715456
+I just sent an email to my list with the subject "more profitable customers, faster" |  | It's all about Expansion &amp; CAC Efficiency. |  | If you're on my list, look for that email in all the hiding places. If you're not on my list yet, join here: https://t.co/Yeym46nETg |  | #CustomerSuccess
+
+--- csm 2018-11-13T00:44:08+00:00 https://x.com/lincolnmurphy/status/1062144043579252736
+If you signed-up for my "Get a (Better) CSM Job" workshop on Wednesday, please look for an email from me with connect details.  |  | Please check all the usual hiding spots and your Paypal email so you don't miss it. |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- expansion 2018-11-12T22:01:15+00:00 https://x.com/lincolnmurphy/status/1062103054269509633
+[New Post] Customer Growth: Why Lack Of Expansion Is A Really Bad Sign |  | Your customer's journey to success includes expansion… so when there's no expansion, that's not just bad for revenue &amp; LTV, it's a sign of bigger problems. |  | https://t.co/O5KRYlnmP6 |  | #CustomerSuccess #Sales
+
+--- expansion 2018-11-12T17:36:17+00:00 https://x.com/lincolnmurphy/status/1062036370250711040
+[New Post] Account Expansion: If You Want To Grow Fast, Do This… |  | One of the most important lessons I've learned when it comes to Expansion (Upsells, Cross-sells, etc.) is found in this humble little article. You should read it. |  | https://t.co/YLSeh6XFil |  | #CustomerSuccess #Sales
+
+--- expansion 2018-11-07T21:39:11+00:00 https://x.com/lincolnmurphy/status/1060285561095774210
+I just sent an email to my list with the subject: |  | "Sales vs. Expansion: just semantics?" |  | If you're on my list, check all the hiding spots. You don't want to miss it. |  | And if you're not on my list, you can join from any page at https://t.co/Yeym46nETg |  | #CustomerSuccess
+
+--- csm 2018-11-05T17:55:45+00:00 https://x.com/lincolnmurphy/status/1059504555979890688
+If you signed-up for my "Get a (Better) CSM Job in 2019" workshop, I just emailed you about having to reschedule. The workshop will now happen on Nov-14 at 12PM Pacific. Check your email (possibly your paypal one) for more details. |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- expansion 2018-11-02T20:56:42+00:00 https://x.com/lincolnmurphy/status/1058462929337618432
+[ONLINE WORKSHOP] Account Growth: Designing an Upsell Strategy for Exponential Expansion |  | Super Early Bird Pricing ends tonight at 11:59PM Pacific. Price jumps $50 at midnight. |  | The psychological marketing tactic of time scarcity at work |  | https://t.co/YvbxIZx4rI |  | #CustomerSuccess
+
+--- expansion 2018-11-01T18:41:14+00:00 https://x.com/lincolnmurphy/status/1058066450731151360
+I just sent an email with the subject "why lack of expansion is a really bad sign" to my mailing list. |  | If you're on the list, look for that email. |  | If you're not on the list, sign-up from any page on https://t.co/Yeym46nETg so you don't miss out in the future. |  | #CustomerSuccess
+
+--- expansion 2018-10-31T18:31:33+00:00 https://x.com/lincolnmurphy/status/1057701624347537410
+[ONLINE WORKSHOP] Account Growth: Designing an Upsell Strategy for Exponential Expansion |  | Want scary growth? This workshop is for you! |  | Learn the dark secrets of the "Effortless Upsell" BWHAHAHA 🎃 |  | Super Early-bird pricing ends soon 👻 |  | https://t.co/YvbxIZx4rI |  | #CustomerSuccess
+
+--- ratio 2018-10-25T21:21:52+00:00 https://x.com/lincolnmurphy/status/1055570160495591434
+If you're on my list, look for an email from me titled "Upsell Magic: Orchestration + Acceleration" ... it's packed with expansion goodness and written with love. |  | Which means it might end up in your spam trap, so look there for it.
+
+--- expansion 2018-10-23T20:16:22+00:00 https://x.com/lincolnmurphy/status/1054828902063849472
+[ONLINE WORKSHOP] Account Growth: Designing an Upsell Strategy for Exponential Expansion |  | This is on Dec-4 to help you plan for 2019. It'll only take 90-mins so won't interfere with year-end work! Will help, actually. |  | Super-Early Bird tix on sale now! |  | https://t.co/YvbxIZOFjg
+
+--- csm 2018-10-19T17:37:46+00:00 https://x.com/lincolnmurphy/status/1053339438741381121
+It is time to update my list of CSM software vendors... please look at it and tell me in the comments what vendors I need to add or what other changes are needed. |  | https://t.co/UW56WJRyiI |  | Thanks! |  | #CustomerSuccess
+
+--- csm 2018-10-19T17:27:05+00:00 https://x.com/lincolnmurphy/status/1053336747415924736
+TGIF! Am I right? Get a better CSM job for 2019 and start looking forward to the weekends for a different reason. |  | This ONLINE workshop will help you do that. |  | Early Bird Pricing is still in effect... $75. Don't miss it! |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- csm 2018-10-17T17:20:29+00:00 https://x.com/lincolnmurphy/status/1052610312359227392
+Quick Tip: Instead of "follow-up," think "follow through" ... this gets the CSM out of the project-based mindset of simply checking in and moves everyone (CSM and client) towards the reality of continuous joint accountability with shared responsibility. |  | #CustomerSuccess
+
+--- ratio 2018-10-16T22:18:04+00:00 https://x.com/lincolnmurphy/status/1052322811392323584
+My post-keynote celebration: bean burritos at Taco Bell |  | 3 |  | I ate 3
+
+--- csm 2018-10-13T04:04:35+00:00 https://x.com/lincolnmurphy/status/1050960465747238912
+Being a CSM shouldn't be a soul-sucking endeavor. Make 2019 the year you THRIVE in your chosen (or new) profession. |  | This workshop will help you do just that, but Super Early Bird Pricing ends in 2 hours! |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- csm 2018-10-10T18:30:26+00:00 https://x.com/lincolnmurphy/status/1050091199300870146
+[ONLINE WORKSHOP] GET A (BETTER) CSM JOB IN 2019 |  | This online workshop will help you thrive in your Customer Success career in 2019 and beyond! |  | $50 Super Early Bird pricing ends Friday at 11:59PM Pacific. Don't miss out. |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- expansion 2018-10-10T03:17:53+00:00 https://x.com/lincolnmurphy/status/1049861548921905152
+Intense! My 2-day Account Expansion Design Intensive was just that… what an awesome experience!  |  | So happy these amazing people joined me to learn to expand their customer relationships in a positive way. |  | And to try (and actually enjoy) vegan food with me!  |  | #CustomerSuccess https://t.co/gLaH6M2wLK
+
+--- csm 2018-10-05T17:47:23+00:00 https://x.com/lincolnmurphy/status/1048268426748334080
+Having an agenda full of back-to-back meetings is not the badge of honor many CSMs - or, unfortunately, their "leaders" - like to think it is. |  | No one can be effective, prepared, can follow-up, or actually THINK when they're busy 100% of the time. |  | #CustomerSuccess
+
+--- csm 2018-10-05T17:44:06+00:00 https://x.com/lincolnmurphy/status/1048267599199592448
+CSM should mean Customer Success Meeter given how much emphasis is put on having meetings for the sake of having meetings in this fine discipline of ours. |  | You might want to reevaluate whether your meetings are the correct length, valuable, needed, wanted, etc. |  | #CustomerSuccess
+
+--- csm 2018-10-04T15:13:25+00:00 https://x.com/lincolnmurphy/status/1047867293118681089
+I'm not saying I'm the source of all good things CSM (just most of it), but IF I AM the source, I sure would like to be credited as the source.
+
+--- csm 2018-10-04T01:14:56+00:00 https://x.com/lincolnmurphy/status/1047656279081209858
+Apparently a new book on Customer Success is about to drop. The author has no experience but spent time “researching” CSM. |  | Hmmm |  | Unfortunately I’ve seen what “research” in this industry amounts to and it usually involves stealing other people’s (often my) work. |  | #CustomerSuccess
+
+--- csm 2018-10-03T00:48:18+00:00 https://x.com/lincolnmurphy/status/1047287188440928256
+I'll tell you this, unless it's a training call, when the breakdown of a call is 54% the CSM talking and 46% the Client talking, that's probably a good indication that something isn't right.  |  | You've got one mouth and two ears, as they say...
+
+--- csm 2018-10-02T23:51:07+00:00 https://x.com/lincolnmurphy/status/1047272797909798912
+Listening to the recording of a 25 minute call between a CSM and a client to provide feedback takes me roughly 4 hours.
+
+--- csm 2018-10-02T22:18:46+00:00 https://x.com/lincolnmurphy/status/1047249560521924610
+GET A (BETTER) CSM JOB IN 2019 |  | I've been asked a lot how to break into CSM or how to find a better company to work for… this workshop will help you do that and thrive in Customer Success in 2019! |  | Super Early Bird pricing is only $50! |  | https://t.co/dv6N0zzTex |  | #CustomerSuccess
+
+--- CES  2018-09-30T23:20:16+00:00 https://x.com/lincolnmurphy/status/1046540258828079104
+I've had many instances lately where an airline rep starts to explain to me all of the reasons whatever went wrong was my fault. I just stop them to say "your details aren't helping the situation. Thank you, I'm done." |  | And then I book another $1000 flight with them because FML.
+
+--- csm 2018-09-28T23:35:06+00:00 https://x.com/lincolnmurphy/status/1045819217185001473
+Is this your CSM Job Description? "Apologize to customers for things that we know are broken but aren't being fixed" |  | If so... |  | https://t.co/xhEokQ6O8P |  | #CustomerSuccess
+
+--- expansion 2018-09-21T22:18:13+00:00 https://x.com/lincolnmurphy/status/1043263152345899008
+Just got done with an amazing planning session for my 2-Day Account Expansion Design Intensive in Beverly Hills in October 8 &amp; 9.  |  | It’s gonna be awesome!!!! |  | #CustomerSuccess #Sales https://t.co/KFEhl7azs8
+
+--- expansion 2018-09-20T17:15:39+00:00 https://x.com/lincolnmurphy/status/1042824623744839680
+DFW ✈️ ONT … heading to LA to finalize plans for my Account Expansion Design Intensive. |  | Oct 8 &amp; 9 I’ll help a group of awesome people design their upsell process to get exponential growth in account value in a customer-positive way. |  | #CustomerSuccess #Sales https://t.co/tY2xFtKmDP
+
+--- csm 2018-09-18T17:22:14+00:00 https://x.com/lincolnmurphy/status/1042101505548017665
+DFW ✈️ ORD to give the keynote (“The Future IS Customer Success”) for LinkedIn’s CSM offsite. It’s gonna be awesome! |  | #CustomerSuccess https://t.co/7VXrPsiDP7
+
+--- retention 2018-09-17T21:09:06+00:00 https://x.com/lincolnmurphy/status/1041796208585527297
+Before you "invest" in a Customer Retention course, read this:  | Eliminate Churn Forever in 5 Simple Steps |  | https://t.co/Ll7LJwKprS |  | Unless the course shows how to fix the underlying issues leading to churn, all the tips, tricks, gimmicks, and hacks won't matter. |  | #CustomerSuccess
+
+--- expansion 2018-09-17T17:30:18+00:00 https://x.com/lincolnmurphy/status/1041741144261120000
+When looking at benchmark data from a survey on customer expansion &amp; upsells, you don't want to be like the companies included in the survey. |  | You want to be one of the outliers on the high end that the analysts carved out because you'd throw off their results. |  | #CustomerSuccess
+
+--- ratio 2018-09-14T18:50:21+00:00 https://x.com/lincolnmurphy/status/1040674127366049792
+When working to create - or optimize - the operations of the CSM org, it is always a cross-functional endeavor. |  | Any CSM org that attempts to operate in a vacuum will fail at it's mission because it's starting from a fundamentally flawed view of how CSM works. |  | #CustomerSuccess
+
+--- csm 2018-09-13T20:38:45+00:00 https://x.com/lincolnmurphy/status/1040339021665366016
+I was responsible for bringing some of what I now consider to be antiquated CSM ideas to market. I own that. |  | But, I’ve continued to evolve my understanding and thinking on the subject while many people took what I first said and stopped there. I can’t own that. |  | #CustomerSuccess
+
+--- renewal 2018-09-13T20:02:42+00:00 https://x.com/lincolnmurphy/status/1040329948463067137
+Most of the pushback I get from CSM pros in response to my crazy ideas is because what I say doesn't fit into their antiquated Account Management-based CSM model where Q/EBRs &amp; Renewals are the main (or only) touch points with "sponsors." |  | Evolve your thinking. |  | #CustomerSuccess
+
+--- expansion 2018-09-10T21:08:22+00:00 https://x.com/lincolnmurphy/status/1039259308565979137
+[ONLINE WORKSHOP] Customer Growth: Designing an Upsell Strategy for Exponential Expansion on Wed Sept 12 at 11AM Pacific / 2PM Eastern. |  | Prices jump $50 Tuesday, Sept 11 at 11:59PM so get in now and save some money. |  | https://t.co/s7M4JDpDdG |  | #CustomerSuccess #Sales
+
+--- expansion 2018-09-06T20:44:54+00:00 https://x.com/lincolnmurphy/status/1037803854115561472
+I just sent an email to my list with the subject "T.I.M.E. is money" ... if you're on my list, look for that email. It's got a super-valuable Expansion / Upsell lesson in it. |  | If  you're not on my list you can join from any page on https://t.co/0rkMQT6dxa |  | #CustomerSuccess #Sales
+
+--- ratio 2018-08-30T03:53:04+00:00 https://x.com/lincolnmurphy/status/1035012499425452035
+3 workshops today for my client. |  | Communication, Orchestration, and Introducing my Expontential Expansion Formula… I’m exhausted in a good way! |  | Tomorrow is my keynote at their event introducing their partners and customers to Custoner Success-driven Growth! |  | #CustomerSuccess
+
+--- retention 2018-08-27T23:10:59+00:00 https://x.com/lincolnmurphy/status/1034216734801051648
+My content was included in a roundup of stuff for "Retention Executives" and I threw-up in my mouth a little.
+
+--- retention 2018-08-27T23:10:37+00:00 https://x.com/lincolnmurphy/status/1034216644279586816
+If your "retention strategy" is to make it hard for customers to cancel, to make your customers feel stupid that they can't figure out how to cancel (because you've purposefully obfuscated it), hoping they give up, so you'll get at least one more month of revenue out of them, GFY
+
+--- expansion 2018-08-27T14:04:43+00:00 https://x.com/lincolnmurphy/status/1034079262700187654
+DFW ✈️ YVR for a week of client work.   We’re designing their customer-centric exponential expansion strategy! |  | #CustomerSuccess #Sales https://t.co/5UMp81HNMk
+
+--- expansion 2018-08-24T17:36:34+00:00 https://x.com/lincolnmurphy/status/1033045412700151808
+[ONLINE WORKSHOP] Customer Growth: Designing an Upsell Strategy for Exponential Expansion |  | I'm SO pumped for this workshop on Sept 12. |  | Regular Early Bird pricing ends tonight at 11:59PM PDT… then it jumps to $200. Don't miss it. |  | https://t.co/s7M4JDpDdG |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-23T21:01:52+00:00 https://x.com/lincolnmurphy/status/1032734692980797441
+How to Handle Upsell Objections when you use my Expansion Formula:  |  | You don't.  |  | Objections don't happen since you've orchestrated the conversation, it's at the right time, the offer is right, &amp; you know their buying process. |  | Pow! Pow! |  | https://t.co/Lray954eRR |  | #CustomerSuccess
+
+--- expansion 2018-08-17T20:56:06+00:00 https://x.com/lincolnmurphy/status/1030558914595770369
+[ONLINE WORKSHOP] Customer Growth: Designing an Upsell Strategy for Exponential Expansion |  | Early Bird Pricing ends tonight at 11:59PM Pacific. |  | https://t.co/s7M4JDpDdG |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-14T20:15:58+00:00 https://x.com/lincolnmurphy/status/1029461652083802112
+[ONLINE WORKSHOP] Customer Growth: Designing an Upsell Strategy for Exponential Expansion |  | Grow Account Size and drive Customer Lifetime Value to new highs in a customer-positive way. |  | Early Bird pricing ends Friday at 11:59PM PDT |  | https://t.co/s7M4JDpDdG |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-10T23:40:16+00:00 https://x.com/lincolnmurphy/status/1028063511442874368
+Here's my latest post... Customer Growth: The Difference between Sales and Expansion |  | Some light reading for your weekend that will help you prepare for exponential revenue growth from your existing customers! |  | https://t.co/pUpuVhRun7 |  | #CustomerSuccess #Sales #Growth
+
+--- expansion 2018-08-09T21:22:33+00:00 https://x.com/lincolnmurphy/status/1027666465527349248
+I just sent the second email in my "Customer Expansion" series… if you're on my mailing list look for an email from me with "my secret growth formula REVEALED!" as the overly-bombastic subject. |  | Next email goes out next Tuesday and it's all about TIME. |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-09T17:52:27+00:00 https://x.com/lincolnmurphy/status/1027613592470872066
+The next email in my "Customer Expansion" series goes out to my list in ~4 hours. If you're not on it, get on it from any page on https://t.co/Yeym46nETg |  | In today's email I reveal for the first time my "Account Growth Formula" and it will blow your mind. |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-07T19:51:24+00:00 https://x.com/lincolnmurphy/status/1026918754310123522
+I sent out the first email in my "Customer Expansion" series… if you're on my mailing list look for an email from me with "setting the stage for expansion" as the subject. |  | Next email goes out on Thurs… I'll intro you to my Customer Ascension Formula! |  | #CustomerSuccess #Sales
+
+--- expansion 2018-08-06T18:08:14+00:00 https://x.com/lincolnmurphy/status/1026530402905800706
+Starting tomorrow - Tue Aug-7 - and for the next 5 weeks, I'm gonna share with my mailing list what goes into a real Customer Expansion Strategy. |  | From incremental to exponential growth, baby! |  | Join my mailing list from anywhere on https://t.co/Yeym46nETg |  | #CustomerSuccess #Sales
+
+--- CES  2018-07-20T22:41:21+00:00 https://x.com/lincolnmurphy/status/1020438538473680896
+How I raised my prices 300%... |  | and how the client made me do it! |  | https://t.co/zq8KyjyPKt
+
+--- ratio 2018-07-09T19:53:16+00:00 https://x.com/lincolnmurphy/status/1016409975193776128
+Thinking about operationalizing upsells to drive consistent growth from within your customer base? Consider this... |  | Expansion is from your POV. |  | Ascension is from the customer’s POV. |  | 🤔
+
+--- expansion 2018-06-29T22:17:52+00:00 https://x.com/lincolnmurphy/status/1012822485438533633
+Join me in Beverly Hills Sept 10 &amp; 11 for my "Account Expansion Design Intensive"  |  | 2 days, 1 goal: Design a process that exponentially expands the value of your customer accounts!  |  | First 5 signups save $1000... | https://t.co/J7lX45mqZ2 |  | #CustomerSuccess #Sales #Growth
+
+--- deflect 2018-05-26T01:52:23+00:00 https://x.com/lincolnmurphy/status/1000192893582282753
+The best self-service deflection is incompetence. |  | This must be a strategy that someone is promoting. |  | BTW, it may result in customers moving to self-service, but it's also NOT a long-term strategy for success (the customer's... or yours). |  | #CustomerSuccess
+
+--- retention 2018-05-22T19:17:34+00:00 https://x.com/lincolnmurphy/status/999006372116254720
+Customer Engagement &gt; Retention Marketing |  | #CustomerSuccess
+
+--- ratio 2018-02-28T19:12:52+00:00 https://x.com/lincolnmurphy/status/968926995487735809
+You're not actually doing Customer Success if you can't answer this question. |  | I'm sure you're doing something, but it's not Customer Success unless you know this and use it as the basis for your operations. |  | Here's the question: |  | https://t.co/2GA6au40BL |  | #CustomerSuccess
+
+--- csm 2018-02-14T23:23:04+00:00 https://x.com/lincolnmurphy/status/963916533473906688
+TOMORROW! Feb-15 we're talking Measuring Outcomes at the @pulselocalhq meetup! |  | @CsmPractice will stream it live. |  | If you're in San Francisco or Silicon Valley, make the short trip to join us at @GainsightHQ. |  | Info &amp; free sign-up here: | https://t.co/RTAN6pgxoI |  | #CustomerSuccess
+
+--- csm 2018-02-12T19:35:22+00:00 https://x.com/lincolnmurphy/status/963134454893080579
+This THURS Feb-15 we're talking Measuring Outcomes at the @pulselocalhq meetup!  |  | @CsmPractice will stream it live.  |  | If you're in San Francisco or Silicon Valley, make the short trip to join us at @GainsightHQ. |  | Info &amp; free sign-up here: | https://t.co/RTAN6pgxoI |  | #CustomerSuccess
+
+--- csm 2018-02-10T05:02:16+00:00 https://x.com/lincolnmurphy/status/962189956193103873
+Next THURS Feb-15 we're talking Measuring Outcomes at the @pulselocalhq meetup! @CsmPractice will stream it live, but if you're in San Francisco or Silicon Valley, make the short trip to join us at @GainsightHQ. |  | Info &amp; free sign-up here: | https://t.co/RTAN6pgxoI |  | #CustomerSuccess
+
+--- CES  2018-02-01T20:15:22+00:00 https://x.com/lincolnmurphy/status/959158252415135744
+If you’re going to steal my work and pass it off as your own, just make sure you fix the typos, remove the movie quotes, and change the wrestling references to something else. |  | Also, please don’t steal my work.
+
+--- csm 2018-01-05T01:11:34+00:00 https://x.com/lincolnmurphy/status/949085932531183617
+CSMs with no budget, direction, leadership, structure, etc, message me all the time. |  | They're desperate and it shows. The last message was 4.5k words! |  | My advice: find another company to work for! |  | That's why I'm doing this workshop: |  | https://t.co/YP9jJQ7b2B |  | #CustomerSuccess
+
+--- csm 2017-12-27T21:04:43+00:00 https://x.com/lincolnmurphy/status/946124708680032256
+Is your company starting the Customer Success journey in 2018? |  | Is 2018 the year you accelerate and expand your CSM initiative? |  | Learn how to Find, Recruit, Hire, &amp; Keep the Best CSM Talent in 2018 in this workshop on Jan-11: |  | https://t.co/M41zHMP109 |  | #CustomerSuccess
+
+--- ratio 2017-12-19T03:52:38+00:00 https://x.com/lincolnmurphy/status/942965875027730432
+The only way many Pro-wrestling "talents" of past generations got over was if management not only wanted to them to, but empowered them to do so. |  | Even easier if you were management. |  | @MattJackson13 &amp; @NickJacksonYB prove that's not required today.  |  | What if it never really was?
+
+--- csm 2017-12-05T22:18:57+00:00 https://x.com/lincolnmurphy/status/938170858073411585
+Second workshop down... one more to go later this evening (getting a CSM job in 2018). |  | If you didn't sign-up for "Find, Recruit, &amp; Hire the Best CSMs in 2018" you really missed out. I'll never do that workshop again.
+
+--- csm 2017-12-05T19:13:12+00:00 https://x.com/lincolnmurphy/status/938124113851375617
+Just finished my first online workshop of the day (Get a (Better) Customer Success job in 2018)... two more workshops to go. I'm a glutton for punishment. |  | I'm doing another on getting a job and one about finding and recruiting CSMs in 2018.
+
+--- csm 2017-12-03T18:52:19+00:00 https://x.com/lincolnmurphy/status/937394080543154176
+SUPER excited for the "Find, Recruit, &amp; Hire the Best CSMs in 2018" workshop this Tuesday, Dec-5. |  | If you want to know how the top "Customer Success" companies around the world continue to build their rapidly growing CSM orgs, join us: |  | https://t.co/mRdZ6m7blr |  | #CustomerSuccess
+
+--- ratio 2017-11-30T19:15:37+00:00 https://x.com/lincolnmurphy/status/936312782600921089
+Countries I’ve been to in 2017 where I’ve spent less than one day before returning home to USA: |  | Mexico - easy | Canada - easy(ish) | Brazil - single-day trip from USA not recommended |  | I’ve had longer-duration trips to all of those places, but I’ve also popped in for a quick visit.
+
