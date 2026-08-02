@@ -6,7 +6,10 @@ Install the `success` runtime pack from the independently versioned
 ## Prerequisites
 
 - An Agent Skills-compatible client.
-- TODO: Add only real skill-specific tools, credentials, or runtime requirements.
+- No skill-specific credentials or tools are required. `success` is tool-agnostic: it names which
+  class of system a job touches (a help-desk/ticketing tool, a health-score or CDP platform, a
+  support-bot framework) and recommends re-verifying current pricing, licensing, and vendor claims
+  at analysis time, but ships no keys and requires no fixed toolchain.
 
 ## Install with skills.sh
 
