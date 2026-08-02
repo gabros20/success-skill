@@ -229,6 +229,18 @@ not the lead — forward pointers. Verify the SUBJECT of a flagged metric from l
 
 ## 8. Open corpus items (build-phase pickup, not blockers)
 
+**Late-arriving raw (post-B-close, controller-linked): `_raw/_raw-x-solo-topup.md`** —
+levelsio/dvassallo/tylertringas territory closed: pause-subscription arc (2015 idea→2017 ship),
+the honestly-hedged churn-causality tweet (19%→10% "I guess" — a MODEL for stating unmeasured
+causal claims), custom cancel-flow 40%→13-14% flagged CONFOUNDED, "last part of support I can't
+automate" (billing-confusion→chargeback), dvassallo "$1M revenue, all support from personal
+email" (clearest tool-adoption threshold found), LIFO support tactic, PayPal ~10× support load
+vs Stripe, refund rate 3.96%/0% disputes. Honest nulls: no absolute ticket volumes, no
+timezone/on-call statements, no first-hire numbers. Contested ×3 (cancellation friction
+dark-pattern-vs-winback; does churn matter solo — levelsio holds both positions; subscription-first
+vs structural non-recurring). New xrelay gotcha: --from also silently drops on OR-group queries —
+one single-term query per keyword. Writers: treat this raw as part of B's corpus.
+
 Complex Systems podcast (patio11 × destraynor, Jan 2026) — best non-X artifact, unread ·
 "76%" method behind the Salesforce/Fin thesis · Klarna Feb-2025 "~700 agents" piece · hnshah's
 NPS-critique source doc · GitLab's other two scores (maturity-scoring.md, platform-value-score.md,

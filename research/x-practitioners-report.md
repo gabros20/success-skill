@@ -386,6 +386,14 @@ New **figure-CLASSES** this channel recommends adding (per the rule that a list 
 
 ## 12. What we did NOT cover, and why
 
+> **CORRECTION 2026-08-02 (after §13's authorized top-up): this section's coverage tail is
+> superseded.** `tylertringas` is now COVERED; the top-up also corrected wedge 1's mechanism (the
+> solo replacement for CS process is PRICING first and AI tier-1 support second — **not docs**, as
+> §7 and the charter assumed). Still genuinely missing: `dvassallo`, `levelsio`, `csallen`, plus
+> ticket-volume numbers, cancellation/pause/win-back tactics, and timezone-coverage craft — those
+> survived two independent passes and are an honest null, not an untried gap. **Read §13 for the
+> current state.**
+
 - **Worker 2's territory (solo-founder support reality) is ~60% covered, after a lead top-up.** The
   worker got `robwalling` and stalled (archive timeouts, then idle). Rather than ship the territory at
   15%, I covered **`patio11`** (support economics — §7), **`Shpigford`** (the flagship anchor + the

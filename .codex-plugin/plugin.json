@@ -1,26 +1,26 @@
 {
-  "name": "__REPO_NAME__",
+  "name": "success-skill",
   "version": "1.0.0",
-  "description": "__SKILL_TAGLINE__",
+  "description": "Help customers adopt, realize value, renew, and expand",
   "author": {
     "name": "gabros20",
     "url": "https://github.com/gabros20"
   },
-  "homepage": "https://__REPO_NAME__.vercel.app",
-  "repository": "https://github.com/gabros20/__REPO_NAME__",
+  "homepage": "https://success-skill.vercel.app",
+  "repository": "https://github.com/gabros20/success-skill",
   "license": "MIT",
-  "keywords": ["agent-skill", "__SKILL_NAME__"],
+  "keywords": ["agent-skill", "success"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "__SKILL_TITLE__",
-    "shortDescription": "__SKILL_TAGLINE__",
-    "longDescription": "__SKILL_TAGLINE__",
+    "displayName": "Success",
+    "shortDescription": "Help customers adopt, realize value, renew, and expand",
+    "longDescription": "Help customers adopt, realize value, renew, and expand",
     "developerName": "gabros20",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Use $__SKILL_NAME__ to TODO: provide one short starter request."
+      "Use $success to TODO: provide one short starter request."
     ],
-    "brandColor": "__ACCENT_LIGHT__"
+    "brandColor": "#ea580c"
   }
 }
