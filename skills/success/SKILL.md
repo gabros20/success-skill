@@ -5,7 +5,8 @@ description: >-
   and KB, support process, SLAs as promises, AI-support policy, health/churn-risk honesty, VoC/NPS
   interpretation, retention execution, renewals/expansion (NRR), app-review responses, incident
   comms. Use to design a support process, audit a health score, or run a churn-save or renewal.
-  Not in-product onboarding flow (→ design), retention experiments (→ growth), pricing/dunning
+  Not in-product onboarding flow (→ design), retention experiments + trend diagnosis (→ growth),
+  pricing/dunning
   (→ product), agent mechanics/evals (→ ai), internal SLOs (→ operate), lifecycle email
   (→ marketing), the sale (→ sales).
 ---
@@ -91,7 +92,7 @@ from success's side, including the three rows success originates because it ship
 | Ask | Goes to |
 |---|---|
 | In-product onboarding UX — wizards, empty states, progressive disclosure, onboarding copy, the aha-moment pattern; NPS's definition and survey method; KB navigation and information architecture | `design`. Design owns the in-product onboarding **flow**; success owns the onboarding **program** — the plan, the education artifacts outside the product, and adoption over time |
-| Whether a retention or resurrection mechanic works — designing or reading out that experiment | `growth` — provisional. `growth` owns retention *experimentation*; success owns retention *execution*, the motion a growth test validated. Cancellation dark-pattern ethics live in growth's monetization file; success applies the one-click-reachable test and ships none of it |
+| Whether a retention or resurrection mechanic works — designing or reading out that experiment — and whether retention is *improving* (trend/cohort diagnosis, family ruling 2026-08-03) | `growth` — provisional. `growth` owns retention *experimentation* and the trend read; success owns retention *execution*, the motion a growth test validated, and the reported NRR/GRR figure's definition. Cancellation dark-pattern ethics live in growth's monetization file; success applies the one-click-reachable test and ships none of it |
 | Pricing tiers and the commercial-lifecycle model, the metric tree, PRD acceptance criteria, dunning and billing-failure recovery | `product`. Product models; success operates. Involuntary churn is product's mechanism — success requires the voluntary/involuntary split before drawing a retention conclusion |
 | The support assistant's turn loop, retrieval, memory, prompts, and eval instrumentation | `ai`. Success sets the escalation condition, the resolution definition, and the bot boundaries; `ai` measures compliance with them |
 | Internal SLOs, alerting, on-call paging, running the incident, decommission sequencing | `operate`. Operate states fact, impact, and timing; success manages the relationship. The customer-facing response-time **promise** is success's; the internal target is not |

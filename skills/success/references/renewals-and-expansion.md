@@ -18,6 +18,10 @@ Skip when:
   consume it, don't re-derive it.
 - The question is whether to run a retention or resurrection *experiment* → `growth`'s
   retention-and-resurrection.md — this file covers the executed motion, not the test design.
+- The question is whether retention is *improving* — a trend or cohort diagnosis, at any unit of
+  analysis including account-level logo/NRR reads → `growth`'s funnel-and-cohort-diagnosis.md
+  (family ruling 2026-08-03: growth reads the trend; this file owns the reported figure's
+  definition and the renewal motion).
 - The question is the pricing tier or commercial-lifecycle model → `product`'s surface-app-saas.md
   — this file operates the workflow that model describes, it doesn't design the tiers.
 - The question is CSM/QBR/EBR machinery, a health-score audit, or high-touch account-unit

@@ -22,9 +22,10 @@ Skip when:
   pricing problem before it's a relationship problem — see
   [when-success-applies](when-success-applies.md)'s CONTESTED pricing plank; do not re-litigate it
   here.
-- The churn is involuntary (a failed card, a dunning sequence) — that mechanism is `product`'s
-  (`marketing/assets/email-compliance-checklist.md:82`); this file covers the relationship side once
-  a churn event is confirmed voluntary.
+- The churn is involuntary (a failed card, a dunning sequence) — that mechanism is `product`'s,
+  claimed in its own voice since the 2026-08-03 family ruling
+  (`product/references/business-model.md` §3; `marketing/assets/email-compliance-checklist.md:82`
+  corroborates); this file covers the relationship side once a churn event is confirmed voluntary.
 - The question is a habit/streak/persuasion-ethics ruling in general — `growth`'s
   monetization-and-pricing-experiments.md owns that; §4 below only points to it.
 
@@ -133,8 +134,10 @@ worth citing directly as a model for stating an unmeasured causal claim honestly
 
 ## 6. Voluntary vs involuntary — split before concluding anything
 
-`marketing/assets/email-compliance-checklist.md:82` assigns dunning and billing-failure recovery to
-`product` — a shipped ruling this pack honors rather than re-litigates. Any churn number handed to
+Dunning and billing-failure recovery belong to `product`, which claims the mechanism in its own
+voice (`product/references/business-model.md` §3, family ruling 2026-08-03;
+`marketing/assets/email-compliance-checklist.md:82` made the same assignment first) — a shipped
+ruling this pack honors rather than re-litigates. Any churn number handed to
 this file must separate voluntary cancellations from involuntary (failed-payment) churn before a
 retention conclusion is drawn from it; conflating the two attributes a billing-recovery outcome to a
 relationship motion, or vice versa. This file owns the relationship-side save (§§2–5) once a churn
