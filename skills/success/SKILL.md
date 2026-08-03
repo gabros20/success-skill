@@ -187,3 +187,11 @@ honestly promise, and whether volume already exceeds capacity ·
 anyone trusts a color. Eval suites live in the repository's `evals/` directory.
 
 Attribution, licences, and what this pack claims for itself — `SOURCES.md` at the repository root.
+
+## Artifact home
+
+Deliverables this skill produces default to `digital-product/success/` at the working repository's
+root, with cross-skill state in `digital-product/LEDGER.md` — created on first use and committed
+with the repo. The `digital-product` composer skill owns this convention; solo use writes to the
+same place. Never write into `.orchestrate/` — that folder belongs to an orchestration run's
+execution state, not to this family's deliverables.
