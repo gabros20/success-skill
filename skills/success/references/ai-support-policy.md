@@ -190,32 +190,36 @@ An inbound AI support line inherits every rule above, plus phone-specific duties
 guidance, not legal advice: primary texts re-read 2026-10-17; counsel reviews the line for each
 jurisdiction it answers before launch.
 
-- **Disclose at the first interaction.** EU AI Act Art. 50(1) (Reg. (EU) 2024/1689): providers of a
-  system "intended to interact directly with natural persons" ensure those people "are informed
-  that they are interacting with an AI system," unless that is obvious; Art. 50(5): "in a clear and
+- **Disclose at the first interaction.** EU AI Act Art. 50(1) (Reg. (EU) 2024/1689,
+  eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689, PRIMARY): providers of a system
+  "intended to interact directly with natural persons" ensure those people "are informed that they
+  are interacting with an AI system," unless that is obvious; Art. 50(5): "in a clear and
   distinguishable manner at the latest at the time of the first interaction or exposure." Applies
-  from 2026-08-02 under Art. 113 (artificialintelligenceact.eu mirror; EUR-Lex blocked the fetch).
-  A human-sounding voice is not obvious, so the canned greeting says it — the cheap default outside
-  the EU too. Whether you or the voice platform is the "provider" → counsel.
+  from 2026-08-02 under Art. 113. A human-sounding voice is not obvious, so the canned greeting
+  says it — the cheap default outside the EU too. Whether you or the voice platform is the
+  "provider" → counsel.
 - **Mood from the voice is a different system.** Art. 50(3) puts an inform duty on deployers of
-  emotion recognition from biometric data. `user_mood` inferred from text is the typed-field
-  exemplar; inferred from the caller's audio it may be emotion recognition → legal review first.
-- **US inbound sits mostly outside the TCPA.** The FCC's own AI-call proposal notes "The TCPA's
-  requirements do not extend to technologies used to answer inbound calls" (FCC 24-84, Federal
-  Register 2024-09-10, govinfo.gov — proposed, not final). State AI-disclosure and
-  call-recording-consent laws still apply; they were not re-read here, so check each state.
+  emotion recognition from biometric data, and Annex III point 1(c) lists emotion recognition as a
+  high-risk area. `user_mood` inferred from text is the typed-field exemplar; inferred from the
+  caller's audio it may be emotion recognition → legal review first.
+- **US inbound sits mostly outside the TCPA:** "The TCPA's requirements do not extend to
+  technologies used to answer inbound calls" (FCC 24-84, Federal Register 2024-09-10) — proposed,
+  not final; state laws still apply.
 - **A person is reachable on every call.** An explicit ask is trigger 2 above: transfer without
   negotiation, a keypad option beside speech for misheard requests, the caller's words carried
   over, a spoken recovery if the transfer fails. Log it as a **customer escalation**.
-- **Hungary: in-scope service lines (Fgytv. 17/B. §, njt.hu).** Scope is public-service providers
-  and businesses a separate law names ((1)) — whether yours is one, and sector retention rules →
-  counsel. Under (3): answer and begin substantive handling within five minutes of connecting;
-  live-voice complaint handling ("élőhangos ügyintézés") **first in the phone menu**, without
-  identifying the caller or advertising; every phone complaint and all customer-service phone
-  communication recorded, each recording with a unique ID, kept five years. (3a)–(3b): free
-  playback and one copy per recording within 30 days of a request, electronically if asked; the
-  caller hears about recording, retention, access and the ID at the start of the call. The AI agent sits behind or beside the human-first option, never in front of it. Five
-  minutes is a legal floor for in-scope lines, not a template SLA — the promise still comes from
+- **Hungary: in-scope service lines (Fgytv., 1997. évi CLV. tv., 17/B. §, njt.hu).** Scope is
+  public-service providers and businesses a separate law names ((1)) — whether yours is one, and
+  sector retention rules → counsel. Under (3): answer and begin substantive handling within five
+  minutes of the call connecting; live-voice complaint handling ("élőhangos ügyintézés") **first in
+  the phone menu**, without identifying the caller or advertising; every phone complaint and all
+  customer-service phone communication recorded, each recording with a unique ID, kept five years.
+  (3a)–(3b): free playback and one copy per recording within 30 days of a request, electronically
+  if asked; the caller hears about recording, retention, access and the ID at the start of the
+  call. The conservative design reading, not the statute's words: keep the AI agent behind or
+  beside the live-voice complaint option, never in front of it; whether an AI answer counts as
+  "hívásfogadás és érdemi ügyintézés" within the five minutes → counsel. Five minutes is a
+  statutory maximum wait for in-scope lines, not a template SLA — the promise still comes from
   capacity ([support-process-design.md](support-process-design.md)).
 
 ## Validation

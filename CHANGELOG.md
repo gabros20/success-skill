@@ -16,7 +16,9 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   context carried, spoken recovery), and Hungary's Fgytv. 17/B. § duties for in-scope service
   lines (five-minute answer, live-voice complaint option first, record all with unique ID, five-year
   retention, free copy within 30 days, notice at call start). Primary texts re-read 2026-10-17;
-  legal review required; the statutory five minutes framed as a floor, not a template SLA.
+  legal review required; the five minutes framed as a statutory maximum wait, not a template
+  SLA; AI placement behind the human option labelled as the conservative design reading; Annex III
+  emotion recognition named; Art. 50 cited to EUR-Lex.
 - Router row, Validation item, voice-pipeline and outbound-call handoffs (`ai` `surface-voice.md`,
   `operate`, `marketing`), and one traversal eval.
 
