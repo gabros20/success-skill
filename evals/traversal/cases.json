@@ -83,5 +83,11 @@
     "prompt": "Who owns the refund-approval gate — us or automation?",
     "expected_references": ["references/handoff.md"],
     "forbidden_references": ["references/health-and-risk-signals.md"]
+  },
+  {
+    "id": "ai-voice-support-line",
+    "prompt": "We're putting an AI voice agent on our customer-service phone line in the EU, including Hungary. What does it have to say and do?",
+    "expected_references": ["references/ai-support-policy.md"],
+    "forbidden_references": ["references/health-and-risk-signals.md", "references/renewals-and-expansion.md"]
   }
 ]

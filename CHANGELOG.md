@@ -8,7 +8,17 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- [ai-support-policy](skills/success/references/ai-support-policy.md) gains "AI voice support
+  lines: disclose first, keep a person reachable" — EU AI Act Art. 50(1)/(5) disclosure at the
+  first interaction (applies since 2026-08-02), Art. 50(3) as the flag on mood inferred from the
+  caller's audio, the US inbound position (TCPA does not reach inbound answering, per FCC 24-84's
+  own text; states still apply), the human path on every call (explicit ask, keypad beside speech,
+  context carried, spoken recovery), and Hungary's Fgytv. 17/B. § duties for in-scope service
+  lines (five-minute answer, live-voice complaint option first, record all with unique ID, five-year
+  retention, free copy within 30 days, notice at call start). Primary texts re-read 2026-10-17;
+  legal review required; the statutory five minutes framed as a floor, not a template SLA.
+- Router row, Validation item, voice-pipeline and outbound-call handoffs (`ai` `surface-voice.md`,
+  `operate`, `marketing`), and one traversal eval.
 
 ## [0.1.0] — 2026-08-02
 
