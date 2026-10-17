@@ -8,6 +8,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
+- Queue unreleased changes here.
+
+## [0.2.0] — 2026-10-17
+
+### Added
 - [ai-support-policy](skills/success/references/ai-support-policy.md) gains "AI voice support
   lines: disclose first, keep a person reachable" — EU AI Act Art. 50(1)/(5) disclosure at the
   first interaction (applies since 2026-08-02), Art. 50(3) as the flag on mood inferred from the
@@ -41,4 +46,5 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 - Behavioral eval suites: activation, traversal, output, compression-ablation.
 - Research corpora + synthesis in `research/` (5 channels, date-stamped 2026-08-02).
 
+[0.2.0]: https://github.com/gabros20/success-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/success-skill/releases/tag/v0.1.0
