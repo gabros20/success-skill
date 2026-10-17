@@ -7,8 +7,9 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 
 ## [Unreleased]
 
-### Added
-- Queue unreleased changes here.
+### Fixed
+- `evals/README.md` suite count: 27 activation cases (8 boundary-arrow negatives) and 11 traversal
+  cases, including the AI voice support-line cases.
 
 ## [0.2.0] — 2026-10-17
 
