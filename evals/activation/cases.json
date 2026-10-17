@@ -128,5 +128,10 @@
     "id": "neg-quality-triage",
     "prompt": "Triage the defects found in this release and decide whether we ship.",
     "should_trigger": false
+  },
+  {
+    "id": "neg-ai-voice-turn-detector",
+    "prompt": "Tune the end-of-turn detector on our AI support line.",
+    "should_trigger": false
   }
 ]

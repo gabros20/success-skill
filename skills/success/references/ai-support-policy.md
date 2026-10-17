@@ -246,7 +246,8 @@ jurisdiction it answers before launch.
   and resolution definition so `ai`'s evaluation measures the right event.
 - **The real ask is the voice pipeline** — turn-taking, speech components, transfer mechanics →
   `ai` `references/surface-voice.md`, "Surface: Voice (additive)"; recording capture, retention and
-  redaction run where `operate` runs production. **Outbound AI calls** are a consent question →
+  redaction → `operate` `observability.md`, "AI-system observability — same discipline, one new
+  signal". **Outbound AI calls** are a consent question →
   `marketing` `references/lifecycle-and-email.md`, "Outbound AI-voice calls are automated calls".
 - **The real ask is KB quality or the deflection-replacement backlog** — →
   [education-and-knowledge-base.md](education-and-knowledge-base.md).
