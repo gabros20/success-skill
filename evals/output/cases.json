@@ -67,5 +67,15 @@
       "the exact phrase 'not published, never not measured' is preserved when a health-score or churn-model figure is discussed",
       "the string 'not measured' does not appear as a disconnected claim outside the health-score guard or the 'widely believed, not measured' TTFV caveat"
     ]
+  },
+  {
+    "id": "standalone-context-check",
+    "prompt": "Set up customer success for my app — health scores, a support process, the works.",
+    "assertions": [
+      "Before producing anything it reads any digital-product/LEDGER.md Context and the conversation, and asks nothing already answered there.",
+      "It asks at most four questions in one round (for example how many customers and whether what they pay grows with use, where they ask for help today, what is known about why they leave, promises already made), each with a recommended answer — or, if it cannot ask, proceeds on the self-serve solo default and opens with the assumptions that would change it most.",
+      "It runs the Existence Gate on the answers before building a health score or a CSM playbook, and names what covers post-purchase in the meantime.",
+      "Answers and assumptions are recorded in the LEDGER's Context block, each assumption with its basis and cost to reverse."
+    ]
   }
 ]

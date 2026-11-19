@@ -8,7 +8,17 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- SKILL.md **Standalone context check** (before routing): the family's common core (look first,
+  size it, ask at most four owner-only questions with recommended answers, decide as the expert,
+  never block, record in the LEDGER) and four success questions (customers and whether what they pay
+  grows with use, where they ask for help, why they leave, promises already made); the first feeds
+  `when-success-applies.md` "The Existence Gate". Offset so SKILL.md does not grow (3697 → 3679):
+  cut text SKILL.md already states elsewhere — the mission's job list (the Jobs table) and its
+  epistemics-vs-machinery sentence (its own invariant), route steps 4–5 (the grading invariant, now
+  carrying the vendor-claim clause, and the Not-this-skill rows), the handoff line's seam detail, the
+  artifact contract's no-code sentence, two completion bullets restating the invariant and contract;
+  route step 1, the agentic step and core-workflow step 1 tightened. Output eval
+  `standalone-context-check`; evals README count updated.
 
 ## [0.2.1] — 2026-10-17
 

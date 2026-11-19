@@ -16,9 +16,7 @@ description: >-
 ## Mission and boundary
 
 **Hold the customer relationship after the sale, and be honest about what you can actually know
-about it.** Success owns the post-purchase jobs — the onboarding program, help content, the support
-process, AI-support policy, health and risk signals, voice-of-customer interpretation, retention
-execution, renewals and expansion, and the customer's side of an incident — and it owns the
+about it.** Success owns the post-purchase jobs in the table below, and the
 epistemics that come with them: which of those signals can carry a decision, and which cannot.
 
 **What makes this pack different: it answers whether the score works, with evidence and honest
@@ -29,9 +27,7 @@ observable at all.
 **The default reader is a builder with users, not a CS team with a book of accounts.** So the front
 door is a gate, not a playbook: [when-success-applies](references/when-success-applies.md) decides
 whether a distinct success function is worth having yet, because no source in the canon answers
-that. Where the enterprise canon still teaches something, lift its *epistemics* — input expiry,
-segmented thresholds, ignorance-as-a-finding, tie-breakers — and decline its *machinery* (CSM
-ratios, QBR cadence) with reasons stated, never by omission.
+that.
 
 `success` writes programs, policies, taxonomies, verdicts, and workflows — **no production code**,
 no experiments, and no numbers it cannot source. See "Not this skill" below.
@@ -40,24 +36,41 @@ Use compatible upstream artifacts (a PRD's TTFV criteria, a growth readout, an o
 statement) without silently overriding established decisions. Do not invoke adjacent skills
 automatically unless the user explicitly requested a composition workflow.
 
+## Standalone context check
+
+Before producing anything the user will have to live with:
+1. **Look first.** Read `digital-product/LEDGER.md` (Context), `digital-product/<pack>/`, upstream
+   artifacts, the repo and this conversation. A fact found is never asked; a fact recorded is never
+   re-asked.
+2. **Size it.** Reversible and small → proceed, stating assumptions. New, costly or hard to undo →
+   check.
+3. **Ask only what the owner alone knows**, in their words: one round, at most four, highest
+   leverage first, each with a recommended answer ("ok" accepts all). Two rounds at most.
+4. **No or thin answers → decide as the expert.** Record each assumption with its basis and cost to
+   reverse; prefer the reversible option; show the cheapest proof early.
+5. **No way to ask → never block.** Proceed, and open the artifact with the assumptions and the
+   answers that would change it most.
+6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
+
+This pack's questions:
+1. How many customers, in which segments, and does what they pay grow as they use more? (This
+   feeds [When success applies](references/when-success-applies.md) "The Existence Gate".)
+2. Where do customers ask for help today, and roughly how often? (Recommended: one inbox you answer
+   yourself.)
+3. What do you already know about why customers leave? (Recommended: ask the last few who left
+   before building any score.)
+4. Have you promised anything yet — a response time, a renewal date? (Recommended: promise only
+   what your own capacity supports.)
+
 ## Route before acting
 
-1. **Run the existence gate first** whenever the request assumes a success function exists and has
-   not justified it — read [when-success-applies](references/when-success-applies.md) before
-   producing a health score, a CSM playbook, or a renewal workflow.
-2. Identify the **one primary job** and the **one base surface**. Read one of each. **If the request
-   names no business model, do not stall** — assume the default surface (self-serve solo) and say
-   which you assumed.
-3. Add the **agentic overlay on top of** a base surface, never instead of one:
-   [overlay-agentic](references/overlay-agentic.md) when a model decides and acts on support,
-   health, or retention without a human reviewing that instance.
-4. **Grade every figure inline** — measured-with-method > practitioner-report > vendor-claim. A
-   vendor number stays vendor-claim even when quoted in order to refute it.
-5. **Never re-teach a sibling's owned mechanic.** NPS's definition and survey method are `design`'s;
-   the metric tree is `product`'s; the retention *experiment* is `growth`'s; the turn loop and evals
-   are `ai`'s — cite them by pack and filename, never re-derive them.
-6. Read every selected reference completely before producing the affected artifact.
-7. Do not load unrelated references.
+1. **Run the existence gate first** ([when-success-applies](references/when-success-applies.md))
+   unless the request has already justified a success function.
+2. Identify the **one primary job** and the **one base surface**. Read one of each. **No business
+   model named → do not stall:** assume self-serve solo and say so.
+3. Add the **agentic overlay on top of** a base surface, never instead of one (Surfaces table).
+4. Read every selected reference completely before producing the affected artifact; load nothing
+   unrelated.
 
 ### Jobs
 
@@ -75,8 +88,7 @@ automatically unless the user explicitly requested a composition workflow.
 | Communicate with customers during an incident or a decommission | [incident-and-account-comms](references/incident-and-account-comms.md) | Co-owned with `product`, always — `operate` states fact, impact, and timing; success manages the relationship and originates no technical claim; the customer-facing promise and the internal SLO kept as separate artifacts |
 
 Emitting for downstream work, or naming a boundary → [handoff](references/handoff.md) — the seam map
-from success's side, including the three rows success originates because it shipped after `product`,
-`operate`, and `automation` did, and the community-retention fork it closes.
+from success's side.
 
 ### Surfaces
 
@@ -122,7 +134,8 @@ from success's side, including the three rows success originates because it ship
 - **An SLA is a promise made to a specific person, never a copied template number.** No
   response-time figure ships without "set this from your own observed capacity" framing.
 - **Grade every figure inline** — measured-with-method > practitioner-report > vendor-claim — and
-  carry the method with the number, or say "method unknown."
+  carry the method with the number, or say "method unknown." A vendor number stays vendor-claim
+  even when quoted in order to refute it.
 - **A disclaimed figure is still a figure.** Never name a never-ship number in order to forbid it;
   state the mechanism and point at the primary source instead.
 - **Always write "customer escalation."** The bare word is loaded across four sibling packs and
@@ -133,8 +146,7 @@ from success's side, including the three rows success originates because it ship
 
 ## Core workflow
 
-1. Establish whether success applies at all; then the one primary job and the base surface, adding
-   the agentic overlay only if a model acts without per-instance review. State any surface assumed.
+1. Establish whether success applies at all; then route as above, stating any surface assumed.
 2. Name what is actually being decided, and who owns that decision once the artifact exists.
 3. Consume upstream artifacts as given — the PRD's time-to-first-value, `design`'s onboarding flow
    and NPS definition, `growth`'s readout, `operate`'s stated fact — and cite them by pack and
@@ -157,19 +169,14 @@ score that has never met an outcome, a promise not derived from capacity, a tren
 denominator) · and, where a ruling is provisional or a position contested, that label carried
 forward rather than flattened into confidence it does not have.
 
-Programs, policies, taxonomies, audits, and workflows are delivered as documents. None is delivered
-as production code.
-
 ## Completion and handoff
 
 Before completion:
 
 - Confirm every requested artifact exists and every claim in it has a proof source — an unsourced
   percentage is not a finished line.
-- Confirm no figure travels without its method or an explicit "method unknown."
 - Distinguish what was independently verified from what is vendor-reported, self-selected, or
   practitioner-reported.
-- State plainly what this artifact will and will not be able to prove.
 - When downstream work is expected, provide artifact paths, owners, residual risk, and a recommended
   next skill — typically `growth` to test a motion, `product` for a pricing/commercial fix, `ai` to
   build the governed assistant, `marketing` for a qualified advocacy handoff, or `operate` when the
@@ -184,7 +191,7 @@ the naive baseline, plus a concordance sanity band that flags leakage ·
 [sla_capacity_calc.py](assets/sla_capacity_calc.py) — what response time your actual coverage can
 honestly promise, and whether volume already exceeds capacity ·
 [health_score_audit.md](assets/health_score_audit.md) — the ten-row audit a score must pass before
-anyone trusts a color. Eval suites live in the repository's `evals/` directory.
+anyone trusts a color.
 
 Attribution, licences, and what this pack claims for itself — `SOURCES.md` at the repository root.
 
