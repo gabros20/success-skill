@@ -52,7 +52,7 @@ Before producing anything the user will have to live with:
    answers that would change it most.
 6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
 
-This pack's questions:
+This pack's questions (a pool — ask the top four that step 1 left open):
 1. How many customers, in which segments, and does what they pay grow as they use more? (This
    feeds [When success applies](references/when-success-applies.md) "The Existence Gate".)
 2. Where do customers ask for help today, and roughly how often? (Recommended: one inbox you answer
